@@ -68,11 +68,10 @@
             this.panel11 = new System.Windows.Forms.Panel();
             this.lblempresa = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.PanelVisorDeUsuarios.SuspendLayout();
             this.PanelUsuarios.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -89,8 +88,6 @@
             this.panel12.SuspendLayout();
             this.panel11.SuspendLayout();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // PanelVisorDeUsuarios
@@ -202,7 +199,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::RestCsharp.Properties.Resources.Buman;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(120, 110);
@@ -602,9 +599,8 @@
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.pictureBox2);
+            this.panel5.Controls.Add(this.label1);
             this.panel5.Controls.Add(this.panel9);
-            this.panel5.Controls.Add(this.pictureBox3);
             this.panel5.Controls.Add(this.panel8);
             this.panel5.Controls.Add(this.panel7);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
@@ -613,35 +609,13 @@
             this.panel5.Size = new System.Drawing.Size(311, 711);
             this.panel5.TabIndex = 0;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.Image = global::RestCsharp.Properties.Resources.Buman;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 105);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(311, 511);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // panel9
             // 
             this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel9.Location = new System.Drawing.Point(0, 616);
+            this.panel9.Location = new System.Drawing.Point(0, 674);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(311, 12);
             this.panel9.TabIndex = 4;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pictureBox3.Image = global::RestCsharp.Properties.Resources.logoEmpresa;
-            this.pictureBox3.Location = new System.Drawing.Point(0, 628);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(311, 58);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 3;
-            this.pictureBox3.TabStop = false;
             // 
             // panel8
             // 
@@ -658,6 +632,18 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(311, 105);
             this.panel7.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Black;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.label1.Location = new System.Drawing.Point(26, 285);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(262, 54);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "SISGERES";
             // 
             // LoginForm
             // 
@@ -690,8 +676,7 @@
             this.panel12.PerformLayout();
             this.panel11.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel5.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -710,10 +695,8 @@
         private System.Windows.Forms.Panel PanelContraseña;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel PanelIngresarContraseña;
         private System.Windows.Forms.Panel panel13;
@@ -742,5 +725,6 @@
         private System.Windows.Forms.Panel panel10;
         internal System.Windows.Forms.PictureBox PictureBox4;
         internal System.Windows.Forms.Label lblestadoLicencia;
+        private System.Windows.Forms.Label label1;
     }
 }

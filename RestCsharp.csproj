@@ -76,12 +76,14 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="Telerik.Reporting, Version=13.0.19.116, Culture=neutral, PublicKeyToken=a9d7983dfcc261be" />
     <Reference Include="UIDC">
       <HintPath>.\UIDC.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
-    <Reference Include="Telerik.ReportViewer.WinForms, Version=13.0.19.116, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+    <Reference Include="Telerik.Reporting, Version=15.2.21.1125, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.ReportViewer.WinForms, Version=15.2.21.1125, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
       <SpecificVersion>True</SpecificVersion>
     </Reference>
   </ItemGroup>
