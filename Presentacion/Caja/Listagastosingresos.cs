@@ -1,5 +1,5 @@
-﻿using RestCsharp.Datos;
-using RestCsharp.Logica;
+﻿using sisgeres.Datos;
+using sisgeres.Logica;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace RestCsharp.Presentacion.Caja
+namespace sisgeres.Presentacion.Caja
 {
     public partial class Listagastosingresos : UserControl
     {

@@ -1,11 +1,11 @@
-﻿using RestCsharp.Logica;
+﻿using sisgeres.Logica;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RestCsharp.Logica
+namespace sisgeres.Logica
 {
     class total_en_letras
     {

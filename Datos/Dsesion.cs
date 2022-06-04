@@ -5,7 +5,7 @@ using System.Text;
 using System.Data.SqlClient;
 using System.Data;
 using System.Windows.Forms;
-namespace RestCsharp.Datos
+namespace sisgeres.Datos
 {
   public   class Dsesion
     {

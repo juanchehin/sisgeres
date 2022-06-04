@@ -7,10 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-using RestCsharp.Datos;
-using RestCsharp.Logica;
+using sisgeres.Datos;
+using sisgeres.Logica;
 
-namespace RestCsharp.Presentacion.Mesas_salones
+namespace sisgeres.Presentacion.Mesas_salones
 {
     public partial class Agregar_mesa_ok : UserControl
     {

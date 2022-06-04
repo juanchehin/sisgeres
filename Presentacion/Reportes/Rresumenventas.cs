@@ -5,7 +5,7 @@ using System.Windows.Forms;
 using Telerik.Reporting;
 using Telerik.Reporting.Drawing;
 
-namespace RestCsharp.Presentacion.Reportes
+namespace sisgeres.Presentacion.Reportes
 {
     /// <summary>
     /// Summary description for Rresumenventas.

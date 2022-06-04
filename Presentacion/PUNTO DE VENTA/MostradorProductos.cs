@@ -8,8 +8,8 @@ using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
-using RestCsharp.Datos;
-namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
+using sisgeres.Datos;
+namespace sisgeres.Presentacion.PUNTO_DE_VENTA
 {
     public partial class MostradorProductos : UserControl
     {

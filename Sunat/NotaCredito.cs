@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace RestCsharp.Sunat
+namespace sisgeres.Sunat
 {
 
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]

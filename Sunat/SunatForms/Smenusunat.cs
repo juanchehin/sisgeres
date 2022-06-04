@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RestCsharp.Sunat.SunatForms
+namespace sisgeres.Sunat.SunatForms
 {
     public partial class Smenusunat : UserControl
     {

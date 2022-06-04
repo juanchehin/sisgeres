@@ -1,4 +1,4 @@
-﻿namespace RestCsharp.Presentacion.Configuraciones
+﻿namespace sisgeres.Presentacion.Configuraciones
 {
     partial class Clientesconfig
     {
@@ -87,7 +87,7 @@
             // btncerrar
             // 
             this.btncerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(198)))), ((int)(((byte)(91)))));
-            this.btncerrar.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btncerrar.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btncerrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btncerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btncerrar.FlatAppearance.BorderSize = 0;

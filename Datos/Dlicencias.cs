@@ -1,4 +1,4 @@
-﻿using RestCsharp.Logica;
+﻿using sisgeres.Logica;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Xml;
 
-namespace RestCsharp.Datos
+namespace sisgeres.Datos
 {
     public class Dlicencias
     {
@@ -29,8 +29,8 @@ namespace RestCsharp.Datos
         string NombreSoftwareLicencia;
         public bool ValidarLicencias(ref string Resultado)
         {
-
-            try
+            return true;
+            /*try
             {
                 Bases.Obtener_serialPC(ref SerialPC);
                 DataTable dt = new DataTable();
@@ -88,7 +88,7 @@ namespace RestCsharp.Datos
             {
                 return false;
             }
-            return false;
+            return false;*/
         }
         public void InsertarLicencia()
         {

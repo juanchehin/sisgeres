@@ -1,5 +1,5 @@
-﻿using RestCsharp.Presentacion.Diseñocomp;
-using RestCsharp.Presentacion.Impresoras;
+﻿using sisgeres.Presentacion.Diseñocomp;
+using sisgeres.Presentacion.Impresoras;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,18 +8,18 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using RestCsharp.Presentacion.Serializacion;
-using RestCsharp.Presentacion.Reportes;
-using RestCsharp.Presentacion.Empresaconfig;
-using RestCsharp.Datos;
+using sisgeres.Presentacion.Serializacion;
+using sisgeres.Presentacion.Reportes;
+using sisgeres.Presentacion.Empresaconfig;
+using sisgeres.Datos;
 using System.IO;
 using System.Data.SqlClient;
-using RestCsharp.Presentacion.Licencia;
-using RestCsharp.Presentacion.Usuarios;
-using RestCsharp.Presentacion.Mesas_salones;
-using RestCsharp.Presentacion.PRODUCTOS;
+using sisgeres.Presentacion.Licencia;
+using sisgeres.Presentacion.Usuarios;
+using sisgeres.Presentacion.Mesas_salones;
+using sisgeres.Presentacion.PRODUCTOS;
 
-namespace RestCsharp.Presentacion.Configuraciones
+namespace sisgeres.Presentacion.Configuraciones
 {
     public partial class Menu_de_configuraciones : UserControl
     {
@@ -30,7 +30,7 @@ namespace RestCsharp.Presentacion.Configuraciones
         string Servidor = @".\SQLEXPRESS";
         string txtRuta;
         string txtsoftware = "buman";
-        string Base_De_datos = "BASEBRIRESTCSHARP";
+        string Base_De_datos = "BASEBRIsisgeres";
         string ruta;
         string tipocaja;
         private void Menu_de_configuraciones_Load(object sender, EventArgs e)

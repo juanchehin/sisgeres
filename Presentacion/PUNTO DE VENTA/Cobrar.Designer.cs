@@ -1,5 +1,5 @@
 ﻿
-namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
+namespace sisgeres.Presentacion.PUNTO_DE_VENTA
 {
     partial class Cobrar
     {
@@ -102,7 +102,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // btnAceptar
             // 
             this.btnAceptar.BackColor = System.Drawing.Color.Transparent;
-            this.btnAceptar.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnAceptar.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnAceptar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAceptar.FlatAppearance.BorderSize = 0;
             this.btnAceptar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -120,7 +120,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // pictureBox2
             // 
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pictureBox2.Image = global::RestCsharp.Properties.Resources.Buman;
+            this.pictureBox2.Image = global::sisgeres.Properties.Resources.Buman;
             this.pictureBox2.Location = new System.Drawing.Point(467, -85);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(0, 127);
@@ -150,7 +150,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // 
             this.btnTecladoNum.AddControl = null;
             this.btnTecladoNum.BackColor = System.Drawing.Color.Transparent;
-            this.btnTecladoNum.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnTecladoNum.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnTecladoNum.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnTecladoNum.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTecladoNum.FlatAppearance.BorderSize = 0;
@@ -172,7 +172,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // btnguardar
             // 
             this.btnguardar.BackColor = System.Drawing.Color.Transparent;
-            this.btnguardar.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnguardar.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnguardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnguardar.FlatAppearance.BorderSize = 0;
             this.btnguardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -355,7 +355,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // btncerrar
             // 
             this.btncerrar.BackColor = System.Drawing.Color.Transparent;
-            this.btncerrar.BackgroundImage = global::RestCsharp.Properties.Resources.Rojo;
+            this.btncerrar.BackgroundImage = global::sisgeres.Properties.Resources.Rojo;
             this.btncerrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btncerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btncerrar.FlatAppearance.BorderColor = System.Drawing.Color.Black;

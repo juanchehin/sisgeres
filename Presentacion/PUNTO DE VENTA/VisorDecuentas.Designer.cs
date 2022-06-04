@@ -1,4 +1,4 @@
-﻿namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
+﻿namespace sisgeres.Presentacion.PUNTO_DE_VENTA
 {
     partial class VisorDecuentas
     {
@@ -358,7 +358,7 @@
             // btnPersonas1
             // 
             this.btnPersonas1.BackColor = System.Drawing.Color.Transparent;
-            this.btnPersonas1.BackgroundImage = global::RestCsharp.Properties.Resources.azul;
+            this.btnPersonas1.BackgroundImage = global::sisgeres.Properties.Resources.azul;
             this.btnPersonas1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnPersonas1.FlatAppearance.BorderSize = 0;
             this.btnPersonas1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -476,7 +476,7 @@
             // btnvolver
             // 
             this.btnvolver.BackColor = System.Drawing.Color.Transparent;
-            this.btnvolver.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnvolver.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnvolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnvolver.FlatAppearance.BorderSize = 0;
             this.btnvolver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;

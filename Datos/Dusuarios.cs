@@ -1,5 +1,5 @@
-﻿using RestCsharp.Logica;
-using RestCsharp.Presentacion.Licencia;
+﻿using sisgeres.Logica;
+using sisgeres.Presentacion.Licencia;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace RestCsharp.Datos
+namespace sisgeres.Datos
 {
     public class Dusuarios
     {
@@ -197,11 +197,12 @@ namespace RestCsharp.Datos
             }
             else
             {
-                if (funcion.ValidarLicencias(ref resultadoLic) == true)
-                {
-                    resultado = resultadoLic;
-                    mostrarUsuarios(dt);
-                }
+                //if (funcion.ValidarLicencias(ref resultadoLic) == true)
+                //{
+                resultado = resultadoLic;
+                // resultado = true;
+                mostrarUsuarios(dt);
+                /*}
                 else
                 {
                     var ctl = new Licencias();
@@ -209,7 +210,7 @@ namespace RestCsharp.Datos
                     panel.Dock = DockStyle.Fill;
                     panel.Controls.Add(ctl);
                     panel.BringToFront();
-                }
+                }*/
             }
            
 

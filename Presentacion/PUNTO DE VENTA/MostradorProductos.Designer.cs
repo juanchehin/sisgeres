@@ -1,4 +1,4 @@
-﻿namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
+﻿namespace sisgeres.Presentacion.PUNTO_DE_VENTA
 {
     partial class MostradorProductos
     {
@@ -114,7 +114,7 @@
             // btnadelante
             // 
             this.btnadelante.BackColor = System.Drawing.Color.Transparent;
-            this.btnadelante.BackgroundImage = global::RestCsharp.Properties.Resources.fecha_derecha;
+            this.btnadelante.BackgroundImage = global::sisgeres.Properties.Resources.fecha_derecha;
             this.btnadelante.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnadelante.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnadelante.FlatAppearance.BorderSize = 0;

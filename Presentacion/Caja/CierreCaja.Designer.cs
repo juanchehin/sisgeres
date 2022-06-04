@@ -1,5 +1,5 @@
 ﻿
-namespace RestCsharp.Presentacion.Caja
+namespace sisgeres.Presentacion.Caja
 {
     partial class CierreCaja
     {
@@ -99,7 +99,7 @@ namespace RestCsharp.Presentacion.Caja
             // 
             this.btnTecladoNumer.AddControl = this.txtmonto;
             this.btnTecladoNumer.BackColor = System.Drawing.Color.Transparent;
-            this.btnTecladoNumer.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnTecladoNumer.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnTecladoNumer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnTecladoNumer.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTecladoNumer.Dock = System.Windows.Forms.DockStyle.Left;
@@ -146,7 +146,7 @@ namespace RestCsharp.Presentacion.Caja
             // btnvolver
             // 
             this.btnvolver.BackColor = System.Drawing.Color.Transparent;
-            this.btnvolver.BackgroundImage = global::RestCsharp.Properties.Resources.azul;
+            this.btnvolver.BackgroundImage = global::sisgeres.Properties.Resources.azul;
             this.btnvolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnvolver.Dock = System.Windows.Forms.DockStyle.Left;
             this.btnvolver.FlatAppearance.BorderSize = 0;
@@ -525,7 +525,7 @@ namespace RestCsharp.Presentacion.Caja
             // BtnCerrar_turno
             // 
             this.BtnCerrar_turno.BackColor = System.Drawing.Color.Transparent;
-            this.BtnCerrar_turno.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.BtnCerrar_turno.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.BtnCerrar_turno.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnCerrar_turno.FlatAppearance.BorderSize = 0;
             this.BtnCerrar_turno.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;

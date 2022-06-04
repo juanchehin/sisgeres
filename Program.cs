@@ -1,18 +1,8 @@
-﻿using RestCsharp.Presentacion.AsistenteInstalacion;
-using RestCsharp.Presentacion.Login;
-using RestCsharp.Presentacion.PRODUCTOS;
-using RestCsharp.Presentacion.Caja;
+﻿using sisgeres.Presentacion.Login;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Windows.Forms;
-using RestCsharp.Presentacion.PUNTO_DE_VENTA;
-using RestCsharp.Presentacion.Impresoras;
-using RestCsharp.Presentacion.Cocina;
-using RestCsharp.Presentacion.Reportes;
-using RestCsharp.Presentacion.Conexionremota;
 
-namespace RestCsharp
+namespace sisgeres
 {
     static class Program
     {

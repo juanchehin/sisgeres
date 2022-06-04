@@ -1,6 +1,6 @@
-﻿using RestCsharp.Datos;
+﻿using sisgeres.Datos;
 using Sunat.Logica;
-using RestCsharp.Sunat;
+using sisgeres.Sunat;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using RestCsharp.Presentacion.SunatForms;
+using sisgeres.Presentacion.SunatForms;
 
 namespace Ada369Csharp.Presentacion.SunatForms
 {
@@ -85,22 +85,22 @@ namespace Ada369Csharp.Presentacion.SunatForms
                 if (data["Codigorespuesta"].ToString()=="0")
                 {
                     lblestado.ForeColor = Color.FromArgb(39, 229, 143);
-                    Iconoestado.Image = RestCsharp.Properties.Resources.satisfaccion;
+                    Iconoestado.Image = sisgeres.Properties.Resources.satisfaccion;
                 }
                 else if (data["Codigorespuesta"].ToString() == "99")
                 {
                     lblestado.ForeColor = Color.FromArgb(117, 129, 243);
-                    Iconoestado.Image = RestCsharp.Properties.Resources.insatisfaccion;
+                    Iconoestado.Image = sisgeres.Properties.Resources.insatisfaccion;
                 }
                 else if (data["Codigorespuesta"].ToString() == "98")
                 {
                     lblestado.ForeColor = Color.FromArgb(117, 129, 243);
-                    Iconoestado.Image = RestCsharp.Properties.Resources.dia;
+                    Iconoestado.Image = sisgeres.Properties.Resources.dia;
                 }
                 else
                 {
                     lblestado.ForeColor = Color.FromArgb(117, 129, 243);
-                    Iconoestado.Image = RestCsharp.Properties.Resources.dia;
+                    Iconoestado.Image = sisgeres.Properties.Resources.dia;
                 }
                 #endregion
 

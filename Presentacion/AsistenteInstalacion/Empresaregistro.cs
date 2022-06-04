@@ -6,12 +6,12 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using RestCsharp.Datos;
-using RestCsharp.Logica;
+using sisgeres.Datos;
+using sisgeres.Logica;
 using System.IO;
 using Sunat.Logica;
 
-namespace RestCsharp.Presentacion.AsistenteInstalacion
+namespace sisgeres.Presentacion.AsistenteInstalacion
 {
     public partial class Empresaregistro : Form
     {

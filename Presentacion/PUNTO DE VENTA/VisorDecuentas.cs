@@ -1,5 +1,5 @@
-﻿using RestCsharp.Datos;
-using RestCsharp.Logica;
+﻿using sisgeres.Datos;
+using sisgeres.Logica;
 using Sunat.Logica;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
+namespace sisgeres.Presentacion.PUNTO_DE_VENTA
 {
     public partial class VisorDecuentas : UserControl
 

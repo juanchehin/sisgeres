@@ -1,5 +1,5 @@
-﻿using RestCsharp.Datos;
-using RestCsharp.Sunat;
+﻿using sisgeres.Datos;
+using sisgeres.Sunat;
 using Sunat.Logica;
 using System;
 using System.Collections.Generic;
@@ -199,17 +199,17 @@ namespace Ada369Csharp.Presentacion.SunatForms
                 if (data["Estadosunat"].ToString() == "ACEPTADA")
                 {
                     lblestado.ForeColor = Color.FromArgb(39, 229, 143);
-                    Iconoestado.Image = RestCsharp.Properties.Resources.satisfaccion;
+                    Iconoestado.Image = sisgeres.Properties.Resources.satisfaccion;
                 }
                 else if (data["Estadosunat"].ToString() == "PENDIENTE")
                 {
                     lblestado.ForeColor = Color.FromArgb(255, 198, 73);
-                    Iconoestado.Image = RestCsharp.Properties.Resources.dia;
+                    Iconoestado.Image = sisgeres.Properties.Resources.dia;
                 }
                 else if (data["Estadosunat"].ToString() == "RECHAZADA")
                 {
                     lblestado.ForeColor = Color.FromArgb(252, 86, 95);
-                    Iconoestado.Image = RestCsharp.Properties.Resources.insatisfaccion;
+                    Iconoestado.Image = sisgeres.Properties.Resources.insatisfaccion;
                 }
                 #endregion
 

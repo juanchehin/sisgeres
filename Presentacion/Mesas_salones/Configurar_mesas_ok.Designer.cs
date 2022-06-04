@@ -1,4 +1,4 @@
-﻿namespace RestCsharp.Presentacion.Mesas_salones
+﻿namespace sisgeres.Presentacion.Mesas_salones
 {
     partial class Configurar_mesas_ok
     {
@@ -215,7 +215,7 @@
             // 
             // btnsalir
             // 
-            this.btnsalir.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btnsalir.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btnsalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnsalir.FlatAppearance.BorderSize = 0;
             this.btnsalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;

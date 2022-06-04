@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace RestCsharp.Datos
+namespace sisgeres.Datos
 {
    public  class DpropiedadesMesas
     {

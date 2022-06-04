@@ -1,5 +1,5 @@
 ﻿using System.Xml.Serialization;
-namespace RestCsharp.Sunat
+namespace sisgeres.Sunat
 {
     // 
     // Este código fuente fue generado automáticamente por xsd, Versión=4.8.3928.0.

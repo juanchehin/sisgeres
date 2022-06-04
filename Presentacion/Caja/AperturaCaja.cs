@@ -6,10 +6,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using RestCsharp.Datos;
-using RestCsharp.Logica;
-using RestCsharp.Presentacion.PUNTO_DE_VENTA;
-namespace RestCsharp.Presentacion.Caja
+using sisgeres.Datos;
+using sisgeres.Logica;
+using sisgeres.Presentacion.PUNTO_DE_VENTA;
+namespace sisgeres.Presentacion.Caja
 {
     public partial class AperturaCaja : UserControl
     {

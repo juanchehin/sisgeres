@@ -8,7 +8,7 @@ using System.Security.Cryptography;
 using System.Management;
 using System.Net;
 
-namespace RestCsharp.Logica
+namespace sisgeres.Logica
 {
     public class Bases
     {

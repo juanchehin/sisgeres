@@ -1,4 +1,4 @@
-﻿namespace RestCsharp.Presentacion.PRODUCTOS
+﻿namespace sisgeres.Presentacion.PRODUCTOS
 {
     partial class Productos_rest
     {
@@ -187,7 +187,7 @@
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.editarToolStripMenuItem1,
             this.eliminarToolStripMenuItem});
-            this.toolStripMenuItem1.Image = global::RestCsharp.Properties.Resources.menuCajas_claro;
+            this.toolStripMenuItem1.Image = global::sisgeres.Properties.Resources.menuCajas_claro;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(18, 20);
             // 
@@ -382,7 +382,7 @@
             // 
             // btnsalir
             // 
-            this.btnsalir.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btnsalir.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btnsalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnsalir.FlatAppearance.BorderSize = 0;
             this.btnsalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;

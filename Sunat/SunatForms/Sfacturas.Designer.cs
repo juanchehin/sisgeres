@@ -98,7 +98,7 @@ namespace Ada369Csharp.Presentacion.SunatForms
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::RestCsharp.Properties.Resources.Caja_activa;
+            this.pictureBox1.Image = global::sisgeres.Properties.Resources.Caja_activa;
             this.pictureBox1.Location = new System.Drawing.Point(14, 18);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(20, 28);

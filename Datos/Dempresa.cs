@@ -5,10 +5,10 @@ using System.Text;
 using System.Windows.Forms;
 using System.Data;
 using System.Data.SqlClient;
-using RestCsharp.Logica;
+using sisgeres.Logica;
 using Sunat.Logica;
 
-namespace RestCsharp.Datos
+namespace sisgeres.Datos
 {
     public class Dempresa
     {

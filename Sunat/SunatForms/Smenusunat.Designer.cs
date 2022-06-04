@@ -1,5 +1,5 @@
 ﻿
-namespace RestCsharp.Sunat.SunatForms
+namespace sisgeres.Sunat.SunatForms
 {
     partial class Smenusunat
     {

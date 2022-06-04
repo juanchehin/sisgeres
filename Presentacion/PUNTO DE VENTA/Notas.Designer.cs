@@ -1,5 +1,5 @@
 ﻿
-namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
+namespace sisgeres.Presentacion.PUNTO_DE_VENTA
 {
     partial class Notas
     {
@@ -64,7 +64,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // btnBorrarCaract
             // 
             this.btnBorrarCaract.BackColor = System.Drawing.Color.Transparent;
-            this.btnBorrarCaract.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btnBorrarCaract.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btnBorrarCaract.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnBorrarCaract.FlatAppearance.BorderSize = 0;
             this.btnBorrarCaract.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -83,7 +83,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // btnGuardar
             // 
             this.btnGuardar.BackColor = System.Drawing.Color.Transparent;
-            this.btnGuardar.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnGuardar.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnGuardar.FlatAppearance.BorderSize = 0;
             this.btnGuardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -159,7 +159,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = global::RestCsharp.Properties.Resources.azul;
+            this.button1.BackgroundImage = global::sisgeres.Properties.Resources.azul;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -215,7 +215,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // btnCerrar
             // 
             this.btnCerrar.BackColor = System.Drawing.Color.Transparent;
-            this.btnCerrar.BackgroundImage = global::RestCsharp.Properties.Resources.Rojo;
+            this.btnCerrar.BackgroundImage = global::sisgeres.Properties.Resources.Rojo;
             this.btnCerrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnCerrar.FlatAppearance.BorderSize = 0;
             this.btnCerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;

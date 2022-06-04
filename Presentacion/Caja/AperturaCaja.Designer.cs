@@ -1,4 +1,4 @@
-﻿namespace RestCsharp.Presentacion.Caja
+﻿namespace sisgeres.Presentacion.Caja
 {
     partial class AperturaCaja
     {
@@ -110,7 +110,7 @@
             // 
             // BtnOmitir
             // 
-            this.BtnOmitir.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.BtnOmitir.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.BtnOmitir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnOmitir.FlatAppearance.BorderSize = 0;
             this.BtnOmitir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -128,7 +128,7 @@
             // 
             // BtnIniciar
             // 
-            this.BtnIniciar.BackgroundImage = global::RestCsharp.Properties.Resources.azul;
+            this.BtnIniciar.BackgroundImage = global::sisgeres.Properties.Resources.azul;
             this.BtnIniciar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnIniciar.FlatAppearance.BorderSize = 0;
             this.BtnIniciar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;

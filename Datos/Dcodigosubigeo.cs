@@ -5,12 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
-using RestCsharp;
+using sisgeres;
 using System.IO;
 using System.Windows.Forms;
 using Sunat.Logica;
 
-namespace RestCsharp.Datos
+namespace sisgeres.Datos
 {
    public class Dcodigosubigeo
     {

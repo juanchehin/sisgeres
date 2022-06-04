@@ -6,12 +6,12 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using RestCsharp.Datos;
-using RestCsharp.Logica;
+using sisgeres.Datos;
+using sisgeres.Logica;
 using System.IO;
 using System.Net.NetworkInformation;
 
-namespace RestCsharp.Presentacion.Usuarios
+namespace sisgeres.Presentacion.Usuarios
 {
     public partial class UsuariosOk : UserControl
     {

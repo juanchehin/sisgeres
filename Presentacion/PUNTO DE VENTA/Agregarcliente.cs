@@ -1,4 +1,4 @@
-﻿using RestCsharp.Datos;
+﻿using sisgeres.Datos;
 using Sunat.Logica;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RestCsharp.Presentacion.Ventas
+namespace sisgeres.Presentacion.Ventas
 {
     public partial class Agregarcliente : UserControl
     {

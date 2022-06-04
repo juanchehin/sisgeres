@@ -6,11 +6,11 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using RestCsharp.Datos;
-using RestCsharp.Logica;
+using sisgeres.Datos;
+using sisgeres.Logica;
 using Sunat.Logica;
 
-namespace RestCsharp.Presentacion.Cocina
+namespace sisgeres.Presentacion.Cocina
 {
     public partial class PantallaCocina : UserControl
     {

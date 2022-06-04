@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Data.SqlClient;
 using System.Data;
-namespace RestCsharp.Datos
+namespace sisgeres.Datos
 {
     class CONEXIONMAESTRA
     {

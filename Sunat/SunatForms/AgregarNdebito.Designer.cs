@@ -179,7 +179,7 @@ namespace Ada369Csharp.Presentacion.SunatForms
             // btnconfirmar
             // 
             this.btnconfirmar.BackColor = System.Drawing.Color.Transparent;
-            this.btnconfirmar.BackgroundImage = global::RestCsharp.Properties.Resources.azul;
+            this.btnconfirmar.BackgroundImage = global::sisgeres.Properties.Resources.azul;
             this.btnconfirmar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnconfirmar.FlatAppearance.BorderSize = 0;
             this.btnconfirmar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;

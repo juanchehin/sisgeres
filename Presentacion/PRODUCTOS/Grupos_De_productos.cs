@@ -7,11 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-using RestCsharp.Datos;
-using RestCsharp.Logica;
+using sisgeres.Datos;
+using sisgeres.Logica;
 using System.IO;
 
-namespace RestCsharp.Presentacion.PRODUCTOS
+namespace sisgeres.Presentacion.PRODUCTOS
 {
     public partial class Grupos_De_productos : UserControl
     {

@@ -7,16 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-using RestCsharp.Datos;
-using RestCsharp.Logica;
+using sisgeres.Datos;
+using sisgeres.Logica;
 using System.Xml;
-using RestCsharp.Presentacion.Reportes;
-using RestCsharp.Presentacion.Login;
+using sisgeres.Presentacion.Reportes;
+using sisgeres.Presentacion.Login;
 using Sunat.Logica;
-using RestCsharp.Sunat;
-using RestCsharp.Presentacion.Ventas;
+using sisgeres.Sunat;
+using sisgeres.Presentacion.Ventas;
 
-namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
+namespace sisgeres.Presentacion.PUNTO_DE_VENTA
 {
 
     public partial class Punto_de_venta : UserControl

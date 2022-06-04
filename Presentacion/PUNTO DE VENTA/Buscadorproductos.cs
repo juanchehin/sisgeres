@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
+namespace sisgeres.Presentacion.PUNTO_DE_VENTA
 {
     public partial class Buscadorproductos : UserControl
     {

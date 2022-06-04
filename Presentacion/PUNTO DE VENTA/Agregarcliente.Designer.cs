@@ -1,5 +1,5 @@
 ﻿
-namespace RestCsharp.Presentacion.Ventas
+namespace sisgeres.Presentacion.Ventas
 {
     partial class Agregarcliente
     {

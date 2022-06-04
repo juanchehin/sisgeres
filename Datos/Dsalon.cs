@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Data;
 using System.Data.SqlClient;
-using RestCsharp.Logica;
+using sisgeres.Logica;
 using System.Windows.Forms;
 
-namespace RestCsharp.Datos
+namespace sisgeres.Datos
 {
   public   class Dsalon
     {

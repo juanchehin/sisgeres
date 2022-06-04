@@ -6,11 +6,11 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using RestCsharp.Datos;
-using RestCsharp.Logica;
+using sisgeres.Datos;
+using sisgeres.Logica;
 using System.Drawing.Printing;
-using RestCsharp.Presentacion.Reportes;
-namespace RestCsharp.Presentacion.Impresoras
+using sisgeres.Presentacion.Reportes;
+namespace sisgeres.Presentacion.Impresoras
 {
     public partial class ImpresorasConf : UserControl
     {

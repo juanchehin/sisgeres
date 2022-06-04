@@ -1,5 +1,5 @@
 ﻿
-namespace RestCsharp.Presentacion.Caja
+namespace sisgeres.Presentacion.Caja
 {
     partial class Listagastosingresos
     {
@@ -144,7 +144,7 @@ namespace RestCsharp.Presentacion.Caja
             // 
             this.btnTecladoNumer.AddControl = null;
             this.btnTecladoNumer.BackColor = System.Drawing.Color.Transparent;
-            this.btnTecladoNumer.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnTecladoNumer.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnTecladoNumer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnTecladoNumer.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTecladoNumer.FlatAppearance.BorderSize = 0;
@@ -168,7 +168,7 @@ namespace RestCsharp.Presentacion.Caja
             // 
             this.btnTecladoStandar.AddControl = null;
             this.btnTecladoStandar.BackColor = System.Drawing.Color.Transparent;
-            this.btnTecladoStandar.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnTecladoStandar.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnTecladoStandar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnTecladoStandar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTecladoStandar.FlatAppearance.BorderSize = 0;
@@ -231,7 +231,7 @@ namespace RestCsharp.Presentacion.Caja
             // btnguardarConceptos
             // 
             this.btnguardarConceptos.BackColor = System.Drawing.Color.Transparent;
-            this.btnguardarConceptos.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btnguardarConceptos.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btnguardarConceptos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnguardarConceptos.FlatAppearance.BorderSize = 0;
             this.btnguardarConceptos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -250,7 +250,7 @@ namespace RestCsharp.Presentacion.Caja
             // btnguardarcambiosConceptos
             // 
             this.btnguardarcambiosConceptos.BackColor = System.Drawing.Color.Transparent;
-            this.btnguardarcambiosConceptos.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btnguardarcambiosConceptos.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btnguardarcambiosConceptos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnguardarcambiosConceptos.FlatAppearance.BorderSize = 0;
             this.btnguardarcambiosConceptos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -269,7 +269,7 @@ namespace RestCsharp.Presentacion.Caja
             // btnvolver
             // 
             this.btnvolver.BackColor = System.Drawing.Color.Transparent;
-            this.btnvolver.BackgroundImage = global::RestCsharp.Properties.Resources.negro;
+            this.btnvolver.BackgroundImage = global::sisgeres.Properties.Resources.negro;
             this.btnvolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnvolver.FlatAppearance.BorderSize = 0;
             this.btnvolver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -380,7 +380,7 @@ namespace RestCsharp.Presentacion.Caja
             // Editar
             // 
             this.Editar.HeaderText = "";
-            this.Editar.Image = global::RestCsharp.Properties.Resources.editar;
+            this.Editar.Image = global::sisgeres.Properties.Resources.editar;
             this.Editar.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.Editar.Name = "Editar";
             this.Editar.ReadOnly = true;
@@ -389,7 +389,7 @@ namespace RestCsharp.Presentacion.Caja
             // btnvolverGastos
             // 
             this.btnvolverGastos.BackColor = System.Drawing.Color.Transparent;
-            this.btnvolverGastos.BackgroundImage = global::RestCsharp.Properties.Resources.negro;
+            this.btnvolverGastos.BackgroundImage = global::sisgeres.Properties.Resources.negro;
             this.btnvolverGastos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnvolverGastos.FlatAppearance.BorderSize = 0;
             this.btnvolverGastos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -408,7 +408,7 @@ namespace RestCsharp.Presentacion.Caja
             // btnGuardar
             // 
             this.btnGuardar.BackColor = System.Drawing.Color.Transparent;
-            this.btnGuardar.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btnGuardar.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btnGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnGuardar.FlatAppearance.BorderSize = 0;
             this.btnGuardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -552,7 +552,7 @@ namespace RestCsharp.Presentacion.Caja
             // btnagregar
             // 
             this.btnagregar.BackColor = System.Drawing.Color.Transparent;
-            this.btnagregar.BackgroundImage = global::RestCsharp.Properties.Resources.azul;
+            this.btnagregar.BackgroundImage = global::sisgeres.Properties.Resources.azul;
             this.btnagregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnagregar.FlatAppearance.BorderSize = 0;
             this.btnagregar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -681,7 +681,7 @@ namespace RestCsharp.Presentacion.Caja
             // btnvolverIngreso
             // 
             this.btnvolverIngreso.BackColor = System.Drawing.Color.Transparent;
-            this.btnvolverIngreso.BackgroundImage = global::RestCsharp.Properties.Resources.negro;
+            this.btnvolverIngreso.BackgroundImage = global::sisgeres.Properties.Resources.negro;
             this.btnvolverIngreso.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnvolverIngreso.FlatAppearance.BorderSize = 0;
             this.btnvolverIngreso.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -700,7 +700,7 @@ namespace RestCsharp.Presentacion.Caja
             // btnGuardarIngreso
             // 
             this.btnGuardarIngreso.BackColor = System.Drawing.Color.Transparent;
-            this.btnGuardarIngreso.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btnGuardarIngreso.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btnGuardarIngreso.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnGuardarIngreso.FlatAppearance.BorderSize = 0;
             this.btnGuardarIngreso.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -1101,7 +1101,7 @@ namespace RestCsharp.Presentacion.Caja
             // btngasto
             // 
             this.btngasto.BackColor = System.Drawing.Color.Transparent;
-            this.btngasto.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btngasto.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btngasto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btngasto.Dock = System.Windows.Forms.DockStyle.Left;
             this.btngasto.FlatAppearance.BorderSize = 0;
@@ -1121,7 +1121,7 @@ namespace RestCsharp.Presentacion.Caja
             // btnIngreso
             // 
             this.btnIngreso.BackColor = System.Drawing.Color.Transparent;
-            this.btnIngreso.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnIngreso.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnIngreso.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnIngreso.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnIngreso.FlatAppearance.BorderSize = 0;
@@ -1140,7 +1140,7 @@ namespace RestCsharp.Presentacion.Caja
             // 
             // btnsalir
             // 
-            this.btnsalir.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btnsalir.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btnsalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnsalir.FlatAppearance.BorderSize = 0;
             this.btnsalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;

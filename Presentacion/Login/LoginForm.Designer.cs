@@ -1,4 +1,4 @@
-﻿namespace RestCsharp.Presentacion.Login
+﻿namespace sisgeres.Presentacion.Login
 {
     partial class LoginForm
     {
@@ -253,7 +253,7 @@
             // 
             // btnborrarderecha
             // 
-            this.btnborrarderecha.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btnborrarderecha.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btnborrarderecha.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnborrarderecha.FlatAppearance.BorderSize = 0;
             this.btnborrarderecha.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -271,7 +271,7 @@
             // 
             // btn0
             // 
-            this.btn0.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btn0.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btn0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn0.FlatAppearance.BorderSize = 0;
             this.btn0.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -289,7 +289,7 @@
             // 
             // btnborrar
             // 
-            this.btnborrar.BackgroundImage = global::RestCsharp.Properties.Resources.Rojo;
+            this.btnborrar.BackgroundImage = global::sisgeres.Properties.Resources.Rojo;
             this.btnborrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnborrar.FlatAppearance.BorderSize = 0;
             this.btnborrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -323,7 +323,7 @@
             // 
             // btn1
             // 
-            this.btn1.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btn1.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn1.FlatAppearance.BorderSize = 0;
             this.btn1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -341,7 +341,7 @@
             // 
             // btn2
             // 
-            this.btn2.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btn2.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btn2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn2.FlatAppearance.BorderSize = 0;
             this.btn2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -359,7 +359,7 @@
             // 
             // btn3
             // 
-            this.btn3.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btn3.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btn3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn3.FlatAppearance.BorderSize = 0;
             this.btn3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -377,7 +377,7 @@
             // 
             // btn4
             // 
-            this.btn4.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btn4.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btn4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn4.FlatAppearance.BorderSize = 0;
             this.btn4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -395,7 +395,7 @@
             // 
             // btn5
             // 
-            this.btn5.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btn5.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btn5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn5.FlatAppearance.BorderSize = 0;
             this.btn5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -413,7 +413,7 @@
             // 
             // btn6
             // 
-            this.btn6.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btn6.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btn6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn6.FlatAppearance.BorderSize = 0;
             this.btn6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -431,7 +431,7 @@
             // 
             // btn7
             // 
-            this.btn7.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btn7.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btn7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn7.FlatAppearance.BorderSize = 0;
             this.btn7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -449,7 +449,7 @@
             // 
             // btn8
             // 
-            this.btn8.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btn8.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btn8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn8.FlatAppearance.BorderSize = 0;
             this.btn8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -467,7 +467,7 @@
             // 
             // btn9
             // 
-            this.btn9.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btn9.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btn9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn9.FlatAppearance.BorderSize = 0;
             this.btn9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -509,7 +509,7 @@
             // 
             // btnIniciar
             // 
-            this.btnIniciar.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btnIniciar.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btnIniciar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnIniciar.FlatAppearance.BorderSize = 0;
             this.btnIniciar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -539,7 +539,7 @@
             // btnpais
             // 
             this.btnpais.BackColor = System.Drawing.Color.Transparent;
-            this.btnpais.BackgroundImage = global::RestCsharp.Properties.Resources.Rojo;
+            this.btnpais.BackgroundImage = global::sisgeres.Properties.Resources.Rojo;
             this.btnpais.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnpais.FlatAppearance.BorderSize = 0;
             this.btnpais.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;

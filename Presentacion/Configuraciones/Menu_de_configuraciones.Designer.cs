@@ -1,4 +1,4 @@
-﻿namespace RestCsharp.Presentacion.Configuraciones
+﻿namespace sisgeres.Presentacion.Configuraciones
 {
     partial class Menu_de_configuraciones
     {
@@ -293,7 +293,7 @@
             // 
             // btnsalir
             // 
-            this.btnsalir.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btnsalir.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btnsalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnsalir.FlatAppearance.BorderSize = 0;
             this.btnsalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -388,7 +388,7 @@
             // btnusuarios
             // 
             this.btnusuarios.BackColor = System.Drawing.Color.Transparent;
-            this.btnusuarios.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnusuarios.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnusuarios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnusuarios.FlatAppearance.BorderSize = 0;
             this.btnusuarios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;

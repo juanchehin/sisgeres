@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Security.Cryptography;
 using System.IO;
-namespace RestCsharp.Logica
+namespace sisgeres.Logica
 {
     class AES
     {

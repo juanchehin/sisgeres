@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{BEF95173-6B36-4441-9ABB-4D2C301F6987}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>RestCsharp</RootNamespace>
-    <AssemblyName>Bumam</AssemblyName>
+    <RootNamespace>sisgeres</RootNamespace>
+    <AssemblyName>sisgeres</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -35,7 +35,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>iconobuman.ico</ApplicationIcon>
+    <ApplicationIcon>logo-transparente-4.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>bumam.manifest</ApplicationManifest>
@@ -716,19 +716,19 @@
     </None>
     <None Include="Connected Services\servicioFacturacion2021\billService1.wsdl" />
     <None Include="Connected Services\servicioFacturacion2021\billService2.wsdl" />
-    <None Include="Connected Services\servicioFacturacion2021\RestCsharp.servicioFacturacion2021.getStatusResponse.datasource">
+    <None Include="Connected Services\servicioFacturacion2021\sisgeres.servicioFacturacion2021.getStatusResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\servicioFacturacion2021\RestCsharp.servicioFacturacion2021.sendBillResponse.datasource">
+    <None Include="Connected Services\servicioFacturacion2021\sisgeres.servicioFacturacion2021.sendBillResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\servicioFacturacion2021\RestCsharp.servicioFacturacion2021.sendPackResponse.datasource">
+    <None Include="Connected Services\servicioFacturacion2021\sisgeres.servicioFacturacion2021.sendPackResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\servicioFacturacion2021\RestCsharp.servicioFacturacion2021.sendSummaryResponse.datasource">
+    <None Include="Connected Services\servicioFacturacion2021\sisgeres.servicioFacturacion2021.sendSummaryResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\servicioFacturacion2021\RestCsharp.servicioFacturacion2021.statusResponse.datasource">
+    <None Include="Connected Services\servicioFacturacion2021\sisgeres.servicioFacturacion2021.statusResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="packages.config" />
@@ -950,6 +950,7 @@
     <None Include="Resources\cocin.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="logo-transparente-4.ico" />
     <None Include="Resources\flechablanca.png" />
     <None Include="Resources\satisfaccion.png" />
     <None Include="Resources\insatisfaccion.png" />

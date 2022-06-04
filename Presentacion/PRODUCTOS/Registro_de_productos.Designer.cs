@@ -1,4 +1,4 @@
-﻿namespace RestCsharp.Presentacion.PRODUCTOS
+﻿namespace sisgeres.Presentacion.PRODUCTOS
 {
     partial class Registro_de_productos
     {
@@ -234,7 +234,7 @@
             // ImagenProducto
             // 
             this.ImagenProducto.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ImagenProducto.Image = global::RestCsharp.Properties.Resources.advertencia;
+            this.ImagenProducto.Image = global::sisgeres.Properties.Resources.advertencia;
             this.ImagenProducto.Location = new System.Drawing.Point(225, 419);
             this.ImagenProducto.Name = "ImagenProducto";
             this.ImagenProducto.Size = new System.Drawing.Size(283, 144);

@@ -1,4 +1,4 @@
-﻿namespace RestCsharp.Presentacion.Usuarios
+﻿namespace sisgeres.Presentacion.Usuarios
 {
     partial class UsuariosOk
     {
@@ -137,7 +137,7 @@
             // 
             // btnagregar
             // 
-            this.btnagregar.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnagregar.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnagregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnagregar.FlatAppearance.BorderSize = 0;
             this.btnagregar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -163,7 +163,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::RestCsharp.Properties.Resources.lupa;
+            this.pictureBox1.Image = global::sisgeres.Properties.Resources.lupa;
             this.pictureBox1.Location = new System.Drawing.Point(277, 25);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(27, 19);
@@ -226,7 +226,7 @@
             // 
             // btnVolverIcono
             // 
-            this.btnVolverIcono.BackgroundImage = global::RestCsharp.Properties.Resources.azul;
+            this.btnVolverIcono.BackgroundImage = global::sisgeres.Properties.Resources.azul;
             this.btnVolverIcono.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnVolverIcono.FlatAppearance.BorderSize = 0;
             this.btnVolverIcono.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -244,7 +244,7 @@
             // 
             // AgregarIcono
             // 
-            this.AgregarIcono.Image = global::RestCsharp.Properties.Resources.foto__1_;
+            this.AgregarIcono.Image = global::sisgeres.Properties.Resources.foto__1_;
             this.AgregarIcono.Location = new System.Drawing.Point(25, 390);
             this.AgregarIcono.Name = "AgregarIcono";
             this.AgregarIcono.Size = new System.Drawing.Size(153, 155);
@@ -266,7 +266,7 @@
             // 
             // p8
             // 
-            this.p8.Image = global::RestCsharp.Properties.Resources.homero;
+            this.p8.Image = global::sisgeres.Properties.Resources.homero;
             this.p8.Location = new System.Drawing.Point(3, 3);
             this.p8.Name = "p8";
             this.p8.Size = new System.Drawing.Size(153, 155);
@@ -277,7 +277,7 @@
             // 
             // p7
             // 
-            this.p7.Image = global::RestCsharp.Properties.Resources.cerveza;
+            this.p7.Image = global::sisgeres.Properties.Resources.cerveza;
             this.p7.Location = new System.Drawing.Point(162, 3);
             this.p7.Name = "p7";
             this.p7.Size = new System.Drawing.Size(153, 155);
@@ -288,7 +288,7 @@
             // 
             // p6
             // 
-            this.p6.Image = global::RestCsharp.Properties.Resources.monster;
+            this.p6.Image = global::sisgeres.Properties.Resources.monster;
             this.p6.Location = new System.Drawing.Point(321, 3);
             this.p6.Name = "p6";
             this.p6.Size = new System.Drawing.Size(153, 155);
@@ -299,7 +299,7 @@
             // 
             // p5
             // 
-            this.p5.Image = global::RestCsharp.Properties.Resources.animal;
+            this.p5.Image = global::sisgeres.Properties.Resources.animal;
             this.p5.Location = new System.Drawing.Point(480, 3);
             this.p5.Name = "p5";
             this.p5.Size = new System.Drawing.Size(153, 155);
@@ -321,7 +321,7 @@
             // 
             // p4
             // 
-            this.p4.Image = global::RestCsharp.Properties.Resources.extraterrestre;
+            this.p4.Image = global::sisgeres.Properties.Resources.extraterrestre;
             this.p4.Location = new System.Drawing.Point(3, 3);
             this.p4.Name = "p4";
             this.p4.Size = new System.Drawing.Size(153, 155);
@@ -332,7 +332,7 @@
             // 
             // p3
             // 
-            this.p3.Image = global::RestCsharp.Properties.Resources.sonreir;
+            this.p3.Image = global::sisgeres.Properties.Resources.sonreir;
             this.p3.Location = new System.Drawing.Point(162, 3);
             this.p3.Name = "p3";
             this.p3.Size = new System.Drawing.Size(153, 155);
@@ -343,7 +343,7 @@
             // 
             // p2
             // 
-            this.p2.Image = global::RestCsharp.Properties.Resources.fuego__1_;
+            this.p2.Image = global::sisgeres.Properties.Resources.fuego__1_;
             this.p2.Location = new System.Drawing.Point(321, 3);
             this.p2.Name = "p2";
             this.p2.Size = new System.Drawing.Size(153, 155);
@@ -354,7 +354,7 @@
             // 
             // p1
             // 
-            this.p1.Image = global::RestCsharp.Properties.Resources.nuclear;
+            this.p1.Image = global::sisgeres.Properties.Resources.nuclear;
             this.p1.Location = new System.Drawing.Point(480, 3);
             this.p1.Name = "p1";
             this.p1.Size = new System.Drawing.Size(153, 155);
@@ -397,7 +397,7 @@
             // 
             // btnguardar
             // 
-            this.btnguardar.BackgroundImage = global::RestCsharp.Properties.Resources.azul;
+            this.btnguardar.BackgroundImage = global::sisgeres.Properties.Resources.azul;
             this.btnguardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnguardar.FlatAppearance.BorderSize = 0;
             this.btnguardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -415,7 +415,7 @@
             // 
             // btnActualizar
             // 
-            this.btnActualizar.BackgroundImage = global::RestCsharp.Properties.Resources.azul;
+            this.btnActualizar.BackgroundImage = global::sisgeres.Properties.Resources.azul;
             this.btnActualizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnActualizar.FlatAppearance.BorderSize = 0;
             this.btnActualizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -433,7 +433,7 @@
             // 
             // btnvolver
             // 
-            this.btnvolver.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btnvolver.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btnvolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnvolver.FlatAppearance.BorderSize = 0;
             this.btnvolver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -640,7 +640,7 @@
             // Eliminar
             // 
             this.Eliminar.HeaderText = "";
-            this.Eliminar.Image = global::RestCsharp.Properties.Resources.Eliminar;
+            this.Eliminar.Image = global::sisgeres.Properties.Resources.Eliminar;
             this.Eliminar.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.Eliminar.Name = "Eliminar";
             this.Eliminar.ReadOnly = true;
@@ -648,7 +648,7 @@
             // Editar
             // 
             this.Editar.HeaderText = "";
-            this.Editar.Image = global::RestCsharp.Properties.Resources.editar;
+            this.Editar.Image = global::sisgeres.Properties.Resources.editar;
             this.Editar.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.Editar.Name = "Editar";
             this.Editar.ReadOnly = true;
@@ -660,20 +660,20 @@
             // dataGridViewImageColumn1
             // 
             this.dataGridViewImageColumn1.HeaderText = "Eliminar";
-            this.dataGridViewImageColumn1.Image = global::RestCsharp.Properties.Resources.Eliminar;
+            this.dataGridViewImageColumn1.Image = global::sisgeres.Properties.Resources.Eliminar;
             this.dataGridViewImageColumn1.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
             // 
             // dataGridViewImageColumn2
             // 
             this.dataGridViewImageColumn2.HeaderText = "";
-            this.dataGridViewImageColumn2.Image = global::RestCsharp.Properties.Resources.editar;
+            this.dataGridViewImageColumn2.Image = global::sisgeres.Properties.Resources.editar;
             this.dataGridViewImageColumn2.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
             // 
             // btnsalir
             // 
-            this.btnsalir.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btnsalir.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btnsalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnsalir.FlatAppearance.BorderSize = 0;
             this.btnsalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;

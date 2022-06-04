@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Data.SqlClient;
 
-namespace RestCsharp.Datos
+namespace sisgeres.Datos
 {
    public class Dconexion
     {

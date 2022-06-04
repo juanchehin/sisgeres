@@ -1,5 +1,5 @@
 ﻿
-namespace RestCsharp.Presentacion.AsistenteInstalacion
+namespace sisgeres.Presentacion.AsistenteInstalacion
 {
     partial class Empresaregistro
     {
@@ -94,7 +94,7 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             // btnsiguiente
             // 
             this.btnsiguiente.BackColor = System.Drawing.Color.Transparent;
-            this.btnsiguiente.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnsiguiente.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnsiguiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnsiguiente.FlatAppearance.BorderSize = 0;
             this.btnsiguiente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;

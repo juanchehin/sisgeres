@@ -7,13 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-using RestCsharp.Datos;
+using sisgeres.Datos;
 
 using System.IO;
 using Sunat.Logica;
-using RestCsharp.Logica;
+using sisgeres.Logica;
 
-namespace RestCsharp.Presentacion.PRODUCTOS
+namespace sisgeres.Presentacion.PRODUCTOS
 {
     public partial class Registro_de_productos : UserControl
     {

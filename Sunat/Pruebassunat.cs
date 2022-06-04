@@ -4,7 +4,7 @@ using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace RestCsharp.Sunat
+namespace sisgeres.Sunat
 {
     public partial class Pruebassunat : Form
     {

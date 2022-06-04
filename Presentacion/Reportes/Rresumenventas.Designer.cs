@@ -1,5 +1,5 @@
 
-namespace RestCsharp.Presentacion.Reportes
+namespace sisgeres.Presentacion.Reportes
 {
     partial class Rresumenventas
     {

@@ -1,4 +1,4 @@
-﻿namespace RestCsharp.Presentacion.AsistenteInstalacion
+﻿namespace sisgeres.Presentacion.AsistenteInstalacion
 {
     partial class UsuarioPrincipal
     {
@@ -88,7 +88,7 @@
             // 
             // btnSiguiente
             // 
-            this.btnSiguiente.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btnSiguiente.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btnSiguiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSiguiente.FlatAppearance.BorderSize = 0;
             this.btnSiguiente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -164,7 +164,7 @@
             // Icono
             // 
             this.Icono.BackColor = System.Drawing.Color.White;
-            this.Icono.Image = global::RestCsharp.Properties.Resources.Buman;
+            this.Icono.Image = global::sisgeres.Properties.Resources.Buman;
             this.Icono.Location = new System.Drawing.Point(165, 214);
             this.Icono.Name = "Icono";
             this.Icono.Size = new System.Drawing.Size(340, 194);

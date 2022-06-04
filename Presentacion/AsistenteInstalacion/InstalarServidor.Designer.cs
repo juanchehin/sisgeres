@@ -1,5 +1,5 @@
 ﻿
-namespace RestCsharp.Presentacion.AsistenteInstalacion
+namespace sisgeres.Presentacion.AsistenteInstalacion
 {
     partial class InstalarServidor
     {
@@ -131,7 +131,7 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             // 
             // PictureBox7
             // 
-            this.PictureBox7.Image = global::RestCsharp.Properties.Resources.Buman;
+            this.PictureBox7.Image = global::sisgeres.Properties.Resources.Buman;
             this.PictureBox7.Location = new System.Drawing.Point(12, 12);
             this.PictureBox7.Name = "PictureBox7";
             this.PictureBox7.Size = new System.Drawing.Size(110, 63);
@@ -428,7 +428,7 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.TXTbasededatos.Name = "TXTbasededatos";
             this.TXTbasededatos.Size = new System.Drawing.Size(134, 20);
             this.TXTbasededatos.TabIndex = 621;
-            this.TXTbasededatos.Text = "BASEBRIRESTCSHARP";
+            this.TXTbasededatos.Text = "BASEBRIsisgeres";
             // 
             // lblnombredeservicio
             // 

@@ -1,4 +1,4 @@
-﻿using RestCsharp.Datos;
+﻿using sisgeres.Datos;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -77,12 +77,12 @@ namespace Ada369Csharp.Presentacion.SunatForms
                 if (data["Estado envio sunat"].ToString() == "ACEPTADA")
                 {
                     lblestado.ForeColor = Color.FromArgb(39, 229, 143);
-                    Iconoestado.Image = RestCsharp.Properties.Resources.satisfaccion;
+                    Iconoestado.Image = sisgeres.Properties.Resources.satisfaccion;
                 }
                 else if (data["Estado envio sunat"].ToString() == "PENDIENTE")
                 {
                     lblestado.ForeColor = Color.FromArgb(117, 129, 243);
-                    Iconoestado.Image = RestCsharp.Properties.Resources.dia;
+                    Iconoestado.Image = sisgeres.Properties.Resources.dia;
                 }
                 #endregion
 

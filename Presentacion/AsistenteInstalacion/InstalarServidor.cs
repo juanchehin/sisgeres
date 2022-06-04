@@ -13,9 +13,9 @@ using System.Management;
 using System.Data.SqlClient;
 using System.Xml;
 using System.Diagnostics;
-using RestCsharp.Logica;
+using sisgeres.Logica;
 
-namespace RestCsharp.Presentacion.AsistenteInstalacion
+namespace sisgeres.Presentacion.AsistenteInstalacion
 {
     public partial class InstalarServidor : Form
     {
@@ -45,7 +45,7 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
         private void Reemplazar()
         {
             //Solo modificar este campo
-            txtCrear_procedimientos.Text = txtCrear_procedimientos.Text.Replace("BASEBRIRESTCSHARP", TXTbasededatos.Text);
+            txtCrear_procedimientos.Text = txtCrear_procedimientos.Text.Replace("BASEBRIsisgeres", TXTbasededatos.Text);
             //********
 
             txtEliminarBase.Text = txtEliminarBase.Text.Replace("BASEADA", TXTbasededatos.Text);

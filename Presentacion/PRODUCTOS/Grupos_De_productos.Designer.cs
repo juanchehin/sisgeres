@@ -1,4 +1,4 @@
-﻿namespace RestCsharp.Presentacion.PRODUCTOS
+﻿namespace sisgeres.Presentacion.PRODUCTOS
 {
     partial class Grupos_De_productos
     {
@@ -211,7 +211,7 @@
             // ImagenGrupo
             // 
             this.ImagenGrupo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ImagenGrupo.Image = global::RestCsharp.Properties.Resources.advertencia;
+            this.ImagenGrupo.Image = global::sisgeres.Properties.Resources.advertencia;
             this.ImagenGrupo.Location = new System.Drawing.Point(19, 196);
             this.ImagenGrupo.Name = "ImagenGrupo";
             this.ImagenGrupo.Size = new System.Drawing.Size(296, 144);

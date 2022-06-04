@@ -7,17 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-using RestCsharp.Datos;
-using RestCsharp.Logica;
-using RestCsharp.Presentacion.Cocina;
-using RestCsharp.Presentacion.Login;
-using RestCsharp.Presentacion.Caja;
-using RestCsharp.Presentacion.GeneradorQR;
-using RestCsharp.Presentacion.Reportes;
+using sisgeres.Datos;
+using sisgeres.Logica;
+using sisgeres.Presentacion.Cocina;
+using sisgeres.Presentacion.Login;
+using sisgeres.Presentacion.Caja;
+using sisgeres.Presentacion.GeneradorQR;
+using sisgeres.Presentacion.Reportes;
 using Sunat.Logica;
-using RestCsharp.Sunat.SunatForms;
+using sisgeres.Sunat.SunatForms;
 
-namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
+namespace sisgeres.Presentacion.PUNTO_DE_VENTA
 {
     public partial class Visor_de_mesas : UserControl
     {

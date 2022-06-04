@@ -1,5 +1,5 @@
 ﻿
-namespace RestCsharp.Presentacion.Impresoras
+namespace sisgeres.Presentacion.Impresoras
 {
     partial class ImpresorasConf
     {
@@ -114,7 +114,7 @@ namespace RestCsharp.Presentacion.Impresoras
             // 
             // btnsalir
             // 
-            this.btnsalir.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btnsalir.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btnsalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnsalir.FlatAppearance.BorderSize = 0;
             this.btnsalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;

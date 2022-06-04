@@ -8,11 +8,11 @@ using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.IO;
-using RestCsharp.Datos;
-using RestCsharp.Logica;
+using sisgeres.Datos;
+using sisgeres.Logica;
 using Sunat.Logica;
 
-namespace RestCsharp.Presentacion.PRODUCTOS
+namespace sisgeres.Presentacion.PRODUCTOS
 {
     public partial class Productos_rest : UserControl
     {

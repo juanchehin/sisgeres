@@ -7,11 +7,11 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using RestCsharp.Datos;
-using RestCsharp.Logica;
+using sisgeres.Datos;
+using sisgeres.Logica;
 using Sunat.Logica;
 
-namespace RestCsharp.Presentacion.AsistenteInstalacion
+namespace sisgeres.Presentacion.AsistenteInstalacion
 {
     public partial class UsuarioPrincipal : Form
     {

@@ -1,5 +1,5 @@
-﻿using RestCsharp.Datos;
-using RestCsharp.Logica;
+﻿using sisgeres.Datos;
+using sisgeres.Logica;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Xml;
 
-namespace RestCsharp.Presentacion.Conexionremota
+namespace sisgeres.Presentacion.Conexionremota
 {
     public partial class Asistenteconexion : Form
     {
@@ -34,7 +34,7 @@ namespace RestCsharp.Presentacion.Conexionremota
         public void conectar_manualmente()
         {
             string IP = txtservidor.Text;
-            cadena_de_conexion = "Data Source =" + IP + ";Initial Catalog=BASEBRIRESTCSHARP;Integrated Security=False; User Id=buman;Password=softwarereal";
+            cadena_de_conexion = "Data Source =" + IP + ";Initial Catalog=BASEBRIsisgeres;Integrated Security=False; User Id=buman;Password=softwarereal";
             mostrar_conexion();
             if (indicador_de_conexion == "HAY CONEXION")
             {

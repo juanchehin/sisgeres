@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30011.22
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestCsharp", "RestCsharp.csproj", "{BEF95173-6B36-4441-9ABB-4D2C301F6987}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sisgeres", "sisgeres.csproj", "{BEF95173-6B36-4441-9ABB-4D2C301F6987}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

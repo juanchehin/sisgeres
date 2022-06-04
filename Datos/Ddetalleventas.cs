@@ -5,10 +5,10 @@ using System.Text;
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
-using RestCsharp.Logica;
+using sisgeres.Logica;
 using Sunat.Logica;
 
-namespace RestCsharp.Datos
+namespace sisgeres.Datos
 {
     public  class Ddetalleventas
     {

@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using RestCsharp.Logica;
+using sisgeres.Logica;
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
-namespace RestCsharp.Datos
+namespace sisgeres.Datos
 {
    public class Dgrupos
     {

@@ -1,5 +1,5 @@
-﻿using RestCsharp.Datos;
-using RestCsharp.Logica;
+﻿using sisgeres.Datos;
+using sisgeres.Logica;
 using Sunat.Logica;
 using System;
 using System.Collections.Generic;
@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace RestCsharp.Presentacion.Empresaconfig
+namespace sisgeres.Presentacion.Empresaconfig
 {
     public partial class Eempresa : UserControl
     {

@@ -1,4 +1,4 @@
-﻿namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
+﻿namespace sisgeres.Presentacion.PUNTO_DE_VENTA
 {
     partial class Visor_de_mesas
     {
@@ -175,7 +175,7 @@
             // btnadministrar
             // 
             this.btnadministrar.BackColor = System.Drawing.Color.Transparent;
-            this.btnadministrar.BackgroundImage = global::RestCsharp.Properties.Resources.azul;
+            this.btnadministrar.BackgroundImage = global::sisgeres.Properties.Resources.azul;
             this.btnadministrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnadministrar.FlatAppearance.BorderSize = 0;
             this.btnadministrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -196,7 +196,7 @@
             // btncocina
             // 
             this.btncocina.BackColor = System.Drawing.Color.Transparent;
-            this.btncocina.BackgroundImage = global::RestCsharp.Properties.Resources.azul;
+            this.btncocina.BackgroundImage = global::sisgeres.Properties.Resources.azul;
             this.btncocina.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btncocina.Enabled = false;
             this.btncocina.FlatAppearance.BorderSize = 0;
@@ -218,7 +218,7 @@
             // btncerrartodo
             // 
             this.btncerrartodo.BackColor = System.Drawing.Color.Transparent;
-            this.btncerrartodo.BackgroundImage = global::RestCsharp.Properties.Resources.Rojo;
+            this.btncerrartodo.BackgroundImage = global::sisgeres.Properties.Resources.Rojo;
             this.btncerrartodo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btncerrartodo.FlatAppearance.BorderSize = 0;
             this.btncerrartodo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -238,7 +238,7 @@
             // btncerrarcaja
             // 
             this.btncerrarcaja.BackColor = System.Drawing.Color.Transparent;
-            this.btncerrarcaja.BackgroundImage = global::RestCsharp.Properties.Resources.azul;
+            this.btncerrarcaja.BackgroundImage = global::sisgeres.Properties.Resources.azul;
             this.btncerrarcaja.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btncerrarcaja.FlatAppearance.BorderSize = 0;
             this.btncerrarcaja.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -259,7 +259,7 @@
             // btnIngresoSalida
             // 
             this.btnIngresoSalida.BackColor = System.Drawing.Color.Transparent;
-            this.btnIngresoSalida.BackgroundImage = global::RestCsharp.Properties.Resources.azul;
+            this.btnIngresoSalida.BackgroundImage = global::sisgeres.Properties.Resources.azul;
             this.btnIngresoSalida.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnIngresoSalida.FlatAppearance.BorderSize = 0;
             this.btnIngresoSalida.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -279,7 +279,7 @@
             // btncodigosQR
             // 
             this.btncodigosQR.BackColor = System.Drawing.Color.Transparent;
-            this.btncodigosQR.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btncodigosQR.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btncodigosQR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btncodigosQR.FlatAppearance.BorderSize = 0;
             this.btncodigosQR.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -379,7 +379,7 @@
             // btnSunat
             // 
             this.btnSunat.BackColor = System.Drawing.Color.Transparent;
-            this.btnSunat.BackgroundImage = global::RestCsharp.Properties.Resources.azul;
+            this.btnSunat.BackgroundImage = global::sisgeres.Properties.Resources.azul;
             this.btnSunat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSunat.FlatAppearance.BorderSize = 0;
             this.btnSunat.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -400,7 +400,7 @@
             // btnHerramientas
             // 
             this.btnHerramientas.BackColor = System.Drawing.Color.Transparent;
-            this.btnHerramientas.BackgroundImage = global::RestCsharp.Properties.Resources.Rojo;
+            this.btnHerramientas.BackgroundImage = global::sisgeres.Properties.Resources.Rojo;
             this.btnHerramientas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnHerramientas.FlatAppearance.BorderSize = 0;
             this.btnHerramientas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -420,7 +420,7 @@
             // btnsalir
             // 
             this.btnsalir.BackColor = System.Drawing.Color.Transparent;
-            this.btnsalir.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btnsalir.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btnsalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnsalir.FlatAppearance.BorderSize = 0;
             this.btnsalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -440,7 +440,7 @@
             // btnCambiomesa
             // 
             this.btnCambiomesa.BackColor = System.Drawing.Color.Transparent;
-            this.btnCambiomesa.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnCambiomesa.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnCambiomesa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnCambiomesa.FlatAppearance.BorderSize = 0;
             this.btnCambiomesa.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -461,7 +461,7 @@
             // btnVerCuentas
             // 
             this.btnVerCuentas.BackColor = System.Drawing.Color.Transparent;
-            this.btnVerCuentas.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnVerCuentas.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnVerCuentas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnVerCuentas.FlatAppearance.BorderSize = 0;
             this.btnVerCuentas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -621,7 +621,7 @@
             // btnParallevar
             // 
             this.btnParallevar.BackColor = System.Drawing.Color.Transparent;
-            this.btnParallevar.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnParallevar.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnParallevar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnParallevar.FlatAppearance.BorderSize = 0;
             this.btnParallevar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;

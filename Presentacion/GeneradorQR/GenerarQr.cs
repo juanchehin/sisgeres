@@ -6,10 +6,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using RestCsharp.Logica;
-using RestCsharp.Datos;
-using RestCsharp.Presentacion.Reportes;
-namespace RestCsharp.Presentacion.GeneradorQR
+using sisgeres.Logica;
+using sisgeres.Datos;
+using sisgeres.Presentacion.Reportes;
+namespace sisgeres.Presentacion.GeneradorQR
 {
     public partial class GenerarQr : UserControl
     {

@@ -1,4 +1,4 @@
-﻿using RestCsharp;
+﻿using sisgeres;
 using Sunat.Logica;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RestCsharp.Datos
+namespace sisgeres.Datos
 {
    public class DcodigosProdsunat
     {

@@ -1,6 +1,6 @@
-﻿using RestCsharp.Datos;
+﻿using sisgeres.Datos;
 using Sunat.Logica;
-using RestCsharp.Sunat;
+using sisgeres.Sunat;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RestCsharp.Presentacion.SunatForms
+namespace sisgeres.Presentacion.SunatForms
 {
     public partial class AgregarComBaja : UserControl
     {

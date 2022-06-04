@@ -15,12 +15,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Serialization;
-using RestCsharp.Datos;
+using sisgeres.Datos;
 using Sunat.Logica;
-//using RestCsharp.servicioFacturacion2021;
-using RestCsharp.Sunat.Resumenes;
+//using sisgeres.servicioFacturacion2021;
+using sisgeres.Sunat.Resumenes;
 
-namespace RestCsharp.Sunat
+namespace sisgeres.Sunat
 {
     public class Envios
     {

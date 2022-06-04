@@ -1,4 +1,4 @@
-﻿using RestCsharp.Datos;
+﻿using sisgeres.Datos;
 using Sunat.Logica;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Xml;
 
-namespace RestCsharp.Sunat
+namespace sisgeres.Sunat
 {
     public class EmitirComprobante
     {

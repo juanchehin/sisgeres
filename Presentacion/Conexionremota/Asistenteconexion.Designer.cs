@@ -1,5 +1,5 @@
 ﻿
-namespace RestCsharp.Presentacion.Conexionremota
+namespace sisgeres.Presentacion.Conexionremota
 {
     partial class Asistenteconexion
     {
@@ -72,7 +72,7 @@ namespace RestCsharp.Presentacion.Conexionremota
             // 
             // PictureBox1
             // 
-            this.PictureBox1.Image = global::RestCsharp.Properties.Resources.ipimagen;
+            this.PictureBox1.Image = global::sisgeres.Properties.Resources.ipimagen;
             this.PictureBox1.Location = new System.Drawing.Point(119, 148);
             this.PictureBox1.Name = "PictureBox1";
             this.PictureBox1.Size = new System.Drawing.Size(343, 207);

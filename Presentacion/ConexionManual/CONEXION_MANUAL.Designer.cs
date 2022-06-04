@@ -1,4 +1,4 @@
-﻿namespace RestCsharp.Presentacion
+﻿namespace sisgeres.Presentacion
 {
     partial class CONEXION_MANUAL
     {

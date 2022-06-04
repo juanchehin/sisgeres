@@ -1,5 +1,5 @@
 ﻿
-namespace RestCsharp.Presentacion.Copiasbd
+namespace sisgeres.Presentacion.Copiasbd
 {
     partial class GenerarAut
     {
@@ -66,7 +66,7 @@ namespace RestCsharp.Presentacion.Copiasbd
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pictureBox1.Image = global::RestCsharp.Properties.Resources.Buman;
+            this.pictureBox1.Image = global::sisgeres.Properties.Resources.Buman;
             this.pictureBox1.Location = new System.Drawing.Point(0, 401);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(500, 46);
@@ -89,7 +89,7 @@ namespace RestCsharp.Presentacion.Copiasbd
             // btncerrar
             // 
             this.btncerrar.BackColor = System.Drawing.Color.Transparent;
-            this.btncerrar.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btncerrar.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btncerrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btncerrar.Dock = System.Windows.Forms.DockStyle.Left;
             this.btncerrar.FlatAppearance.BorderSize = 0;

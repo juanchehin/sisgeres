@@ -1,5 +1,5 @@
-﻿using RestCsharp.Datos;
-using RestCsharp.Presentacion.Conexionremota;
+﻿using sisgeres.Datos;
+using sisgeres.Presentacion.Conexionremota;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Xml;
 
-namespace RestCsharp.Presentacion.AsistenteInstalacion
+namespace sisgeres.Presentacion.AsistenteInstalacion
 {
     public partial class EleccionServidor : Form
     {

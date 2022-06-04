@@ -1,21 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Data.SqlClient;
 using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Windows.Forms;
-using RestCsharp.Datos;
-using RestCsharp.Logica;
-using RestCsharp.Presentacion.AsistenteInstalacion;
-using RestCsharp.Presentacion.Caja;
-using RestCsharp.Presentacion.Licencia;
-using RestCsharp.Presentacion.PUNTO_DE_VENTA;
+using sisgeres.Datos;
+using sisgeres.Logica;
+using sisgeres.Presentacion.AsistenteInstalacion;
+using sisgeres.Presentacion.Caja;
+using sisgeres.Presentacion.Licencia;
+using sisgeres.Presentacion.PUNTO_DE_VENTA;
 
-namespace RestCsharp.Presentacion.Login
+namespace sisgeres.Presentacion.Login
 {
     public partial class LoginForm : Form
     {
@@ -69,8 +65,10 @@ namespace RestCsharp.Presentacion.Login
             var funcion = new Dempresa();
             var dt = new DataTable();
             funcion.mostrar_empresa(ref dt);
-            lblempresa.Text = dt.Rows[0][15].ToString();
-            btnpais.Text = dt.Rows[0][14].ToString();
+            //lblempresa.Text = dt.Rows[0][15].ToString();
+            //btnpais.Text = dt.Rows[0][14].ToString();
+            lblempresa.Text = dt.Rows[0][1].ToString();
+            btnpais.Text = dt.Rows[0][9].ToString();
         }
         private void PasarAeleccionServidor()
         {

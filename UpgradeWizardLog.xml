@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
 <log>
   <event>Get project references.</event>
-  <event action="Analyze" type="Success" name="Assembly References" path="C:\Programacion\sisgeres\RestCsharp.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Programacion\sisgeres\sisgeres.csproj" />
   <event action="Analyze" type="Success" name="Assembly References" path="C:\Programacion\sisgeres\app.config" />
   <event action="Analyze" type="Success" name="Http Handlers" path="C:\Programacion\sisgeres\app.config" />
   <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Programacion\sisgeres\app.config" />
@@ -76,14 +76,14 @@
   <event action="Analyze" type="Success" name="Smenusunat.resx" path="C:\Programacion\sisgeres\Sunat\SunatForms\Smenusunat.resx" />
   <event action="Analyze" type="Success" name="Snotascredito.resx" path="C:\Programacion\sisgeres\Sunat\SunatForms\Snotascredito.resx" />
   <event action="Analyze" type="Success" name="Snotasdebito.resx" path="C:\Programacion\sisgeres\Sunat\SunatForms\Snotasdebito.resx" />
-  <event action="Analyze" type="Success" name="RestCsharp" path="C:\Programacion\sisgeres\RestCsharp.csproj" />
-  <event action="Analyze" type="Success" name="RestCsharp" path="C:\Programacion\sisgeres\RestCsharp.sln" />
-  <event action="Backup" type="Success" name="RestCsharp" path="C:\Programacion\sisgeres\RestCsharp.csproj" />
-  <event action="Upgrade" type="Success" name="Assembly References" path="C:\Programacion\sisgeres\RestCsharp.csproj" />
+  <event action="Analyze" type="Success" name="sisgeres" path="C:\Programacion\sisgeres\sisgeres.csproj" />
+  <event action="Analyze" type="Success" name="sisgeres" path="C:\Programacion\sisgeres\sisgeres.sln" />
+  <event action="Backup" type="Success" name="sisgeres" path="C:\Programacion\sisgeres\sisgeres.csproj" />
+  <event action="Upgrade" type="Success" name="Assembly References" path="C:\Programacion\sisgeres\sisgeres.csproj" />
   <event action="Upgrade" type="Success" name="Rcierrecaja.resx" path="C:\Programacion\sisgeres\Presentacion\Reportes\Rcierrecaja.resx" />
   <event action="Upgrade" type="Success" name="RcomprobVenta.resx" path="C:\Programacion\sisgeres\Presentacion\Reportes\RcomprobVenta.resx" />
   <event action="Upgrade" type="Success" name="Rdetalleventas.resx" path="C:\Programacion\sisgeres\Presentacion\Reportes\Rdetalleventas.resx" />
   <event action="Upgrade" type="Success" name="Rprecuenta.resx" path="C:\Programacion\sisgeres\Presentacion\Reportes\Rprecuenta.resx" />
-  <event action="Upgrade" type="Success" name="RestCsharp" path="C:\Programacion\sisgeres\RestCsharp.csproj" />
-  <event action="Upgrade" type="Success" name="RestCsharp" path="C:\Programacion\sisgeres\RestCsharp.sln" />
+  <event action="Upgrade" type="Success" name="sisgeres" path="C:\Programacion\sisgeres\sisgeres.csproj" />
+  <event action="Upgrade" type="Success" name="sisgeres" path="C:\Programacion\sisgeres\sisgeres.sln" />
 </log>

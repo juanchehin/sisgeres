@@ -1,5 +1,5 @@
 ﻿
-namespace RestCsharp.Presentacion.Cocina
+namespace sisgeres.Presentacion.Cocina
 {
     partial class PantallaCocina
     {
@@ -302,7 +302,7 @@ namespace RestCsharp.Presentacion.Cocina
             // 
             // btnsalir
             // 
-            this.btnsalir.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btnsalir.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btnsalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnsalir.FlatAppearance.BorderSize = 0;
             this.btnsalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -476,7 +476,7 @@ namespace RestCsharp.Presentacion.Cocina
             // btnVer1
             // 
             this.btnVer1.BackColor = System.Drawing.Color.Transparent;
-            this.btnVer1.BackgroundImage = global::RestCsharp.Properties.Resources.Rojo;
+            this.btnVer1.BackgroundImage = global::sisgeres.Properties.Resources.Rojo;
             this.btnVer1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnVer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnVer1.FlatAppearance.BorderSize = 0;
@@ -569,7 +569,7 @@ namespace RestCsharp.Presentacion.Cocina
             // btnNPedido1
             // 
             this.btnNPedido1.BackColor = System.Drawing.Color.Transparent;
-            this.btnNPedido1.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnNPedido1.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnNPedido1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnNPedido1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnNPedido1.FlatAppearance.BorderSize = 0;
@@ -831,7 +831,7 @@ namespace RestCsharp.Presentacion.Cocina
             // btnver2
             // 
             this.btnver2.BackColor = System.Drawing.Color.Transparent;
-            this.btnver2.BackgroundImage = global::RestCsharp.Properties.Resources.Rojo;
+            this.btnver2.BackgroundImage = global::sisgeres.Properties.Resources.Rojo;
             this.btnver2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnver2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnver2.FlatAppearance.BorderSize = 0;
@@ -924,7 +924,7 @@ namespace RestCsharp.Presentacion.Cocina
             // btnNPedido2
             // 
             this.btnNPedido2.BackColor = System.Drawing.Color.Transparent;
-            this.btnNPedido2.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnNPedido2.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnNPedido2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnNPedido2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnNPedido2.FlatAppearance.BorderSize = 0;
@@ -1185,7 +1185,7 @@ namespace RestCsharp.Presentacion.Cocina
             // btnver3
             // 
             this.btnver3.BackColor = System.Drawing.Color.Transparent;
-            this.btnver3.BackgroundImage = global::RestCsharp.Properties.Resources.Rojo;
+            this.btnver3.BackgroundImage = global::sisgeres.Properties.Resources.Rojo;
             this.btnver3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnver3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnver3.FlatAppearance.BorderSize = 0;
@@ -1278,7 +1278,7 @@ namespace RestCsharp.Presentacion.Cocina
             // btnNPedido3
             // 
             this.btnNPedido3.BackColor = System.Drawing.Color.Transparent;
-            this.btnNPedido3.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnNPedido3.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnNPedido3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnNPedido3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnNPedido3.FlatAppearance.BorderSize = 0;
@@ -1539,7 +1539,7 @@ namespace RestCsharp.Presentacion.Cocina
             // btnver4
             // 
             this.btnver4.BackColor = System.Drawing.Color.Transparent;
-            this.btnver4.BackgroundImage = global::RestCsharp.Properties.Resources.Rojo;
+            this.btnver4.BackgroundImage = global::sisgeres.Properties.Resources.Rojo;
             this.btnver4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnver4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnver4.FlatAppearance.BorderSize = 0;
@@ -1632,7 +1632,7 @@ namespace RestCsharp.Presentacion.Cocina
             // btnNPedido4
             // 
             this.btnNPedido4.BackColor = System.Drawing.Color.Transparent;
-            this.btnNPedido4.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnNPedido4.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnNPedido4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnNPedido4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnNPedido4.FlatAppearance.BorderSize = 0;
@@ -1893,7 +1893,7 @@ namespace RestCsharp.Presentacion.Cocina
             // btnver5
             // 
             this.btnver5.BackColor = System.Drawing.Color.Transparent;
-            this.btnver5.BackgroundImage = global::RestCsharp.Properties.Resources.Rojo;
+            this.btnver5.BackgroundImage = global::sisgeres.Properties.Resources.Rojo;
             this.btnver5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnver5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnver5.FlatAppearance.BorderSize = 0;
@@ -1986,7 +1986,7 @@ namespace RestCsharp.Presentacion.Cocina
             // btnNPedido5
             // 
             this.btnNPedido5.BackColor = System.Drawing.Color.Transparent;
-            this.btnNPedido5.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnNPedido5.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnNPedido5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnNPedido5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnNPedido5.FlatAppearance.BorderSize = 0;
@@ -2247,7 +2247,7 @@ namespace RestCsharp.Presentacion.Cocina
             // btnver6
             // 
             this.btnver6.BackColor = System.Drawing.Color.Transparent;
-            this.btnver6.BackgroundImage = global::RestCsharp.Properties.Resources.Rojo;
+            this.btnver6.BackgroundImage = global::sisgeres.Properties.Resources.Rojo;
             this.btnver6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnver6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnver6.FlatAppearance.BorderSize = 0;
@@ -2340,7 +2340,7 @@ namespace RestCsharp.Presentacion.Cocina
             // btnNPedido6
             // 
             this.btnNPedido6.BackColor = System.Drawing.Color.Transparent;
-            this.btnNPedido6.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnNPedido6.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnNPedido6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnNPedido6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnNPedido6.FlatAppearance.BorderSize = 0;

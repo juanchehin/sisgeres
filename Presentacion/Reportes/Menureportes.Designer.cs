@@ -1,5 +1,5 @@
 ﻿
-namespace RestCsharp.Presentacion.Reportes
+namespace sisgeres.Presentacion.Reportes
 {
     partial class Menureportes
     {
@@ -142,7 +142,7 @@ namespace RestCsharp.Presentacion.Reportes
             // 
             this.PictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.PictureBox4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PictureBox4.Image = global::RestCsharp.Properties.Resources.Buman;
+            this.PictureBox4.Image = global::sisgeres.Properties.Resources.Buman;
             this.PictureBox4.Location = new System.Drawing.Point(0, 79);
             this.PictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.PictureBox4.Name = "PictureBox4";
@@ -449,7 +449,7 @@ namespace RestCsharp.Presentacion.Reportes
             // 
             // btnsalir
             // 
-            this.btnsalir.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btnsalir.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btnsalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnsalir.FlatAppearance.BorderSize = 0;
             this.btnsalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;

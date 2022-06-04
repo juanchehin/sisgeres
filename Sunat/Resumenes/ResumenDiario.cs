@@ -1,5 +1,5 @@
 ﻿using System.Xml.Serialization;
-namespace RestCsharp.Sunat.Resumenes
+namespace sisgeres.Sunat.Resumenes
 {
  
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]

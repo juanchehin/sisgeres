@@ -1,5 +1,5 @@
 ﻿
-namespace RestCsharp.Presentacion.GeneradorQR
+namespace sisgeres.Presentacion.GeneradorQR
 {
     partial class GenerarQr
     {
@@ -59,7 +59,7 @@ namespace RestCsharp.Presentacion.GeneradorQR
             // BtnGenerar
             // 
             this.BtnGenerar.BackColor = System.Drawing.Color.Transparent;
-            this.BtnGenerar.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.BtnGenerar.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.BtnGenerar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnGenerar.FlatAppearance.BorderSize = 0;
             this.BtnGenerar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -101,7 +101,7 @@ namespace RestCsharp.Presentacion.GeneradorQR
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::RestCsharp.Properties.Resources.enlace;
+            this.pictureBox1.Image = global::sisgeres.Properties.Resources.enlace;
             this.pictureBox1.Location = new System.Drawing.Point(329, 11);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(21, 25);
@@ -147,7 +147,7 @@ namespace RestCsharp.Presentacion.GeneradorQR
             // 
             // btnsalir
             // 
-            this.btnsalir.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btnsalir.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btnsalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnsalir.FlatAppearance.BorderSize = 0;
             this.btnsalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;

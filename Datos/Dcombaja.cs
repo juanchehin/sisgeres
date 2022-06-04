@@ -6,9 +6,9 @@ using System.Windows.Forms;
 using Sunat.Logica;
 using System.Data;
 using System.Data.SqlClient;
-using RestCsharp.Datos;
+using sisgeres.Datos;
 
-namespace RestCsharp.Datos
+namespace sisgeres.Datos
 {
    public  class Dcombaja
     {

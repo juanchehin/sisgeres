@@ -1,5 +1,5 @@
 ﻿
-namespace RestCsharp.Presentacion.Licencia
+namespace sisgeres.Presentacion.Licencia
 {
     partial class Licencias
     {
@@ -62,7 +62,7 @@ namespace RestCsharp.Presentacion.Licencia
             // btnCerrar
             // 
             this.btnCerrar.BackColor = System.Drawing.Color.Transparent;
-            this.btnCerrar.BackgroundImage = global::RestCsharp.Properties.Resources.Rojo;
+            this.btnCerrar.BackgroundImage = global::sisgeres.Properties.Resources.Rojo;
             this.btnCerrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnCerrar.FlatAppearance.BorderSize = 0;
             this.btnCerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;

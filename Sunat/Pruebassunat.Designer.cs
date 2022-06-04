@@ -1,5 +1,5 @@
 ﻿
-namespace RestCsharp.Sunat
+namespace sisgeres.Sunat
 {
     partial class Pruebassunat
     {

@@ -1,5 +1,5 @@
-﻿using RestCsharp.Datos;
-using RestCsharp.Logica;
+﻿using sisgeres.Datos;
+using sisgeres.Logica;
 using Sunat.Logica;
 using System;
 using System.Collections.Generic;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace RestCsharp.Presentacion.Copiasbd
+namespace sisgeres.Presentacion.Copiasbd
 {
     public partial class GenerarAut : UserControl
     {
@@ -20,7 +20,7 @@ namespace RestCsharp.Presentacion.Copiasbd
             InitializeComponent();
         }
         string txtsoftware = "buman";
-        string Base_De_datos = "BASEBRIRESTCSHARP";
+        string Base_De_datos = "BASEBRIsisgeres";
         int contador = 10;
         private Thread Hilo;
         private bool acaba = false;

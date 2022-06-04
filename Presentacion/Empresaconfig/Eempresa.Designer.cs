@@ -1,5 +1,5 @@
 ﻿
-namespace RestCsharp.Presentacion.Empresaconfig
+namespace sisgeres.Presentacion.Empresaconfig
 {
     partial class Eempresa
     {
@@ -145,7 +145,7 @@ namespace RestCsharp.Presentacion.Empresaconfig
             // btnsiguiente
             // 
             this.btnsiguiente.BackColor = System.Drawing.Color.Transparent;
-            this.btnsiguiente.BackgroundImage = global::RestCsharp.Properties.Resources.verde;
+            this.btnsiguiente.BackgroundImage = global::sisgeres.Properties.Resources.verde;
             this.btnsiguiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnsiguiente.FlatAppearance.BorderSize = 0;
             this.btnsiguiente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -947,7 +947,7 @@ namespace RestCsharp.Presentacion.Empresaconfig
             // 
             this.psunat.BackColor = System.Drawing.Color.White;
             this.psunat.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.psunat.Image = global::RestCsharp.Properties.Resources.sunat;
+            this.psunat.Image = global::sisgeres.Properties.Resources.sunat;
             this.psunat.Location = new System.Drawing.Point(0, 506);
             this.psunat.Name = "psunat";
             this.psunat.Size = new System.Drawing.Size(456, 59);
@@ -1054,7 +1054,7 @@ namespace RestCsharp.Presentacion.Empresaconfig
             // 
             // btnsalir
             // 
-            this.btnsalir.BackgroundImage = global::RestCsharp.Properties.Resources.naranja;
+            this.btnsalir.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
             this.btnsalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnsalir.FlatAppearance.BorderSize = 0;
             this.btnsalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
