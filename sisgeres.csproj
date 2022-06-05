@@ -964,7 +964,7 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-    <Content Include="iconobuman.ico" />
+    <Content Include="logo-transparente-4.ico" />
     <None Include="Resources\buscar1.png" />
     <None Include="Resources\enlace.png" />
     <None Include="Resources\ipimagen.PNG" />
