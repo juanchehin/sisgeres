@@ -10,7 +10,7 @@ namespace sisgeres.Logica
         static private AES aes = new AES();
         static public string CnString;
         static string dbcnString;
-        static public string appPwdUnique = "RESTAURAnTE.codigo369.BUMAM.Hola_Mundo";
+        static public string appPwdUnique = "RESTAURAnTE.chehin.sisgeres.Hola_Mundo";
 
 
         public static object checkServer()
