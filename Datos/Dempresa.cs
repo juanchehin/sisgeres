@@ -17,21 +17,22 @@ namespace sisgeres.Datos
             try
             {
                 CONEXIONMAESTRA.abrir();
-                SqlCommand cmd = new SqlCommand("insertar_Empresa", CONEXIONMAESTRA.conectar);
+                SqlCommand cmd = new SqlCommand("insertar_EMPRESA", CONEXIONMAESTRA.conectar);
                 cmd.CommandType = CommandType.StoredProcedure;
                 Console.WriteLine("parametros es : ", parametros.RazonSocial);
-                cmd.Parameters.AddWithValue("@Nombre_Empresa", parametros.RazonSocial);
+                //cmd.Parameters.AddWithValue("@Nombre_Empresa", parametros.RazonSocial);
+                cmd.Parameters.AddWithValue("@RazonSocial", parametros.RazonSocial);
                 cmd.Parameters.AddWithValue("@logo", parametros.Logo);
                 cmd.Parameters.AddWithValue("@Impuesto", parametros.Impuesto);
                 cmd.Parameters.AddWithValue("@Porcentaje_impuesto", parametros.Porcentaje_impuesto);
-                cmd.Parameters.AddWithValue("@Moneda", parametros.SimboloMoneda);
+                cmd.Parameters.AddWithValue("@SimboloMoneda", parametros.SimboloMoneda);
                 cmd.Parameters.AddWithValue("@Trabajas_con_impuestos", parametros.Trabajas_con_impuestos);
                 cmd.Parameters.AddWithValue("@Carpeta_para_copias_de_seguridad", parametros.Carpeta_para_copias_de_seguridad);
-                cmd.Parameters.AddWithValue("@Ultima_fecha_de_copia_date", DateTime.Now);
-                cmd.Parameters.AddWithValue("@Pais", "Argentina");
+                //cmd.Parameters.AddWithValue("@Ultima_fecha_de_copia_date", DateTime.Now);
+                //cmd.Parameters.AddWithValue("@Pais", "Argentina");
                 cmd.Parameters.AddWithValue("@Tiponotas", parametros.Tiponotas);
 
-                //cmd.Parameters.AddWithValue("@Correo_para_envio_de_reportes", parametros.Correo_para_envio_de_reportes);
+                cmd.Parameters.AddWithValue("@Correo_para_envio_de_reportes", parametros.Correo_para_envio_de_reportes);
                 cmd.ExecuteNonQuery();
                 return true;
             }
