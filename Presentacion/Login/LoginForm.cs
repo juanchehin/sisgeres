@@ -143,9 +143,6 @@ namespace sisgeres.Presentacion.Login
             }
 
         }
-
-
-
         private void Pt_Click(object sender, EventArgs e)
         {
             login = ((PictureBox)sender).Tag.ToString();
@@ -178,6 +175,7 @@ namespace sisgeres.Presentacion.Login
             parametros.Password = Bases.Encriptar(txtcontraseña.Text);
             parametros.Login = login;
             funcion.validarUsuario(parametros, ref idusuario);
+
             if (idusuario > 0)
             {
                 mostrarRoles();
