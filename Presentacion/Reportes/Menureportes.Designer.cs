@@ -35,6 +35,7 @@ namespace sisgeres.Presentacion.Reportes
             this.btnVentas = new System.Windows.Forms.Button();
             this.btnProductos = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnsalir = new System.Windows.Forms.Button();
             this.PictureBox4 = new System.Windows.Forms.PictureBox();
             this.panelVentas = new System.Windows.Forms.Panel();
             this.reportViewer1 = new Telerik.ReportViewer.WinForms.ReportViewer();
@@ -60,7 +61,6 @@ namespace sisgeres.Presentacion.Reportes
             this.PVentasPorempleado = new System.Windows.Forms.Panel();
             this.panelProductos = new System.Windows.Forms.Panel();
             this.reportViewer2 = new Telerik.ReportViewer.WinForms.ReportViewer();
-            this.btnsalir = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -138,11 +138,29 @@ namespace sisgeres.Presentacion.Reportes
             this.panel2.Size = new System.Drawing.Size(213, 148);
             this.panel2.TabIndex = 0;
             // 
+            // btnsalir
+            // 
+            this.btnsalir.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
+            this.btnsalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnsalir.FlatAppearance.BorderSize = 0;
+            this.btnsalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnsalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnsalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnsalir.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsalir.ForeColor = System.Drawing.Color.White;
+            this.btnsalir.Location = new System.Drawing.Point(16, 15);
+            this.btnsalir.Name = "btnsalir";
+            this.btnsalir.Size = new System.Drawing.Size(117, 50);
+            this.btnsalir.TabIndex = 619;
+            this.btnsalir.Text = "Volver";
+            this.btnsalir.UseVisualStyleBackColor = true;
+            this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
+            // 
             // PictureBox4
             // 
             this.PictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.PictureBox4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PictureBox4.Image = global::sisgeres.Properties.Resources.Buman;
+            this.PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox4.Image")));
             this.PictureBox4.Location = new System.Drawing.Point(0, 79);
             this.PictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.PictureBox4.Name = "PictureBox4";
@@ -446,24 +464,6 @@ namespace sisgeres.Presentacion.Reportes
             this.reportViewer2.Name = "reportViewer2";
             this.reportViewer2.Size = new System.Drawing.Size(361, 320);
             this.reportViewer2.TabIndex = 0;
-            // 
-            // btnsalir
-            // 
-            this.btnsalir.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
-            this.btnsalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnsalir.FlatAppearance.BorderSize = 0;
-            this.btnsalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnsalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnsalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnsalir.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsalir.ForeColor = System.Drawing.Color.White;
-            this.btnsalir.Location = new System.Drawing.Point(16, 15);
-            this.btnsalir.Name = "btnsalir";
-            this.btnsalir.Size = new System.Drawing.Size(117, 50);
-            this.btnsalir.TabIndex = 619;
-            this.btnsalir.Text = "Volver";
-            this.btnsalir.UseVisualStyleBackColor = true;
-            this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
             // 
             // Menureportes
             // 
