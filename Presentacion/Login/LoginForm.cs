@@ -67,7 +67,7 @@ namespace sisgeres.Presentacion.Login
             funcion.mostrar_empresa(ref dt);
             //lblempresa.Text = dt.Rows[0][15].ToString();
             //btnpais.Text = dt.Rows[0][14].ToString();
-            lblempresa.Text = dt.Rows[0][1].ToString();
+            lblempresa.Text = dt.Rows[0][15].ToString();
             btnpais.Text = dt.Rows[0][9].ToString();
         }
         private void PasarAeleccionServidor()
