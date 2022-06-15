@@ -630,6 +630,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Reportes\Menureportes.resx">
       <DependentUpon>Menureportes.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Reportes\Pruebaimpresora.resx">
       <DependentUpon>Pruebaimpresora.cs</DependentUpon>

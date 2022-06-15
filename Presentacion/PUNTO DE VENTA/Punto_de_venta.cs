@@ -138,6 +138,8 @@ namespace sisgeres.Presentacion.PUNTO_DE_VENTA
         string Totalletras;
         string conexionsunat;
         string Tipocliente;
+
+        string idComprobar;
         private void Punto_de_venta_Load(object sender, EventArgs e)
         {
             ValidarTema();
@@ -1128,62 +1130,70 @@ namespace sisgeres.Presentacion.PUNTO_DE_VENTA
                 cmd.Parameters.AddWithValue("@Desde", paginainicioPro);
                 cmd.Parameters.AddWithValue("@Hasta", paginaMaximaPro);
                 SqlDataReader rdr = cmd.ExecuteReader();
+
                 while (rdr.Read())
                 {
-
-                    Label b = new Label();
-                    Panel p1 = new Panel();
-                    PictureBox I1 = new PictureBox();
-                    Label lblprecio = new Label();
-                    b.Text = rdr["Descripcion"].ToString();
-                    b.Name = rdr["Id_Producto1"].ToString();
-                    b.Tag = rdr["Precio_de_venta"].ToString() + '|' + rdr["Precio_de_compra"].ToString();
-                    b.Font = new System.Drawing.Font("Microsoft Sans Serif", 7, FontStyle.Regular | FontStyle.Bold);
-                    b.BackColor = Color.Transparent;
-                    b.ForeColor = Color.White;
-                    b.Dock = DockStyle.Fill;
-                    b.TextAlign = ContentAlignment.MiddleCenter;
-                    b.Cursor = Cursors.Hand;
-
-                    lblprecio.Text = rdr["Moneda"].ToString() + " " + rdr["Precio_de_venta"].ToString();
-                    lblprecio.Name = rdr["Id_Producto1"].ToString();
-                    lblprecio.Tag = rdr["Precio_de_venta"].ToString() + '|' + rdr["Precio_de_compra"].ToString();
-                    lblprecio.Size = new Size(119, 25);
-                    lblprecio.Font = new Font("Microsoft Sans Serif", 9);
-                    lblprecio.BackColor = Color.Transparent;
-                    lblprecio.ForeColor = Color.White;
-                    lblprecio.Dock = DockStyle.Bottom;
-                    lblprecio.TextAlign = ContentAlignment.TopCenter;
-                    lblprecio.Cursor = Cursors.Hand;
-
-                    p1.Size = new System.Drawing.Size(147, 75);
-                    p1.BorderStyle = BorderStyle.None;
-                    p1.BackColor = Color.Transparent;
-                    p1.BackgroundImage = Properties.Resources.azul;
-                    p1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-
-                    I1.Dock = DockStyle.Top;
-                    byte[] bi = (byte[])rdr["Imagen"];
-                    System.IO.MemoryStream ms = new System.IO.MemoryStream(bi);
-                    I1.Image = Image.FromStream(ms);
-                    I1.SizeMode = PictureBoxSizeMode.Zoom;
-                    I1.Cursor = Cursors.Hand;
-                    I1.Tag = rdr["Precio_de_venta"].ToString() + '|' + rdr["Precio_de_compra"].ToString();
-                    I1.Name = rdr["Id_Producto1"].ToString();
-                    I1.BackColor = Color.Transparent;
-                    I1.Size = new Size(100, 30);
-
-                    p1.Controls.Add(b);
-                    p1.Controls.Add(lblprecio);
-                    if (rdr["Estado_imagen"].ToString() != "VACIO")
+                    // Este if esta por el SP me tira productos repetidos
+                    if (this.idComprobar != rdr["Id_Producto1"].ToString())
                     {
-                        p1.Controls.Add(I1);
+                        Label b = new Label();
+                        Panel p1 = new Panel();
+                        PictureBox I1 = new PictureBox();
+                        Label lblprecio = new Label();
+                        b.Text = rdr["Descripcion"].ToString();
+                        b.Name = rdr["Id_Producto1"].ToString();
+                        b.Tag = rdr["Precio_de_venta"].ToString() + '|' + rdr["Precio_de_compra"].ToString();
+                        b.Font = new System.Drawing.Font("Microsoft Sans Serif", 7, FontStyle.Regular | FontStyle.Bold);
+                        b.BackColor = Color.Transparent;
+                        b.ForeColor = Color.White;
+                        b.Dock = DockStyle.Fill;
+                        b.TextAlign = ContentAlignment.MiddleCenter;
+                        b.Cursor = Cursors.Hand;
+
+                        lblprecio.Text = rdr["Moneda"].ToString() + " " + rdr["Precio_de_venta"].ToString();
+                        lblprecio.Name = rdr["Id_Producto1"].ToString();
+                        lblprecio.Tag = rdr["Precio_de_venta"].ToString() + '|' + rdr["Precio_de_compra"].ToString();
+                        lblprecio.Size = new Size(119, 25);
+                        lblprecio.Font = new Font("Microsoft Sans Serif", 9);
+                        lblprecio.BackColor = Color.Transparent;
+                        lblprecio.ForeColor = Color.White;
+                        lblprecio.Dock = DockStyle.Bottom;
+                        lblprecio.TextAlign = ContentAlignment.TopCenter;
+                        lblprecio.Cursor = Cursors.Hand;
+
+                        p1.Size = new System.Drawing.Size(147, 75);
+                        p1.BorderStyle = BorderStyle.None;
+                        p1.BackColor = Color.Transparent;
+                        p1.BackgroundImage = Properties.Resources.azul;
+                        p1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+
+                        I1.Dock = DockStyle.Top;
+                        byte[] bi = (byte[])rdr["Imagen"];
+                        System.IO.MemoryStream ms = new System.IO.MemoryStream(bi);
+                        I1.Image = Image.FromStream(ms);
+                        I1.SizeMode = PictureBoxSizeMode.Zoom;
+                        I1.Cursor = Cursors.Hand;
+                        I1.Tag = rdr["Precio_de_venta"].ToString() + '|' + rdr["Precio_de_compra"].ToString();
+                        I1.Name = rdr["Id_Producto1"].ToString();
+                        I1.BackColor = Color.Transparent;
+                        I1.Size = new Size(100, 30);
+
+                        p1.Controls.Add(b);
+                        p1.Controls.Add(lblprecio);
+                        if (rdr["Estado_imagen"].ToString() != "VACIO")
+                        {
+                            p1.Controls.Add(I1);
+                        }
+                        b.BringToFront();
+                        flowLayoutPanel5.Controls.Add(p1);
+                        I1.Click += I1_Click;
+                        b.Click += B_Click;
+                        lblprecio.Click += B_Click;
+
                     }
-                    b.BringToFront();
-                    flowLayoutPanel5.Controls.Add(p1);
-                    I1.Click += I1_Click;
-                    b.Click += B_Click;
-                    lblprecio.Click += B_Click;
+
+                    this.idComprobar = rdr["Id_Producto1"].ToString();
+
                 }
                 CONEXIONMAESTRA.cerrar();
             }
