@@ -1260,7 +1260,7 @@ namespace sisgeres.Presentacion.PUNTO_DE_VENTA
         {
             try
             {
-                foreach (System.Windows.Forms.Control panelP1 in Panel_grupos.Controls)
+                foreach (Control panelP1 in Panel_grupos.Controls)
                 {
                     if (panelP1 is System.Windows.Forms.Panel)
                     {
@@ -1275,9 +1275,9 @@ namespace sisgeres.Presentacion.PUNTO_DE_VENTA
                     }
                 }
 
-                foreach (System.Windows.Forms.Control PanelP2 in Panel_grupos.Controls)
+                foreach (Control PanelP2 in Panel_grupos.Controls)
                 {
-                    if (PanelP2 is System.Windows.Forms.Panel)
+                    if (PanelP2 is Panel)
                     {
                         if (PanelP2.Name == id_grupo.ToString())
                         {

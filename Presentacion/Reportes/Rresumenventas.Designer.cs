@@ -205,7 +205,7 @@ namespace sisgeres.Presentacion.Reportes
             this.textBox6.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8D);
             this.textBox6.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left;
             this.textBox6.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle;
-            this.textBox6.Value = "Reporte generado por bumam from codigo369";
+            this.textBox6.Value = "Reporte generado por sisgeres";
             // 
             // reportHeaderSection1
             // 
