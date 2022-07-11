@@ -1712,7 +1712,11 @@ namespace sisgeres.Presentacion.PUNTO_DE_VENTA
             funcion.RptComprobVenta(ref dt, parametros);
             //**********************
             var rpt = new RcomprobVenta();
-            rpt.TablaDetalle.DataSource = dt;
+            var newDt = dt.AsEnumerable()
+                .GroupBy(x => x.Field<string>("Producto"))
+                .Select(y => y.First())
+                .CopyToDataTable();
+            rpt.TablaDetalle.DataSource = newDt;
             rpt.DataSource = dt;
             rptPedidos.Report = rpt;
             rptPedidos.RefreshReport();
