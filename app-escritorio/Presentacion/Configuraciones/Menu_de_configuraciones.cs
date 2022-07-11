@@ -29,8 +29,8 @@ namespace sisgeres.Presentacion.Configuraciones
         }
         string Servidor = @".\SQLEXPRESS";
         string txtRuta;
-        string txtsoftware = "buman";
-        string Base_De_datos = "BASEBRIsisgeres";
+        string txtsoftware = "sisgeres";
+        string Base_De_datos = "sisgeres";
         string ruta;
         string tipocaja;
         private void Menu_de_configuraciones_Load(object sender, EventArgs e)

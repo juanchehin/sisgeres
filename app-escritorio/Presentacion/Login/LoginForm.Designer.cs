@@ -55,23 +55,23 @@
             this.txtcontraseña = new System.Windows.Forms.TextBox();
             this.panel11 = new System.Windows.Forms.Panel();
             this.lblempresa = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
             this.PanelVisorDeUsuarios = new System.Windows.Forms.Panel();
+            this.PanelUsuarios = new System.Windows.Forms.Panel();
+            this.PanelMostradorUsuarios = new System.Windows.Forms.FlowLayoutPanel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.PictureBox4 = new System.Windows.Forms.PictureBox();
+            this.lblestadoLicencia = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.lblestadoLicencia = new System.Windows.Forms.Label();
-            this.PictureBox4 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.PanelUsuarios = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.PanelMostradorUsuarios = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.PanelContraseña.SuspendLayout();
             this.panel6.SuspendLayout();
             this.PanelIngresarContraseña.SuspendLayout();
@@ -80,14 +80,14 @@
             this.panel14.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel11.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.PanelVisorDeUsuarios.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.PanelUsuarios.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox4)).BeginInit();
-            this.panel2.SuspendLayout();
-            this.PanelUsuarios.SuspendLayout();
-            this.panel5.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // PanelContraseña
@@ -479,6 +479,54 @@
             this.lblempresa.Text = "-";
             this.lblempresa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.label1);
+            this.panel5.Controls.Add(this.panel9);
+            this.panel5.Controls.Add(this.panel8);
+            this.panel5.Controls.Add(this.panel7);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(311, 711);
+            this.panel5.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Black;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.label1.Location = new System.Drawing.Point(26, 285);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(262, 54);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "SISGERES";
+            // 
+            // panel9
+            // 
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel9.Location = new System.Drawing.Point(0, 674);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(311, 12);
+            this.panel9.TabIndex = 4;
+            // 
+            // panel8
+            // 
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel8.Location = new System.Drawing.Point(0, 686);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(311, 25);
+            this.panel8.TabIndex = 2;
+            // 
+            // panel7
+            // 
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(311, 105);
+            this.panel7.TabIndex = 1;
+            // 
             // PanelVisorDeUsuarios
             // 
             this.PanelVisorDeUsuarios.Controls.Add(this.PanelUsuarios);
@@ -489,6 +537,93 @@
             this.PanelVisorDeUsuarios.Name = "PanelVisorDeUsuarios";
             this.PanelVisorDeUsuarios.Size = new System.Drawing.Size(434, 542);
             this.PanelVisorDeUsuarios.TabIndex = 0;
+            // 
+            // PanelUsuarios
+            // 
+            this.PanelUsuarios.Controls.Add(this.PanelMostradorUsuarios);
+            this.PanelUsuarios.Controls.Add(this.label2);
+            this.PanelUsuarios.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PanelUsuarios.Location = new System.Drawing.Point(50, 125);
+            this.PanelUsuarios.Name = "PanelUsuarios";
+            this.PanelUsuarios.Size = new System.Drawing.Size(334, 417);
+            this.PanelUsuarios.TabIndex = 3;
+            // 
+            // PanelMostradorUsuarios
+            // 
+            this.PanelMostradorUsuarios.AutoScroll = true;
+            this.PanelMostradorUsuarios.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PanelMostradorUsuarios.Location = new System.Drawing.Point(0, 110);
+            this.PanelMostradorUsuarios.Name = "PanelMostradorUsuarios";
+            this.PanelMostradorUsuarios.Size = new System.Drawing.Size(334, 307);
+            this.PanelMostradorUsuarios.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 33F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(334, 110);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "¿Quien esta Iniciando Sesión?";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel4
+            // 
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel4.Location = new System.Drawing.Point(384, 125);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(50, 417);
+            this.panel4.TabIndex = 5;
+            // 
+            // panel3
+            // 
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel3.Location = new System.Drawing.Point(0, 125);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(50, 417);
+            this.panel3.TabIndex = 4;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.panel10);
+            this.panel2.Controls.Add(this.panel1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(434, 125);
+            this.panel2.TabIndex = 2;
+            // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.PictureBox4);
+            this.panel10.Controls.Add(this.lblestadoLicencia);
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel10.Location = new System.Drawing.Point(210, 0);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(224, 125);
+            this.panel10.TabIndex = 2;
+            // 
+            // PictureBox4
+            // 
+            this.PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox4.Image")));
+            this.PictureBox4.Location = new System.Drawing.Point(8, 12);
+            this.PictureBox4.Name = "PictureBox4";
+            this.PictureBox4.Size = new System.Drawing.Size(23, 17);
+            this.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBox4.TabIndex = 623;
+            this.PictureBox4.TabStop = false;
+            // 
+            // lblestadoLicencia
+            // 
+            this.lblestadoLicencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblestadoLicencia.ForeColor = System.Drawing.Color.White;
+            this.lblestadoLicencia.Location = new System.Drawing.Point(37, 12);
+            this.lblestadoLicencia.Name = "lblestadoLicencia";
+            this.lblestadoLicencia.Size = new System.Drawing.Size(184, 105);
+            this.lblestadoLicencia.TabIndex = 622;
+            this.lblestadoLicencia.Text = "Licencia ";
             // 
             // panel1
             // 
@@ -509,141 +644,6 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // panel10
-            // 
-            this.panel10.Controls.Add(this.PictureBox4);
-            this.panel10.Controls.Add(this.lblestadoLicencia);
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel10.Location = new System.Drawing.Point(210, 0);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(224, 125);
-            this.panel10.TabIndex = 2;
-            // 
-            // lblestadoLicencia
-            // 
-            this.lblestadoLicencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblestadoLicencia.ForeColor = System.Drawing.Color.White;
-            this.lblestadoLicencia.Location = new System.Drawing.Point(37, 12);
-            this.lblestadoLicencia.Name = "lblestadoLicencia";
-            this.lblestadoLicencia.Size = new System.Drawing.Size(184, 105);
-            this.lblestadoLicencia.TabIndex = 622;
-            this.lblestadoLicencia.Text = "Licencia ";
-            // 
-            // PictureBox4
-            // 
-            this.PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox4.Image")));
-            this.PictureBox4.Location = new System.Drawing.Point(8, 12);
-            this.PictureBox4.Name = "PictureBox4";
-            this.PictureBox4.Size = new System.Drawing.Size(23, 17);
-            this.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PictureBox4.TabIndex = 623;
-            this.PictureBox4.TabStop = false;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.panel10);
-            this.panel2.Controls.Add(this.panel1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(434, 125);
-            this.panel2.TabIndex = 2;
-            // 
-            // panel3
-            // 
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(0, 125);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(50, 417);
-            this.panel3.TabIndex = 4;
-            // 
-            // panel4
-            // 
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(384, 125);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(50, 417);
-            this.panel4.TabIndex = 5;
-            // 
-            // PanelUsuarios
-            // 
-            this.PanelUsuarios.Controls.Add(this.PanelMostradorUsuarios);
-            this.PanelUsuarios.Controls.Add(this.label2);
-            this.PanelUsuarios.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelUsuarios.Location = new System.Drawing.Point(50, 125);
-            this.PanelUsuarios.Name = "PanelUsuarios";
-            this.PanelUsuarios.Size = new System.Drawing.Size(334, 417);
-            this.PanelUsuarios.TabIndex = 3;
-            // 
-            // label2
-            // 
-            this.label2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 33F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(0, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(334, 110);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "¿Quien esta Iniciando Sesión?";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // PanelMostradorUsuarios
-            // 
-            this.PanelMostradorUsuarios.AutoScroll = true;
-            this.PanelMostradorUsuarios.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelMostradorUsuarios.Location = new System.Drawing.Point(0, 110);
-            this.PanelMostradorUsuarios.Name = "PanelMostradorUsuarios";
-            this.PanelMostradorUsuarios.Size = new System.Drawing.Size(334, 307);
-            this.PanelMostradorUsuarios.TabIndex = 3;
-            // 
-            // panel7
-            // 
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(311, 105);
-            this.panel7.TabIndex = 1;
-            // 
-            // panel8
-            // 
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel8.Location = new System.Drawing.Point(0, 686);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(311, 25);
-            this.panel8.TabIndex = 2;
-            // 
-            // panel9
-            // 
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel9.Location = new System.Drawing.Point(0, 674);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(311, 12);
-            this.panel9.TabIndex = 4;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Black;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.label1.Location = new System.Drawing.Point(26, 285);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(262, 54);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "SISGERES";
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.label1);
-            this.panel5.Controls.Add(this.panel9);
-            this.panel5.Controls.Add(this.panel8);
-            this.panel5.Controls.Add(this.panel7);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(311, 711);
-            this.panel5.TabIndex = 0;
             // 
             // LoginForm
             // 
@@ -668,15 +668,15 @@
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
             this.panel11.ResumeLayout(false);
-            this.PanelVisorDeUsuarios.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel10.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox4)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.PanelUsuarios.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            this.PanelVisorDeUsuarios.ResumeLayout(false);
+            this.PanelUsuarios.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox4)).EndInit();
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

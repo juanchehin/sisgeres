@@ -38,7 +38,7 @@
     <ApplicationIcon>logo-transparente-4.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationManifest>bumam.manifest</ApplicationManifest>
+    <ApplicationManifest>sisgeres.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
@@ -710,7 +710,7 @@
       <DependentUpon>Snotasdebito.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
-    <None Include="bumam.manifest" />
+    <None Include="sisgeres.manifest" />
     <None Include="Connected Services\servicioFacturacion2021\billService.wsdl" />
     <None Include="Connected Services\servicioFacturacion2021\billService.xsd">
       <SubType>Designer</SubType>
@@ -762,7 +762,7 @@
     <None Include="Resources\boton-de-stop-de-un-reproductor-de-video.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Buman.png" />
+    <None Include="Resources\sisgeres.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\calendario.png" />

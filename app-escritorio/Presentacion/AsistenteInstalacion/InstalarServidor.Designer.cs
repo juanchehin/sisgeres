@@ -486,7 +486,7 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.txtsoftware.Name = "txtsoftware";
             this.txtsoftware.Size = new System.Drawing.Size(134, 20);
             this.txtsoftware.TabIndex = 624;
-            this.txtsoftware.Text = "buman";
+            this.txtsoftware.Text = "sisgeres";
             // 
             // label3
             // 
@@ -546,7 +546,7 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.txtusuario.Name = "txtusuario";
             this.txtusuario.Size = new System.Drawing.Size(122, 20);
             this.txtusuario.TabIndex = 626;
-            this.txtusuario.Text = "buman";
+            this.txtusuario.Text = "sisgeres";
             // 
             // btnvolver
             // 
