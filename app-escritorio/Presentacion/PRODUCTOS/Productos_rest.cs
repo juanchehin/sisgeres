@@ -299,8 +299,15 @@ namespace sisgeres.Presentacion.PRODUCTOS
                 cmd.SelectCommand.Parameters.AddWithValue("@id_grupo", id_grupo);
                 cmd.SelectCommand.Parameters.AddWithValue("@buscador", txtbuscarproductos.Text);
                 var dt = new DataTable();
+
                 cmd.Fill(dt);
-                foreach (DataRow rdr in dt.Rows)
+
+                var newDt = dt.AsEnumerable()
+                    .GroupBy(x => x.Field<int>("Id_Producto1"))
+                    .Select(y => y.First())
+                    .CopyToDataTable();
+
+                foreach (DataRow rdr in newDt.Rows)
                 {
                     Label lblprecio = new Label();
                     Label b = new Label();
