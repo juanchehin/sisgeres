@@ -9,7 +9,7 @@ using Android.OS;
 
 namespace RestApp.Droid
 {
-    [Activity(Label = "Bumam", Icon = "@mipmap/bumamlogo", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation,ScreenOrientation =ScreenOrientation.Landscape)]
+    [Activity(Label = "Sisgeres", Icon = "@mipmap/sisgeres", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation,ScreenOrientation =ScreenOrientation.Landscape)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)

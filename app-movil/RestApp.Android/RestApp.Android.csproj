@@ -116,25 +116,22 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Buman.png" />
+    <AndroidResource Include="Resources\drawable\sisgeres.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-hdpi\bumamlogo.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\sisgeres.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-mdpi\bumamlogo.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\sisgeres.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xhdpi\bumamlogo.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\sisgeres.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxhdpi\bumamlogo.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\sisgeres.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxxhdpi\bumamlogo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\bumamlogo.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\sisgeres.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>

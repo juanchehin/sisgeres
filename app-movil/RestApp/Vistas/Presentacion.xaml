@@ -19,12 +19,12 @@
         </degradado:PancakeView>
      
             <StackLayout VerticalOptions="CenterAndExpand" >
-                <Image Source="Buman.png"
+                <Image Source="sisgeres.png"
                        Margin="5" x:Name="Logo"/>
                 <Label TextColor="#F8F9FA" Text="from"
                        HorizontalOptions="CenterAndExpand"/>
             <Label TextColor="#F0F0F0" 
-                       Text="C O D I G O 369"
+                       Text="Slider Tucuman"
                        HorizontalOptions="CenterAndExpand"
                        FontSize="20"
                        FontAttributes="Bold"/>
