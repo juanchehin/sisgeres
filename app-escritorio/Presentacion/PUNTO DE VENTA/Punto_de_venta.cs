@@ -1131,10 +1131,11 @@ namespace sisgeres.Presentacion.PUNTO_DE_VENTA
                 cmd.Parameters.AddWithValue("@Hasta", paginaMaximaPro);
                 SqlDataReader rdr = cmd.ExecuteReader();
 
+                List<string> productos_grupo = new List<string>();
                 while (rdr.Read())
                 {
                     // Este if esta por el SP me tira productos repetidos
-                    if (this.idComprobar != rdr["Id_Producto1"].ToString())
+                    if (!productos_grupo.Exists(p => p.Equals(rdr["Id_Producto1"].ToString())) )
                     {
                         Label b = new Label();
                         Panel p1 = new Panel();
@@ -1192,7 +1193,9 @@ namespace sisgeres.Presentacion.PUNTO_DE_VENTA
 
                     }
 
-                    this.idComprobar = rdr["Id_Producto1"].ToString();
+                    productos_grupo.Add(rdr["Id_Producto1"].ToString());
+
+                    //this.idComprobar = rdr["Id_Producto1"].ToString();
 
                 }
                 CONEXIONMAESTRA.cerrar();

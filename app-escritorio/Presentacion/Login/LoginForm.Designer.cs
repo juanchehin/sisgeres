@@ -72,6 +72,7 @@
             this.lblestadoLicencia = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.PanelContraseña.SuspendLayout();
             this.panel6.SuspendLayout();
             this.PanelIngresarContraseña.SuspendLayout();
@@ -88,6 +89,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox4)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // PanelContraseña
@@ -481,6 +483,7 @@
             // 
             // panel5
             // 
+            this.panel5.Controls.Add(this.pictureBox2);
             this.panel5.Controls.Add(this.label1);
             this.panel5.Controls.Add(this.panel9);
             this.panel5.Controls.Add(this.panel8);
@@ -495,11 +498,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Black;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Leelawadee UI Semilight", 35F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.label1.Location = new System.Drawing.Point(26, 285);
+            this.label1.Location = new System.Drawing.Point(49, 405);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(262, 54);
+            this.label1.Size = new System.Drawing.Size(218, 62);
             this.label1.TabIndex = 5;
             this.label1.Text = "SISGERES";
             // 
@@ -645,6 +648,16 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(60, 288);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(181, 87);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 6;
+            this.pictureBox2.TabStop = false;
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -677,6 +690,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox4)).EndInit();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -725,5 +739,6 @@
         internal System.Windows.Forms.Label lblestadoLicencia;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
