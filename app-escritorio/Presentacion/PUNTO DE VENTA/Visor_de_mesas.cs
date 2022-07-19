@@ -383,7 +383,7 @@ namespace sisgeres.Presentacion.PUNTO_DE_VENTA
             else if (Union_de_mesas == "ACTIVADO")
             {
                 idmesa = Convert.ToInt32(((Button)sender).Name);
-                estado_de_mesa = (((Button)sender).Tag).ToString();
+                estado_de_mesa = ((Button)sender).Tag.ToString();
                 if (estado_de_mesa == "OCUPADO")
                 {
                     Paso += 1;
