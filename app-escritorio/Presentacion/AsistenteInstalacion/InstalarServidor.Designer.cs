@@ -44,59 +44,59 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.GroupBox2 = new System.Windows.Forms.GroupBox();
             this.txtCrear_procedimientos = new System.Windows.Forms.RichTextBox();
             this.Panel10 = new System.Windows.Forms.Panel();
-            this.txtservidor = new System.Windows.Forms.Label();
-            this.mils2 = new System.Windows.Forms.Label();
-            this.milise = new System.Windows.Forms.Label();
-            this.seg2 = new System.Windows.Forms.Label();
-            this.Label7 = new System.Windows.Forms.Label();
-            this.min2 = new System.Windows.Forms.Label();
             this.GroupBox1 = new System.Windows.Forms.GroupBox();
-            this.lblRutaInstancia = new System.Windows.Forms.Label();
             this.txtEliminarBase = new System.Windows.Forms.RichTextBox();
+            this.lblRutaInstancia = new System.Windows.Forms.Label();
+            this.min2 = new System.Windows.Forms.Label();
+            this.Label7 = new System.Windows.Forms.Label();
+            this.seg2 = new System.Windows.Forms.Label();
+            this.milise = new System.Windows.Forms.Label();
+            this.mils2 = new System.Windows.Forms.Label();
+            this.txtservidor = new System.Windows.Forms.Label();
             this.GroupBox3 = new System.Windows.Forms.GroupBox();
             this.txtArgumentosini = new System.Windows.Forms.RichTextBox();
             this.GroupBox4 = new System.Windows.Forms.GroupBox();
-            this.lblcontraseña = new System.Windows.Forms.TextBox();
-            this.lblnombredeservicio = new System.Windows.Forms.TextBox();
-            this.TXTbasededatos = new System.Windows.Forms.TextBox();
-            this.Label11 = new System.Windows.Forms.Label();
-            this.txtnombre_scrypt = new System.Windows.Forms.TextBox();
-            this.Label9 = new System.Windows.Forms.Label();
-            this.lblBasededatos = new System.Windows.Forms.Label();
-            this.Label6 = new System.Windows.Forms.Label();
-            this.Label8 = new System.Windows.Forms.Label();
-            this.txtsoftware = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.Label12 = new System.Windows.Forms.Label();
-            this.Label13 = new System.Windows.Forms.Label();
-            this.Label14 = new System.Windows.Forms.Label();
-            this.Label15 = new System.Windows.Forms.Label();
             this.txtusuario = new System.Windows.Forms.TextBox();
+            this.Label15 = new System.Windows.Forms.Label();
+            this.Label14 = new System.Windows.Forms.Label();
+            this.Label13 = new System.Windows.Forms.Label();
+            this.Label12 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtsoftware = new System.Windows.Forms.TextBox();
+            this.Label8 = new System.Windows.Forms.Label();
+            this.Label6 = new System.Windows.Forms.Label();
+            this.lblBasededatos = new System.Windows.Forms.Label();
+            this.Label9 = new System.Windows.Forms.Label();
+            this.txtnombre_scrypt = new System.Windows.Forms.TextBox();
+            this.Label11 = new System.Windows.Forms.Label();
+            this.TXTbasededatos = new System.Windows.Forms.TextBox();
+            this.lblnombredeservicio = new System.Windows.Forms.TextBox();
+            this.lblcontraseña = new System.Windows.Forms.TextBox();
             this.btnvolver = new System.Windows.Forms.Button();
             this.btnTransmision = new System.Windows.Forms.Button();
             this.GroupBox5 = new System.Windows.Forms.GroupBox();
             this.btnInstalarServi = new System.Windows.Forms.Button();
             this.GroupBox6 = new System.Windows.Forms.GroupBox();
-            this.txtCrearUsuarioDb = new System.Windows.Forms.TextBox();
-            this.mil3 = new System.Windows.Forms.Label();
             this.seg3 = new System.Windows.Forms.Label();
+            this.mil3 = new System.Windows.Forms.Label();
+            this.txtCrearUsuarioDb = new System.Windows.Forms.TextBox();
             this.PanelDios = new System.Windows.Forms.Panel();
             this.btnInstalarServidor = new System.Windows.Forms.Button();
             this.Panel9 = new System.Windows.Forms.Panel();
-            this.Panel1 = new System.Windows.Forms.Panel();
             this.lblbuscador_de_servidores = new System.Windows.Forms.Label();
+            this.Panel1 = new System.Windows.Forms.Panel();
             this.Panel4 = new System.Windows.Forms.Panel();
-            this.Panel5 = new System.Windows.Forms.Panel();
-            this.PictureBox1 = new System.Windows.Forms.PictureBox();
-            this.Label1 = new System.Windows.Forms.Label();
-            this.Panel6 = new System.Windows.Forms.Panel();
-            this.Label2 = new System.Windows.Forms.Label();
-            this.Panel7 = new System.Windows.Forms.Panel();
-            this.seg = new System.Windows.Forms.Label();
-            this.Label4 = new System.Windows.Forms.Label();
-            this.min = new System.Windows.Forms.Label();
-            this.Label5 = new System.Windows.Forms.Label();
             this.PictureBox2 = new System.Windows.Forms.PictureBox();
+            this.Panel6 = new System.Windows.Forms.Panel();
+            this.Panel7 = new System.Windows.Forms.Panel();
+            this.Label5 = new System.Windows.Forms.Label();
+            this.min = new System.Windows.Forms.Label();
+            this.Label4 = new System.Windows.Forms.Label();
+            this.seg = new System.Windows.Forms.Label();
+            this.Label2 = new System.Windows.Forms.Label();
+            this.Label1 = new System.Windows.Forms.Label();
+            this.PictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Panel5 = new System.Windows.Forms.Panel();
             this.Panel2 = new System.Windows.Forms.Panel();
             this.Panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox7)).BeginInit();
@@ -111,10 +111,10 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.PanelDios.SuspendLayout();
             this.Panel9.SuspendLayout();
             this.Panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
             this.Panel6.SuspendLayout();
             this.Panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
             this.Panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -131,7 +131,7 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             // 
             // PictureBox7
             // 
-            this.PictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox7.Image")));
+            this.PictureBox7.Image = global::sisgeres.Properties.Resources.food_tray;
             this.PictureBox7.Location = new System.Drawing.Point(12, 12);
             this.PictureBox7.Name = "PictureBox7";
             this.PictureBox7.Size = new System.Drawing.Size(110, 63);
@@ -256,66 +256,6 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.Panel10.Size = new System.Drawing.Size(531, 135);
             this.Panel10.TabIndex = 608;
             // 
-            // txtservidor
-            // 
-            this.txtservidor.AutoSize = true;
-            this.txtservidor.ForeColor = System.Drawing.Color.White;
-            this.txtservidor.Location = new System.Drawing.Point(167, 72);
-            this.txtservidor.Name = "txtservidor";
-            this.txtservidor.Size = new System.Drawing.Size(16, 13);
-            this.txtservidor.TabIndex = 611;
-            this.txtservidor.Text = "---";
-            // 
-            // mils2
-            // 
-            this.mils2.AutoSize = true;
-            this.mils2.ForeColor = System.Drawing.Color.White;
-            this.mils2.Location = new System.Drawing.Point(208, 110);
-            this.mils2.Name = "mils2";
-            this.mils2.Size = new System.Drawing.Size(19, 13);
-            this.mils2.TabIndex = 618;
-            this.mils2.Text = "00";
-            // 
-            // milise
-            // 
-            this.milise.AutoSize = true;
-            this.milise.ForeColor = System.Drawing.Color.White;
-            this.milise.Location = new System.Drawing.Point(130, 85);
-            this.milise.Name = "milise";
-            this.milise.Size = new System.Drawing.Size(19, 13);
-            this.milise.TabIndex = 618;
-            this.milise.Text = "00";
-            // 
-            // seg2
-            // 
-            this.seg2.AutoSize = true;
-            this.seg2.ForeColor = System.Drawing.Color.White;
-            this.seg2.Location = new System.Drawing.Point(127, 110);
-            this.seg2.Name = "seg2";
-            this.seg2.Size = new System.Drawing.Size(19, 13);
-            this.seg2.TabIndex = 618;
-            this.seg2.Text = "00";
-            // 
-            // Label7
-            // 
-            this.Label7.AutoSize = true;
-            this.Label7.ForeColor = System.Drawing.Color.White;
-            this.Label7.Location = new System.Drawing.Point(112, 72);
-            this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(49, 13);
-            this.Label7.TabIndex = 618;
-            this.Label7.Text = "Servidor:";
-            // 
-            // min2
-            // 
-            this.min2.AutoSize = true;
-            this.min2.ForeColor = System.Drawing.Color.White;
-            this.min2.Location = new System.Drawing.Point(102, 110);
-            this.min2.Name = "min2";
-            this.min2.Size = new System.Drawing.Size(19, 13);
-            this.min2.TabIndex = 618;
-            this.min2.Text = "00";
-            // 
             // GroupBox1
             // 
             this.GroupBox1.Controls.Add(this.txtEliminarBase);
@@ -329,6 +269,16 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.GroupBox1.TabStop = false;
             this.GroupBox1.Text = "Script para Eliminar la base de datos NO TOCAR";
             // 
+            // txtEliminarBase
+            // 
+            this.txtEliminarBase.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEliminarBase.Location = new System.Drawing.Point(8, 25);
+            this.txtEliminarBase.Name = "txtEliminarBase";
+            this.txtEliminarBase.Size = new System.Drawing.Size(487, 77);
+            this.txtEliminarBase.TabIndex = 589;
+            this.txtEliminarBase.Text = "alter database BASEADA set single_user with rollback immediate \nDROP DATABASE BAS" +
+    "EADA";
+            // 
             // lblRutaInstancia
             // 
             this.lblRutaInstancia.AutoSize = true;
@@ -339,15 +289,65 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.lblRutaInstancia.TabIndex = 605;
             this.lblRutaInstancia.Text = "lblRutaInstancia";
             // 
-            // txtEliminarBase
+            // min2
             // 
-            this.txtEliminarBase.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEliminarBase.Location = new System.Drawing.Point(8, 25);
-            this.txtEliminarBase.Name = "txtEliminarBase";
-            this.txtEliminarBase.Size = new System.Drawing.Size(487, 77);
-            this.txtEliminarBase.TabIndex = 589;
-            this.txtEliminarBase.Text = "alter database BASEADA set single_user with rollback immediate \nDROP DATABASE BAS" +
-    "EADA";
+            this.min2.AutoSize = true;
+            this.min2.ForeColor = System.Drawing.Color.White;
+            this.min2.Location = new System.Drawing.Point(102, 110);
+            this.min2.Name = "min2";
+            this.min2.Size = new System.Drawing.Size(19, 13);
+            this.min2.TabIndex = 618;
+            this.min2.Text = "00";
+            // 
+            // Label7
+            // 
+            this.Label7.AutoSize = true;
+            this.Label7.ForeColor = System.Drawing.Color.White;
+            this.Label7.Location = new System.Drawing.Point(112, 72);
+            this.Label7.Name = "Label7";
+            this.Label7.Size = new System.Drawing.Size(49, 13);
+            this.Label7.TabIndex = 618;
+            this.Label7.Text = "Servidor:";
+            // 
+            // seg2
+            // 
+            this.seg2.AutoSize = true;
+            this.seg2.ForeColor = System.Drawing.Color.White;
+            this.seg2.Location = new System.Drawing.Point(127, 110);
+            this.seg2.Name = "seg2";
+            this.seg2.Size = new System.Drawing.Size(19, 13);
+            this.seg2.TabIndex = 618;
+            this.seg2.Text = "00";
+            // 
+            // milise
+            // 
+            this.milise.AutoSize = true;
+            this.milise.ForeColor = System.Drawing.Color.White;
+            this.milise.Location = new System.Drawing.Point(130, 85);
+            this.milise.Name = "milise";
+            this.milise.Size = new System.Drawing.Size(19, 13);
+            this.milise.TabIndex = 618;
+            this.milise.Text = "00";
+            // 
+            // mils2
+            // 
+            this.mils2.AutoSize = true;
+            this.mils2.ForeColor = System.Drawing.Color.White;
+            this.mils2.Location = new System.Drawing.Point(208, 110);
+            this.mils2.Name = "mils2";
+            this.mils2.Size = new System.Drawing.Size(19, 13);
+            this.mils2.TabIndex = 618;
+            this.mils2.Text = "00";
+            // 
+            // txtservidor
+            // 
+            this.txtservidor.AutoSize = true;
+            this.txtservidor.ForeColor = System.Drawing.Color.White;
+            this.txtservidor.Location = new System.Drawing.Point(167, 72);
+            this.txtservidor.Name = "txtservidor";
+            this.txtservidor.Size = new System.Drawing.Size(16, 13);
+            this.txtservidor.TabIndex = 611;
+            this.txtservidor.Text = "---";
             // 
             // GroupBox3
             // 
@@ -396,107 +396,44 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.GroupBox4.TabStop = false;
             this.GroupBox4.Text = "YA TENGO SQL SERVER INSTALADO";
             // 
-            // lblcontraseña
+            // txtusuario
             // 
-            this.lblcontraseña.Location = new System.Drawing.Point(185, 109);
-            this.lblcontraseña.Name = "lblcontraseña";
-            this.lblcontraseña.Size = new System.Drawing.Size(134, 20);
-            this.lblcontraseña.TabIndex = 621;
-            this.lblcontraseña.Text = "softwarereal";
+            this.txtusuario.Location = new System.Drawing.Point(184, 83);
+            this.txtusuario.MaxLength = 15;
+            this.txtusuario.Name = "txtusuario";
+            this.txtusuario.Size = new System.Drawing.Size(122, 20);
+            this.txtusuario.TabIndex = 626;
+            this.txtusuario.Text = "sisgeres";
             // 
-            // lblnombredeservicio
+            // Label15
             // 
-            this.lblnombredeservicio.Location = new System.Drawing.Point(184, 57);
-            this.lblnombredeservicio.MaxLength = 15;
-            this.lblnombredeservicio.Name = "lblnombredeservicio";
-            this.lblnombredeservicio.Size = new System.Drawing.Size(134, 20);
-            this.lblnombredeservicio.TabIndex = 621;
-            this.lblnombredeservicio.Text = "SQLEXPRESS";
+            this.Label15.AutoSize = true;
+            this.Label15.ForeColor = System.Drawing.Color.White;
+            this.Label15.Location = new System.Drawing.Point(132, 86);
+            this.Label15.Name = "Label15";
+            this.Label15.Size = new System.Drawing.Size(46, 13);
+            this.Label15.TabIndex = 625;
+            this.Label15.Text = "Usuario:";
             // 
-            // TXTbasededatos
+            // Label14
             // 
-            this.TXTbasededatos.Location = new System.Drawing.Point(184, 135);
-            this.TXTbasededatos.Name = "TXTbasededatos";
-            this.TXTbasededatos.Size = new System.Drawing.Size(134, 20);
-            this.TXTbasededatos.TabIndex = 621;
-            this.TXTbasededatos.Text = "BASEBRIsisgeres";
+            this.Label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Label14.Location = new System.Drawing.Point(321, 135);
+            this.Label14.Name = "Label14";
+            this.Label14.Size = new System.Drawing.Size(233, 19);
+            this.Label14.TabIndex = 623;
+            this.Label14.Text = "Se creara una base de datos con este Nombre";
+            this.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Label11
+            // Label13
             // 
-            this.Label11.AutoSize = true;
-            this.Label11.ForeColor = System.Drawing.Color.White;
-            this.Label11.Location = new System.Drawing.Point(270, 164);
-            this.Label11.Name = "Label11";
-            this.Label11.Size = new System.Drawing.Size(27, 13);
-            this.Label11.TabIndex = 618;
-            this.Label11.Text = ".text";
-            // 
-            // txtnombre_scrypt
-            // 
-            this.txtnombre_scrypt.Location = new System.Drawing.Point(185, 161);
-            this.txtnombre_scrypt.Name = "txtnombre_scrypt";
-            this.txtnombre_scrypt.Size = new System.Drawing.Size(79, 20);
-            this.txtnombre_scrypt.TabIndex = 621;
-            this.txtnombre_scrypt.Text = "Scriptbuman";
-            // 
-            // Label9
-            // 
-            this.Label9.AutoSize = true;
-            this.Label9.ForeColor = System.Drawing.Color.White;
-            this.Label9.Location = new System.Drawing.Point(77, 168);
-            this.Label9.Name = "Label9";
-            this.Label9.Size = new System.Drawing.Size(95, 13);
-            this.Label9.TabIndex = 618;
-            this.Label9.Text = "Nombre de Scrypt:";
-            // 
-            // lblBasededatos
-            // 
-            this.lblBasededatos.AutoSize = true;
-            this.lblBasededatos.ForeColor = System.Drawing.Color.White;
-            this.lblBasededatos.Location = new System.Drawing.Point(92, 141);
-            this.lblBasededatos.Name = "lblBasededatos";
-            this.lblBasededatos.Size = new System.Drawing.Size(78, 13);
-            this.lblBasededatos.TabIndex = 618;
-            this.lblBasededatos.Text = "Base de datos:";
-            // 
-            // Label6
-            // 
-            this.Label6.AutoSize = true;
-            this.Label6.ForeColor = System.Drawing.Color.White;
-            this.Label6.Location = new System.Drawing.Point(83, 112);
-            this.Label6.Name = "Label6";
-            this.Label6.Size = new System.Drawing.Size(88, 13);
-            this.Label6.TabIndex = 618;
-            this.Label6.Text = "Contraseña SQL:";
-            // 
-            // Label8
-            // 
-            this.Label8.AutoSize = true;
-            this.Label8.ForeColor = System.Drawing.Color.White;
-            this.Label8.Location = new System.Drawing.Point(64, 61);
-            this.Label8.Name = "Label8";
-            this.Label8.Size = new System.Drawing.Size(108, 13);
-            this.Label8.TabIndex = 618;
-            this.Label8.Text = "Nombre de Instancia:";
-            // 
-            // txtsoftware
-            // 
-            this.txtsoftware.Location = new System.Drawing.Point(185, 32);
-            this.txtsoftware.MaxLength = 15;
-            this.txtsoftware.Name = "txtsoftware";
-            this.txtsoftware.Size = new System.Drawing.Size(134, 20);
-            this.txtsoftware.TabIndex = 624;
-            this.txtsoftware.Text = "sisgeres";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(31, 41);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(154, 13);
-            this.label3.TabIndex = 623;
-            this.label3.Text = "NOMBRE DE TU SOFTWARE";
+            this.Label13.ForeColor = System.Drawing.Color.Aqua;
+            this.Label13.Location = new System.Drawing.Point(324, 52);
+            this.Label13.Name = "Label13";
+            this.Label13.Size = new System.Drawing.Size(233, 33);
+            this.Label13.TabIndex = 623;
+            this.Label13.Text = "Si ya tienes SQLServer Instalado y NO es Express entonces deja en Blanco este Tex" +
+    "box";
             // 
             // Label12
             // 
@@ -509,44 +446,107 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.Label12.Text = "Usa _ en lugar de espacios y no uses Caracteres especiales solo usa letras y nume" +
     "ros";
             // 
-            // Label13
+            // label3
             // 
-            this.Label13.ForeColor = System.Drawing.Color.Aqua;
-            this.Label13.Location = new System.Drawing.Point(324, 52);
-            this.Label13.Name = "Label13";
-            this.Label13.Size = new System.Drawing.Size(233, 33);
-            this.Label13.TabIndex = 623;
-            this.Label13.Text = "Si ya tienes SQLServer Instalado y NO es Express entonces deja en Blanco este Tex" +
-    "box";
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(31, 41);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(154, 13);
+            this.label3.TabIndex = 623;
+            this.label3.Text = "NOMBRE DE TU SOFTWARE";
             // 
-            // Label14
+            // txtsoftware
             // 
-            this.Label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.Label14.Location = new System.Drawing.Point(321, 135);
-            this.Label14.Name = "Label14";
-            this.Label14.Size = new System.Drawing.Size(233, 19);
-            this.Label14.TabIndex = 623;
-            this.Label14.Text = "Se creara una base de datos con este Nombre";
-            this.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.txtsoftware.Location = new System.Drawing.Point(185, 32);
+            this.txtsoftware.MaxLength = 15;
+            this.txtsoftware.Name = "txtsoftware";
+            this.txtsoftware.Size = new System.Drawing.Size(134, 20);
+            this.txtsoftware.TabIndex = 624;
+            this.txtsoftware.Text = "sisgeres";
             // 
-            // Label15
+            // Label8
             // 
-            this.Label15.AutoSize = true;
-            this.Label15.ForeColor = System.Drawing.Color.White;
-            this.Label15.Location = new System.Drawing.Point(132, 86);
-            this.Label15.Name = "Label15";
-            this.Label15.Size = new System.Drawing.Size(46, 13);
-            this.Label15.TabIndex = 625;
-            this.Label15.Text = "Usuario:";
+            this.Label8.AutoSize = true;
+            this.Label8.ForeColor = System.Drawing.Color.White;
+            this.Label8.Location = new System.Drawing.Point(64, 61);
+            this.Label8.Name = "Label8";
+            this.Label8.Size = new System.Drawing.Size(108, 13);
+            this.Label8.TabIndex = 618;
+            this.Label8.Text = "Nombre de Instancia:";
             // 
-            // txtusuario
+            // Label6
             // 
-            this.txtusuario.Location = new System.Drawing.Point(184, 83);
-            this.txtusuario.MaxLength = 15;
-            this.txtusuario.Name = "txtusuario";
-            this.txtusuario.Size = new System.Drawing.Size(122, 20);
-            this.txtusuario.TabIndex = 626;
-            this.txtusuario.Text = "sisgeres";
+            this.Label6.AutoSize = true;
+            this.Label6.ForeColor = System.Drawing.Color.White;
+            this.Label6.Location = new System.Drawing.Point(83, 112);
+            this.Label6.Name = "Label6";
+            this.Label6.Size = new System.Drawing.Size(88, 13);
+            this.Label6.TabIndex = 618;
+            this.Label6.Text = "Contraseña SQL:";
+            // 
+            // lblBasededatos
+            // 
+            this.lblBasededatos.AutoSize = true;
+            this.lblBasededatos.ForeColor = System.Drawing.Color.White;
+            this.lblBasededatos.Location = new System.Drawing.Point(92, 141);
+            this.lblBasededatos.Name = "lblBasededatos";
+            this.lblBasededatos.Size = new System.Drawing.Size(78, 13);
+            this.lblBasededatos.TabIndex = 618;
+            this.lblBasededatos.Text = "Base de datos:";
+            // 
+            // Label9
+            // 
+            this.Label9.AutoSize = true;
+            this.Label9.ForeColor = System.Drawing.Color.White;
+            this.Label9.Location = new System.Drawing.Point(77, 168);
+            this.Label9.Name = "Label9";
+            this.Label9.Size = new System.Drawing.Size(95, 13);
+            this.Label9.TabIndex = 618;
+            this.Label9.Text = "Nombre de Scrypt:";
+            // 
+            // txtnombre_scrypt
+            // 
+            this.txtnombre_scrypt.Location = new System.Drawing.Point(185, 161);
+            this.txtnombre_scrypt.Name = "txtnombre_scrypt";
+            this.txtnombre_scrypt.Size = new System.Drawing.Size(79, 20);
+            this.txtnombre_scrypt.TabIndex = 621;
+            this.txtnombre_scrypt.Text = "Scriptbuman";
+            // 
+            // Label11
+            // 
+            this.Label11.AutoSize = true;
+            this.Label11.ForeColor = System.Drawing.Color.White;
+            this.Label11.Location = new System.Drawing.Point(270, 164);
+            this.Label11.Name = "Label11";
+            this.Label11.Size = new System.Drawing.Size(27, 13);
+            this.Label11.TabIndex = 618;
+            this.Label11.Text = ".text";
+            // 
+            // TXTbasededatos
+            // 
+            this.TXTbasededatos.Location = new System.Drawing.Point(184, 135);
+            this.TXTbasededatos.Name = "TXTbasededatos";
+            this.TXTbasededatos.Size = new System.Drawing.Size(134, 20);
+            this.TXTbasededatos.TabIndex = 621;
+            this.TXTbasededatos.Text = "BASEBRIsisgeres";
+            // 
+            // lblnombredeservicio
+            // 
+            this.lblnombredeservicio.Location = new System.Drawing.Point(184, 57);
+            this.lblnombredeservicio.MaxLength = 15;
+            this.lblnombredeservicio.Name = "lblnombredeservicio";
+            this.lblnombredeservicio.Size = new System.Drawing.Size(134, 20);
+            this.lblnombredeservicio.TabIndex = 621;
+            this.lblnombredeservicio.Text = "SQLEXPRESS";
+            // 
+            // lblcontraseña
+            // 
+            this.lblcontraseña.Location = new System.Drawing.Point(185, 109);
+            this.lblcontraseña.Name = "lblcontraseña";
+            this.lblcontraseña.Size = new System.Drawing.Size(134, 20);
+            this.lblcontraseña.TabIndex = 621;
+            this.lblcontraseña.Text = "softwarereal";
             // 
             // btnvolver
             // 
@@ -620,14 +620,15 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.GroupBox6.TabStop = false;
             this.GroupBox6.Text = "Servira para Crear un Usuario para el Servidor - NO TOCAR";
             // 
-            // txtCrearUsuarioDb
+            // seg3
             // 
-            this.txtCrearUsuarioDb.Location = new System.Drawing.Point(6, 37);
-            this.txtCrearUsuarioDb.Multiline = true;
-            this.txtCrearUsuarioDb.Name = "txtCrearUsuarioDb";
-            this.txtCrearUsuarioDb.Size = new System.Drawing.Size(162, 192);
-            this.txtCrearUsuarioDb.TabIndex = 629;
-            this.txtCrearUsuarioDb.Text = resources.GetString("txtCrearUsuarioDb.Text");
+            this.seg3.AutoSize = true;
+            this.seg3.ForeColor = System.Drawing.Color.White;
+            this.seg3.Location = new System.Drawing.Point(127, 256);
+            this.seg3.Name = "seg3";
+            this.seg3.Size = new System.Drawing.Size(13, 13);
+            this.seg3.TabIndex = 631;
+            this.seg3.Text = "0";
             // 
             // mil3
             // 
@@ -639,15 +640,14 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.mil3.TabIndex = 630;
             this.mil3.Text = "0";
             // 
-            // seg3
+            // txtCrearUsuarioDb
             // 
-            this.seg3.AutoSize = true;
-            this.seg3.ForeColor = System.Drawing.Color.White;
-            this.seg3.Location = new System.Drawing.Point(127, 256);
-            this.seg3.Name = "seg3";
-            this.seg3.Size = new System.Drawing.Size(13, 13);
-            this.seg3.TabIndex = 631;
-            this.seg3.Text = "0";
+            this.txtCrearUsuarioDb.Location = new System.Drawing.Point(6, 37);
+            this.txtCrearUsuarioDb.Multiline = true;
+            this.txtCrearUsuarioDb.Name = "txtCrearUsuarioDb";
+            this.txtCrearUsuarioDb.Size = new System.Drawing.Size(162, 192);
+            this.txtCrearUsuarioDb.TabIndex = 629;
+            this.txtCrearUsuarioDb.Text = resources.GetString("txtCrearUsuarioDb.Text");
             // 
             // PanelDios
             // 
@@ -692,15 +692,6 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.Panel9.Size = new System.Drawing.Size(452, 153);
             this.Panel9.TabIndex = 619;
             // 
-            // Panel1
-            // 
-            this.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel1.BackgroundImage")));
-            this.Panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.Panel1.Location = new System.Drawing.Point(0, 0);
-            this.Panel1.Name = "Panel1";
-            this.Panel1.Size = new System.Drawing.Size(3, 153);
-            this.Panel1.TabIndex = 615;
-            // 
             // lblbuscador_de_servidores
             // 
             this.lblbuscador_de_servidores.BackColor = System.Drawing.Color.Transparent;
@@ -713,6 +704,15 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.lblbuscador_de_servidores.TabIndex = 614;
             this.lblbuscador_de_servidores.Text = "Buscando servidores instalados...";
             this.lblbuscador_de_servidores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // Panel1
+            // 
+            this.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel1.BackgroundImage")));
+            this.Panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.Panel1.Location = new System.Drawing.Point(0, 0);
+            this.Panel1.Name = "Panel1";
+            this.Panel1.Size = new System.Drawing.Size(3, 153);
+            this.Panel1.TabIndex = 615;
             // 
             // Panel4
             // 
@@ -728,26 +728,96 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.Panel4.TabIndex = 618;
             this.Panel4.Visible = false;
             // 
-            // Panel5
+            // PictureBox2
             // 
-            this.Panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.Panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Panel5.Location = new System.Drawing.Point(0, 0);
-            this.Panel5.Name = "Panel5";
-            this.Panel5.Size = new System.Drawing.Size(482, 13);
-            this.Panel5.TabIndex = 618;
+            this.PictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.PictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox2.Image")));
+            this.PictureBox2.Location = new System.Drawing.Point(0, 307);
+            this.PictureBox2.Name = "PictureBox2";
+            this.PictureBox2.Size = new System.Drawing.Size(482, 249);
+            this.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBox2.TabIndex = 617;
+            this.PictureBox2.TabStop = false;
             // 
-            // PictureBox1
+            // Panel6
             // 
-            this.PictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.PictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
-            this.PictureBox1.Location = new System.Drawing.Point(0, 13);
-            this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.Size = new System.Drawing.Size(482, 57);
-            this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PictureBox1.TabIndex = 604;
-            this.PictureBox1.TabStop = false;
+            this.Panel6.Controls.Add(this.Panel7);
+            this.Panel6.Controls.Add(this.Label2);
+            this.Panel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Panel6.Location = new System.Drawing.Point(0, 243);
+            this.Panel6.Name = "Panel6";
+            this.Panel6.Size = new System.Drawing.Size(482, 64);
+            this.Panel6.TabIndex = 620;
+            // 
+            // Panel7
+            // 
+            this.Panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.Panel7.Controls.Add(this.Label5);
+            this.Panel7.Controls.Add(this.min);
+            this.Panel7.Controls.Add(this.Label4);
+            this.Panel7.Controls.Add(this.seg);
+            this.Panel7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Panel7.Location = new System.Drawing.Point(280, 0);
+            this.Panel7.Name = "Panel7";
+            this.Panel7.Size = new System.Drawing.Size(202, 64);
+            this.Panel7.TabIndex = 619;
+            // 
+            // Label5
+            // 
+            this.Label5.AutoSize = true;
+            this.Label5.ForeColor = System.Drawing.Color.White;
+            this.Label5.Location = new System.Drawing.Point(63, 10);
+            this.Label5.Name = "Label5";
+            this.Label5.Size = new System.Drawing.Size(23, 13);
+            this.Label5.TabIndex = 618;
+            this.Label5.Text = "min";
+            // 
+            // min
+            // 
+            this.min.AutoSize = true;
+            this.min.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.min.ForeColor = System.Drawing.Color.White;
+            this.min.Location = new System.Drawing.Point(59, 33);
+            this.min.Name = "min";
+            this.min.Size = new System.Drawing.Size(27, 20);
+            this.min.TabIndex = 618;
+            this.min.Text = "00";
+            // 
+            // Label4
+            // 
+            this.Label4.AutoSize = true;
+            this.Label4.ForeColor = System.Drawing.Color.White;
+            this.Label4.Location = new System.Drawing.Point(125, 10);
+            this.Label4.Name = "Label4";
+            this.Label4.Size = new System.Drawing.Size(24, 13);
+            this.Label4.TabIndex = 618;
+            this.Label4.Text = "seg";
+            // 
+            // seg
+            // 
+            this.seg.AutoSize = true;
+            this.seg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.seg.ForeColor = System.Drawing.Color.White;
+            this.seg.Location = new System.Drawing.Point(125, 33);
+            this.seg.Name = "seg";
+            this.seg.Size = new System.Drawing.Size(27, 20);
+            this.seg.TabIndex = 618;
+            this.seg.Text = "00";
+            // 
+            // Label2
+            // 
+            this.Label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.Label2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Label2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.Label2.ForeColor = System.Drawing.Color.DarkGray;
+            this.Label2.Location = new System.Drawing.Point(0, 0);
+            this.Label2.Name = "Label2";
+            this.Label2.Size = new System.Drawing.Size(280, 64);
+            this.Label2.TabIndex = 619;
+            this.Label2.Text = "Tiempo estimado: 6 minutos";
+            this.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Label1
             // 
@@ -764,96 +834,26 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
     "do este todo Listo";
             this.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Panel6
+            // PictureBox1
             // 
-            this.Panel6.Controls.Add(this.Panel7);
-            this.Panel6.Controls.Add(this.Label2);
-            this.Panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Panel6.Location = new System.Drawing.Point(0, 243);
-            this.Panel6.Name = "Panel6";
-            this.Panel6.Size = new System.Drawing.Size(482, 64);
-            this.Panel6.TabIndex = 620;
+            this.PictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.PictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
+            this.PictureBox1.Location = new System.Drawing.Point(0, 13);
+            this.PictureBox1.Name = "PictureBox1";
+            this.PictureBox1.Size = new System.Drawing.Size(482, 57);
+            this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBox1.TabIndex = 604;
+            this.PictureBox1.TabStop = false;
             // 
-            // Label2
+            // Panel5
             // 
-            this.Label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.Label2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Label2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.Label2.ForeColor = System.Drawing.Color.DarkGray;
-            this.Label2.Location = new System.Drawing.Point(0, 0);
-            this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(280, 64);
-            this.Label2.TabIndex = 619;
-            this.Label2.Text = "Tiempo estimado: 6 minutos";
-            this.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Panel7
-            // 
-            this.Panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.Panel7.Controls.Add(this.Label5);
-            this.Panel7.Controls.Add(this.min);
-            this.Panel7.Controls.Add(this.Label4);
-            this.Panel7.Controls.Add(this.seg);
-            this.Panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel7.Location = new System.Drawing.Point(280, 0);
-            this.Panel7.Name = "Panel7";
-            this.Panel7.Size = new System.Drawing.Size(202, 64);
-            this.Panel7.TabIndex = 619;
-            // 
-            // seg
-            // 
-            this.seg.AutoSize = true;
-            this.seg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seg.ForeColor = System.Drawing.Color.White;
-            this.seg.Location = new System.Drawing.Point(125, 33);
-            this.seg.Name = "seg";
-            this.seg.Size = new System.Drawing.Size(27, 20);
-            this.seg.TabIndex = 618;
-            this.seg.Text = "00";
-            // 
-            // Label4
-            // 
-            this.Label4.AutoSize = true;
-            this.Label4.ForeColor = System.Drawing.Color.White;
-            this.Label4.Location = new System.Drawing.Point(125, 10);
-            this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(24, 13);
-            this.Label4.TabIndex = 618;
-            this.Label4.Text = "seg";
-            // 
-            // min
-            // 
-            this.min.AutoSize = true;
-            this.min.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.min.ForeColor = System.Drawing.Color.White;
-            this.min.Location = new System.Drawing.Point(59, 33);
-            this.min.Name = "min";
-            this.min.Size = new System.Drawing.Size(27, 20);
-            this.min.TabIndex = 618;
-            this.min.Text = "00";
-            // 
-            // Label5
-            // 
-            this.Label5.AutoSize = true;
-            this.Label5.ForeColor = System.Drawing.Color.White;
-            this.Label5.Location = new System.Drawing.Point(63, 10);
-            this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(23, 13);
-            this.Label5.TabIndex = 618;
-            this.Label5.Text = "min";
-            // 
-            // PictureBox2
-            // 
-            this.PictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.PictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox2.Image")));
-            this.PictureBox2.Location = new System.Drawing.Point(0, 307);
-            this.PictureBox2.Name = "PictureBox2";
-            this.PictureBox2.Size = new System.Drawing.Size(482, 249);
-            this.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PictureBox2.TabIndex = 617;
-            this.PictureBox2.TabStop = false;
+            this.Panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.Panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Panel5.Location = new System.Drawing.Point(0, 0);
+            this.Panel5.Name = "Panel5";
+            this.Panel5.Size = new System.Drawing.Size(482, 13);
+            this.Panel5.TabIndex = 618;
             // 
             // Panel2
             // 
@@ -898,11 +898,11 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.PanelDios.ResumeLayout(false);
             this.Panel9.ResumeLayout(false);
             this.Panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
             this.Panel6.ResumeLayout(false);
             this.Panel7.ResumeLayout(false);
             this.Panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
             this.Panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 

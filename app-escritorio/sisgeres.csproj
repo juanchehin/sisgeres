@@ -35,7 +35,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>logo-transparente-4.ico</ApplicationIcon>
+    <ApplicationIcon>sisgeres.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>sisgeres.manifest</ApplicationManifest>
@@ -952,6 +952,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="logo-transparente-4.ico" />
+    <None Include="Resources\food-tray.png" />
+    <Content Include="sisgeres.ico" />
+    <Content Include="store%282%29.ico" />
     <None Include="Resources\flechablanca.png" />
     <None Include="Resources\satisfaccion.png" />
     <None Include="Resources\insatisfaccion.png" />

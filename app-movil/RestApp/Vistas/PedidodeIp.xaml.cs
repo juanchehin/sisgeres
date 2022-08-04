@@ -22,7 +22,7 @@ namespace RestApp.Vistas
         string ruta;
         string cadena_de_conexion;
         string parte1 = "Data source =";
-        string parte2 = ";Initial Catalog=BASEBRIRESTCSHARP;Integrated Security=false;User Id=buman;Password=softwarereal";
+        string parte2 = ";Initial Catalog=BASEBRIsisgeres;Integrated Security=false;User Id=Chehin;Password=";
         int Idusuario;
 
         private void btnconectar_Clicked(object sender, EventArgs e)
