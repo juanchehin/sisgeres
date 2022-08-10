@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data;
 using System.Data.SqlClient;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -22,7 +16,7 @@ namespace RestApp.Vistas
         string ruta;
         string cadena_de_conexion;
         string parte1 = "Data source =";
-        string parte2 = ";Initial Catalog=BASEBRIsisgeres;Integrated Security=false;User Id=Chehin;Password=";
+        string parte2 = ";Initial Catalog=BASEBRIsisgeres;Integrated Security=false;User Id=chehin;Password=123456";
         int Idusuario;
 
         private void btnconectar_Clicked(object sender, EventArgs e)
@@ -90,8 +84,9 @@ namespace RestApp.Vistas
                 Idusuario = Convert.ToInt32(cmd.ExecuteScalar());
                 conexionManual.Close();
             }
-            catch (Exception)
+            catch (Exception e)
             {
+                DisplayAlert("Ocurrio un problema", e.Message, "OK");
                 Idusuario = 0;
             }
         }
