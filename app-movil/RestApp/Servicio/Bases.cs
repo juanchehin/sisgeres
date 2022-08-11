@@ -9,7 +9,7 @@ namespace RestApp.Servicio
     {
         public static TripleDESCryptoServiceProvider des = new TripleDESCryptoServiceProvider();
         public static MD5CryptoServiceProvider hashmd5 = new MD5CryptoServiceProvider();
-       public static string appPwdUnique= "RESTAURAnTE.chehin.sisgereS.Hola_Mundo";
+       public static string appPwdUnique= "RESTAURAnTE.chehin.sisgeres.Hola_Mundo";
         public static string Encriptar(string texto)
         {
             string tempEncriptar = null;

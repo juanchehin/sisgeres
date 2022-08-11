@@ -23,14 +23,19 @@ namespace RestApp.VistaModelo
                 da.SelectCommand.Parameters.AddWithValue("@buscador", "");
 
                 da.Fill(dt);
+
                 foreach (DataRow rdr in dt.Rows)
                 {
-                    var parametros = new Mproductos();
-                    parametros.Descripcion = rdr["Descripcion"].ToString();
-                    parametros.Idproducto = Convert.ToInt32(rdr["Id_Producto1"]);
-                    parametros.Precio = (rdr["Id_Producto1"]).ToString()+"|" + (rdr["Precio_de_venta"]).ToString();
-                    parametros.ColorHtml = rdr["ColorHtml"].ToString();
-                    productos.Add(parametros);
+                    // Este if esta por el SP me tira productos repetidos
+                    if (!productos.Exists(p => p.Idproducto == Convert.ToInt32(rdr["Id_Producto1"])))
+                    {                        
+                        var parametros = new Mproductos();
+                        parametros.Descripcion = rdr["Descripcion"].ToString();
+                        parametros.Idproducto = Convert.ToInt32(rdr["Id_Producto1"]);
+                        parametros.Precio = (rdr["Id_Producto1"]).ToString() + "|" + (rdr["Precio_de_venta"]).ToString();
+                        parametros.ColorHtml = rdr["ColorHtml"].ToString();
+                        productos.Add(parametros);
+                    }
                 }
                 return productos;
             }

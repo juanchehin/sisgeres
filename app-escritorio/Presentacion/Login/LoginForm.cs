@@ -169,7 +169,7 @@ namespace sisgeres.Presentacion.Login
             validarUsuarios();
         }
         private void validarUsuarios()
-        {
+       {
             Lusuarios parametros = new Lusuarios();
             Dusuarios funcion = new Dusuarios();
             parametros.Password = Bases.Encriptar(txtcontraseña.Text);
