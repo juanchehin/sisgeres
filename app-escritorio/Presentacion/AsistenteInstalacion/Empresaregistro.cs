@@ -25,7 +25,7 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             dlg.InitialDirectory = "";
             dlg.Filter = "Imagenes|*.jpg;*.png";
             dlg.FilterIndex = 2;
-            dlg.Title = "Cargador de Imagenes BUMAM";
+            dlg.Title = "Cargador de Imagenes sisgeres";
             if (dlg.ShowDialog() == DialogResult.OK)
             {
                 ImagenEmpresa.BackgroundImage = null;
