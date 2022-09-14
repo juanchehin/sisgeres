@@ -126,7 +126,7 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.Panel8.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel8.Location = new System.Drawing.Point(0, 0);
             this.Panel8.Name = "Panel8";
-            this.Panel8.Size = new System.Drawing.Size(1623, 86);
+            this.Panel8.Size = new System.Drawing.Size(1370, 86);
             this.Panel8.TabIndex = 592;
             // 
             // PictureBox7
@@ -144,7 +144,7 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.lblwindows.BackColor = System.Drawing.Color.Transparent;
             this.lblwindows.Dock = System.Windows.Forms.DockStyle.Right;
             this.lblwindows.ForeColor = System.Drawing.Color.White;
-            this.lblwindows.Location = new System.Drawing.Point(1104, 0);
+            this.lblwindows.Location = new System.Drawing.Point(851, 0);
             this.lblwindows.Name = "lblwindows";
             this.lblwindows.Size = new System.Drawing.Size(519, 86);
             this.lblwindows.TabIndex = 607;
@@ -511,7 +511,7 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.txtnombre_scrypt.Name = "txtnombre_scrypt";
             this.txtnombre_scrypt.Size = new System.Drawing.Size(79, 20);
             this.txtnombre_scrypt.TabIndex = 621;
-            this.txtnombre_scrypt.Text = "Scriptbuman";
+            this.txtnombre_scrypt.Text = "Scriptsisgeres";
             // 
             // Label11
             // 
@@ -529,7 +529,7 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.TXTbasededatos.Name = "TXTbasededatos";
             this.TXTbasededatos.Size = new System.Drawing.Size(134, 20);
             this.TXTbasededatos.TabIndex = 621;
-            this.TXTbasededatos.Text = "BASEBRIsisgeres";
+            this.TXTbasededatos.Text = "sisgeres";
             // 
             // lblnombredeservicio
             // 
@@ -870,7 +870,7 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1623, 749);
+            this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.btnModoProgramador);
             this.Controls.Add(this.PanelDios);
             this.Controls.Add(this.Panel2);

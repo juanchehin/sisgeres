@@ -247,18 +247,14 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
         public static int segundos;
         private void InstalarServidores()
         {
-
             try
             {
-
-
                 txtArgumentosini.Text = txtArgumentosini.Text.Replace("PRUEBAFINAL22", lblnombredeservicio.Text);
                 TimerCRARINI.Start();
-                executa();
+                // executa();
                 timer2.Start();
                 Panel4.Visible = true;
                 Panel4.Dock = DockStyle.Fill;
-
             }
             catch (Exception ex)
             {
@@ -282,7 +278,7 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             }
             catch (Exception ex)
             {
-
+                MessageBox.Show(ex.Message);
             }
         }
         public static int milisegundo1;
@@ -342,7 +338,7 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
                 segundos1 = 0;
             }
 
-            if (minutos1 == 6)
+            if (minutos1 == 1)
             {
                 timer2.Enabled = false;
 

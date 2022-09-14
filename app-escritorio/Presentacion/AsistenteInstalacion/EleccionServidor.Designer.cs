@@ -40,15 +40,6 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.datalistado = new System.Windows.Forms.DataGridView();
             this.Eliminar = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.PictureBox7 = new System.Windows.Forms.PictureBox();
-            this.PanelPc = new System.Windows.Forms.Panel();
-            this.Label4 = new System.Windows.Forms.Label();
-            this.btnSecundaria = new System.Windows.Forms.Button();
-            this.btnPrincipal = new System.Windows.Forms.Button();
-            this.Label9 = new System.Windows.Forms.Label();
-            this.Label1 = new System.Windows.Forms.Label();
-            this.Panel1 = new System.Windows.Forms.Panel();
-            this.Panel2 = new System.Windows.Forms.Panel();
-            this.PictureBox1 = new System.Windows.Forms.PictureBox();
             this.PanelServidor = new System.Windows.Forms.Panel();
             this.btnVolver = new System.Windows.Forms.Button();
             this.btnconectar = new System.Windows.Forms.Button();
@@ -69,14 +60,23 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.Label3 = new System.Windows.Forms.Label();
             this.Label6 = new System.Windows.Forms.Label();
             this.Label7 = new System.Windows.Forms.Label();
+            this.PictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Panel2 = new System.Windows.Forms.Panel();
+            this.Panel1 = new System.Windows.Forms.Panel();
+            this.Label1 = new System.Windows.Forms.Label();
+            this.Label9 = new System.Windows.Forms.Label();
+            this.btnPrincipal = new System.Windows.Forms.Button();
+            this.btnSecundaria = new System.Windows.Forms.Button();
+            this.Label4 = new System.Windows.Forms.Label();
+            this.PanelPc = new System.Windows.Forms.Panel();
             this.Panel8.SuspendLayout();
             this.Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.datalistado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox7)).BeginInit();
-            this.PanelPc.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
             this.PanelServidor.SuspendLayout();
             this.panelUsuario.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
+            this.PanelPc.SuspendLayout();
             this.SuspendLayout();
             // 
             // Panel8
@@ -196,115 +196,6 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBox7.TabIndex = 604;
             this.PictureBox7.TabStop = false;
-            // 
-            // PanelPc
-            // 
-            this.PanelPc.Controls.Add(this.Label4);
-            this.PanelPc.Controls.Add(this.btnSecundaria);
-            this.PanelPc.Controls.Add(this.btnPrincipal);
-            this.PanelPc.Controls.Add(this.Label9);
-            this.PanelPc.Controls.Add(this.Label1);
-            this.PanelPc.Controls.Add(this.Panel1);
-            this.PanelPc.Controls.Add(this.Panel2);
-            this.PanelPc.Controls.Add(this.PictureBox1);
-            this.PanelPc.Location = new System.Drawing.Point(49, 92);
-            this.PanelPc.Name = "PanelPc";
-            this.PanelPc.Size = new System.Drawing.Size(1027, 499);
-            this.PanelPc.TabIndex = 615;
-            // 
-            // Label4
-            // 
-            this.Label4.BackColor = System.Drawing.Color.Transparent;
-            this.Label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.Label4.ForeColor = System.Drawing.Color.White;
-            this.Label4.Location = new System.Drawing.Point(669, 339);
-            this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(318, 103);
-            this.Label4.TabIndex = 0;
-            this.Label4.Text = "Se Conecta a la Computadora Principal siempre y cuando la Principal este Encendid" +
-    "a";
-            // 
-            // btnSecundaria
-            // 
-            this.btnSecundaria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.btnSecundaria.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSecundaria.FlatAppearance.BorderSize = 0;
-            this.btnSecundaria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSecundaria.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold);
-            this.btnSecundaria.ForeColor = System.Drawing.Color.White;
-            this.btnSecundaria.Location = new System.Drawing.Point(39, 324);
-            this.btnSecundaria.Name = "btnSecundaria";
-            this.btnSecundaria.Size = new System.Drawing.Size(247, 84);
-            this.btnSecundaria.TabIndex = 609;
-            this.btnSecundaria.Text = "Secundaria";
-            this.btnSecundaria.UseVisualStyleBackColor = false;
-            this.btnSecundaria.Click += new System.EventHandler(this.btnSecundaria_Click);
-            // 
-            // btnPrincipal
-            // 
-            this.btnPrincipal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.btnPrincipal.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPrincipal.FlatAppearance.BorderSize = 0;
-            this.btnPrincipal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPrincipal.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold);
-            this.btnPrincipal.ForeColor = System.Drawing.Color.White;
-            this.btnPrincipal.Location = new System.Drawing.Point(137, 122);
-            this.btnPrincipal.Name = "btnPrincipal";
-            this.btnPrincipal.Size = new System.Drawing.Size(247, 84);
-            this.btnPrincipal.TabIndex = 608;
-            this.btnPrincipal.Text = "Principal";
-            this.btnPrincipal.UseVisualStyleBackColor = false;
-            this.btnPrincipal.Click += new System.EventHandler(this.btnPrincipal_Click);
-            // 
-            // Label9
-            // 
-            this.Label9.BackColor = System.Drawing.Color.Transparent;
-            this.Label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.Label9.ForeColor = System.Drawing.Color.White;
-            this.Label9.Location = new System.Drawing.Point(571, 132);
-            this.Label9.Name = "Label9";
-            this.Label9.Size = new System.Drawing.Size(387, 103);
-            this.Label9.TabIndex = 0;
-            this.Label9.Text = "Esta Computadora debe estar Encendida para que las Computadoras\r\nSecundarias se C" +
-    "onecten. Si se apaga no podran conectarse.";
-            // 
-            // Label1
-            // 
-            this.Label1.AutoSize = true;
-            this.Label1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold);
-            this.Label1.ForeColor = System.Drawing.Color.White;
-            this.Label1.Location = new System.Drawing.Point(228, 16);
-            this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(473, 46);
-            this.Label1.TabIndex = 605;
-            this.Label1.Text = "¿Esta Computadora es?";
-            // 
-            // Panel1
-            // 
-            this.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel1.BackgroundImage")));
-            this.Panel1.Location = new System.Drawing.Point(555, 113);
-            this.Panel1.Name = "Panel1";
-            this.Panel1.Size = new System.Drawing.Size(3, 135);
-            this.Panel1.TabIndex = 606;
-            // 
-            // Panel2
-            // 
-            this.Panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel2.BackgroundImage")));
-            this.Panel2.Location = new System.Drawing.Point(653, 313);
-            this.Panel2.Name = "Panel2";
-            this.Panel2.Size = new System.Drawing.Size(3, 139);
-            this.Panel2.TabIndex = 607;
-            // 
-            // PictureBox1
-            // 
-            this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
-            this.PictureBox1.Location = new System.Drawing.Point(236, 113);
-            this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.Size = new System.Drawing.Size(472, 339);
-            this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PictureBox1.TabIndex = 604;
-            this.PictureBox1.TabStop = false;
             // 
             // PanelServidor
             // 
@@ -540,6 +431,115 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.Label7.Text = "Servidor";
             this.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // PictureBox1
+            // 
+            this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
+            this.PictureBox1.Location = new System.Drawing.Point(236, 113);
+            this.PictureBox1.Name = "PictureBox1";
+            this.PictureBox1.Size = new System.Drawing.Size(472, 339);
+            this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBox1.TabIndex = 604;
+            this.PictureBox1.TabStop = false;
+            // 
+            // Panel2
+            // 
+            this.Panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel2.BackgroundImage")));
+            this.Panel2.Location = new System.Drawing.Point(653, 313);
+            this.Panel2.Name = "Panel2";
+            this.Panel2.Size = new System.Drawing.Size(3, 139);
+            this.Panel2.TabIndex = 607;
+            // 
+            // Panel1
+            // 
+            this.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel1.BackgroundImage")));
+            this.Panel1.Location = new System.Drawing.Point(555, 113);
+            this.Panel1.Name = "Panel1";
+            this.Panel1.Size = new System.Drawing.Size(3, 135);
+            this.Panel1.TabIndex = 606;
+            // 
+            // Label1
+            // 
+            this.Label1.AutoSize = true;
+            this.Label1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold);
+            this.Label1.ForeColor = System.Drawing.Color.White;
+            this.Label1.Location = new System.Drawing.Point(228, 16);
+            this.Label1.Name = "Label1";
+            this.Label1.Size = new System.Drawing.Size(473, 46);
+            this.Label1.TabIndex = 605;
+            this.Label1.Text = "¿Esta Computadora es?";
+            // 
+            // Label9
+            // 
+            this.Label9.BackColor = System.Drawing.Color.Transparent;
+            this.Label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.Label9.ForeColor = System.Drawing.Color.White;
+            this.Label9.Location = new System.Drawing.Point(571, 132);
+            this.Label9.Name = "Label9";
+            this.Label9.Size = new System.Drawing.Size(387, 103);
+            this.Label9.TabIndex = 0;
+            this.Label9.Text = "Esta Computadora debe estar Encendida para que las Computadoras\r\nSecundarias se C" +
+    "onecten. Si se apaga no podran conectarse.";
+            // 
+            // btnPrincipal
+            // 
+            this.btnPrincipal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.btnPrincipal.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPrincipal.FlatAppearance.BorderSize = 0;
+            this.btnPrincipal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPrincipal.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold);
+            this.btnPrincipal.ForeColor = System.Drawing.Color.White;
+            this.btnPrincipal.Location = new System.Drawing.Point(137, 122);
+            this.btnPrincipal.Name = "btnPrincipal";
+            this.btnPrincipal.Size = new System.Drawing.Size(247, 84);
+            this.btnPrincipal.TabIndex = 608;
+            this.btnPrincipal.Text = "Principal";
+            this.btnPrincipal.UseVisualStyleBackColor = false;
+            this.btnPrincipal.Click += new System.EventHandler(this.btnPrincipal_Click);
+            // 
+            // btnSecundaria
+            // 
+            this.btnSecundaria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.btnSecundaria.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSecundaria.FlatAppearance.BorderSize = 0;
+            this.btnSecundaria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSecundaria.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold);
+            this.btnSecundaria.ForeColor = System.Drawing.Color.White;
+            this.btnSecundaria.Location = new System.Drawing.Point(39, 324);
+            this.btnSecundaria.Name = "btnSecundaria";
+            this.btnSecundaria.Size = new System.Drawing.Size(247, 84);
+            this.btnSecundaria.TabIndex = 609;
+            this.btnSecundaria.Text = "Secundaria";
+            this.btnSecundaria.UseVisualStyleBackColor = false;
+            this.btnSecundaria.Click += new System.EventHandler(this.btnSecundaria_Click);
+            // 
+            // Label4
+            // 
+            this.Label4.BackColor = System.Drawing.Color.Transparent;
+            this.Label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.Label4.ForeColor = System.Drawing.Color.White;
+            this.Label4.Location = new System.Drawing.Point(669, 339);
+            this.Label4.Name = "Label4";
+            this.Label4.Size = new System.Drawing.Size(318, 103);
+            this.Label4.TabIndex = 0;
+            this.Label4.Text = "Se Conecta a la Computadora Principal siempre y cuando la Principal este Encendid" +
+    "a";
+            // 
+            // PanelPc
+            // 
+            this.PanelPc.Controls.Add(this.Label4);
+            this.PanelPc.Controls.Add(this.btnSecundaria);
+            this.PanelPc.Controls.Add(this.btnPrincipal);
+            this.PanelPc.Controls.Add(this.Label9);
+            this.PanelPc.Controls.Add(this.Label1);
+            this.PanelPc.Controls.Add(this.Panel1);
+            this.PanelPc.Controls.Add(this.Panel2);
+            this.PanelPc.Controls.Add(this.PictureBox1);
+            this.PanelPc.Location = new System.Drawing.Point(49, 92);
+            this.PanelPc.Name = "PanelPc";
+            this.PanelPc.Size = new System.Drawing.Size(1027, 499);
+            this.PanelPc.TabIndex = 615;
+            // 
             // EleccionServidor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -560,13 +560,13 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.Panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.datalistado)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox7)).EndInit();
-            this.PanelPc.ResumeLayout(false);
-            this.PanelPc.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
             this.PanelServidor.ResumeLayout(false);
             this.PanelServidor.PerformLayout();
             this.panelUsuario.ResumeLayout(false);
             this.panelUsuario.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
+            this.PanelPc.ResumeLayout(false);
+            this.PanelPc.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -580,15 +580,6 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
         internal System.Windows.Forms.DataGridView datalistado;
         internal System.Windows.Forms.DataGridViewCheckBoxColumn Eliminar;
         internal System.Windows.Forms.PictureBox PictureBox7;
-        internal System.Windows.Forms.Panel PanelPc;
-        internal System.Windows.Forms.Label Label4;
-        internal System.Windows.Forms.Button btnSecundaria;
-        internal System.Windows.Forms.Button btnPrincipal;
-        internal System.Windows.Forms.Label Label9;
-        internal System.Windows.Forms.Label Label1;
-        internal System.Windows.Forms.Panel Panel1;
-        internal System.Windows.Forms.Panel Panel2;
-        internal System.Windows.Forms.PictureBox PictureBox1;
         internal System.Windows.Forms.Panel PanelServidor;
         internal System.Windows.Forms.Button btnVolver;
         internal System.Windows.Forms.Button btnconectar;
@@ -609,5 +600,14 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
         internal System.Windows.Forms.Label Label3;
         internal System.Windows.Forms.Label Label6;
         internal System.Windows.Forms.Label Label7;
+        internal System.Windows.Forms.PictureBox PictureBox1;
+        internal System.Windows.Forms.Panel Panel2;
+        internal System.Windows.Forms.Panel Panel1;
+        internal System.Windows.Forms.Label Label1;
+        internal System.Windows.Forms.Label Label9;
+        internal System.Windows.Forms.Button btnPrincipal;
+        internal System.Windows.Forms.Button btnSecundaria;
+        internal System.Windows.Forms.Label Label4;
+        internal System.Windows.Forms.Panel PanelPc;
     }
 }

@@ -19,7 +19,7 @@ namespace sisgeres.Datos
                 CONEXIONMAESTRA.abrir();
                 SqlCommand cmd = new SqlCommand("insertar_EMPRESA", CONEXIONMAESTRA.conectar);
                 cmd.CommandType = CommandType.StoredProcedure;
-                Console.WriteLine("parametros es : ", parametros.RazonSocial);
+                //Console.WriteLine("parametros es : ", parametros.RazonSocial);
                 //cmd.Parameters.AddWithValue("@Nombre_Empresa", parametros.RazonSocial);
                 cmd.Parameters.AddWithValue("@RazonSocial", parametros.RazonSocial);
                 cmd.Parameters.AddWithValue("@logo", parametros.Logo);
