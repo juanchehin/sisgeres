@@ -20,7 +20,7 @@ namespace sisgeres.Presentacion.Copiasbd
             InitializeComponent();
         }
         string txtsoftware = "sisgeres";
-        string Base_De_datos = "BASEBRIsisgeres";
+        string Base_De_datos = "sisgeres";
         int contador = 10;
         private Thread Hilo;
         private bool acaba = false;

@@ -45,7 +45,7 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
         private void Reemplazar()
         {
             //Solo modificar este campo
-            txtCrear_procedimientos.Text = txtCrear_procedimientos.Text.Replace("BASEBRIsisgeres", TXTbasededatos.Text);
+            txtCrear_procedimientos.Text = txtCrear_procedimientos.Text.Replace("sisgeres", TXTbasededatos.Text);
             //********
 
             txtEliminarBase.Text = txtEliminarBase.Text.Replace("BASEADA", TXTbasededatos.Text);

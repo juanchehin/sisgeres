@@ -34,7 +34,7 @@ namespace sisgeres.Presentacion.Conexionremota
         public void conectar_manualmente()
         {
             string IP = txtservidor.Text;
-            cadena_de_conexion = "Data Source =" + IP + ";Initial Catalog=BASEBRIsisgeres;Integrated Security=False; User Id=buman;Password=softwarereal";
+            cadena_de_conexion = "Data Source =" + IP + ";Initial Catalog=sisgeres;Integrated Security=False; User Id=buman;Password=softwarereal";
             mostrar_conexion();
             if (indicador_de_conexion == "HAY CONEXION")
             {
