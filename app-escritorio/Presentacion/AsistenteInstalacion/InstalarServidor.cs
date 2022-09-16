@@ -48,9 +48,9 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             txtCrear_procedimientos.Text = txtCrear_procedimientos.Text.Replace("sisgeres", TXTbasededatos.Text);
             //********
 
-            txtEliminarBase.Text = txtEliminarBase.Text.Replace("BASEADA", TXTbasededatos.Text);
-            txtCrearUsuarioDb.Text = txtCrearUsuarioDb.Text.Replace("ada369", txtusuario.Text);
-            txtCrearUsuarioDb.Text = txtCrearUsuarioDb.Text.Replace("BASEADA", TXTbasededatos.Text);
+            txtEliminarBase.Text = txtEliminarBase.Text.Replace("sisgeres", TXTbasededatos.Text);
+            txtCrearUsuarioDb.Text = txtCrearUsuarioDb.Text.Replace("admin", txtusuario.Text);
+            txtCrearUsuarioDb.Text = txtCrearUsuarioDb.Text.Replace("sisgeres", TXTbasededatos.Text);
             txtCrearUsuarioDb.Text = txtCrearUsuarioDb.Text.Replace("softwarereal", lblcontraseña.Text);
             //Adjuntando al texbox que contiene los procedimientos almacenados
             txtCrear_procedimientos.Text = txtCrear_procedimientos.Text + Environment.NewLine + txtCrearUsuarioDb.Text;
