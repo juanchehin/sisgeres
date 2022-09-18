@@ -43,7 +43,6 @@ namespace sisgeres.Presentacion.Login
             {
                 if (contadorconexion > 0)
                 {
-
                     centralPaneles();
                     dibujarUsuarios();
                     ObtenerIpLocal();
