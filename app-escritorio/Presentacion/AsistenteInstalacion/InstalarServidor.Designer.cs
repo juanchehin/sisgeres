@@ -276,7 +276,8 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             this.txtEliminarBase.Name = "txtEliminarBase";
             this.txtEliminarBase.Size = new System.Drawing.Size(487, 77);
             this.txtEliminarBase.TabIndex = 589;
-            this.txtEliminarBase.Text = "alter database sisgeres set single_user with rollback immediate \nDROP DATABASE sisgeres";
+            this.txtEliminarBase.Text = "alter database sisgeres set single_user with rollback immediate \nDROP DATABASE si" +
+    "sgeres";
             // 
             // lblRutaInstancia
             // 
