@@ -4528,7 +4528,7 @@ CREATE proc [dbo].[insertar_Producto]
 		   @Estado_imagen varchar(50)   ,
 		   @Idcolor int,
 		   @CodUm varchar(5),
-		   @CodigoSunat varchar(8),
+		   @CodigoSunat varchar(8) = '',
 		   @Codigo varchar(max)
 
 		   AS 
