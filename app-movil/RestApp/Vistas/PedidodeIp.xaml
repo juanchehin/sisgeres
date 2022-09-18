@@ -17,7 +17,7 @@
 
             <StackLayout BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand"
                          VerticalOptions="CenterAndExpand">
-                <Image Source="Buman.png" HeightRequest="100" WidthRequest="150"/>
+                <Image Source="sisgeres.png" HeightRequest="100" WidthRequest="150"/>
                 <Label Text="Ingrese la IP de su Pc principal"
                        FontSize="24" HorizontalOptions="Center" FontAttributes="Bold"
                        TextColor="White"/>

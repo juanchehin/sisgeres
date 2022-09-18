@@ -14,7 +14,7 @@
               ColumnDefinitions="200,*">
            
             
-             <Image Margin="10" Grid.Column="0" Source="Buman.png"
+             <Image Margin="10" Grid.Column="0" Source="sisgeres.png"
                    VerticalOptions="CenterAndExpand"
                    Grid.RowSpan="2"
                    />

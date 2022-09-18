@@ -16,7 +16,7 @@ namespace RestApp.Vistas
         string ruta;
         string cadena_de_conexion;
         string parte1 = "Data source =";
-        string parte2 = ";Initial Catalog=BASEBRIsisgeres;Integrated Security=false;User Id=chehin;Password=123456";
+        string parte2 = ";Initial Catalog=sisgeres;Integrated Security=false;User Id=chehin;Password=123456";
         int Idusuario;
 
         private void btnconectar_Clicked(object sender, EventArgs e)
