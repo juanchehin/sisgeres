@@ -21,16 +21,17 @@ namespace RestApp.VistaModelo
                 cmd.Parameters.AddWithValue("@idventa", parametros.idventa);
                 cmd.Parameters.AddWithValue("@Id_producto", parametros.Id_producto);
                 cmd.Parameters.AddWithValue("@cantidad", parametros.cantidad);
-                cmd.Parameters.AddWithValue("@preciounitario", parametros.preciounitario);
-                cmd.Parameters.AddWithValue("@Estado", parametros.Estado);
-                cmd.Parameters.AddWithValue("@Costo", parametros.Costo);
+                //cmd.Parameters.AddWithValue("@preciounitario", parametros.preciounitario);
+                //cmd.Parameters.AddWithValue("@Estado", parametros.Estado);
+                //cmd.Parameters.AddWithValue("@Costo", parametros.Costo);
                 cmd.Parameters.AddWithValue("@Estado_de_pago", parametros.Estado_de_pago);
                 cmd.Parameters.AddWithValue("@Donde_se_consumira", parametros.Donde_se_consumira);
                 cmd.ExecuteNonQuery();
                 return true;
             }
-            catch (Exception )
+            catch (Exception ex)
             {
+                Application.Current.MainPage.DisplayAlert("Error", ex.Message, "OK");
                 return false;
             }
             finally

@@ -1,5 +1,5 @@
 ﻿using sisgeres.Logica;
-using sisgeres.Presentacion.Licencia;
+//using sisgeres.Presentacion.Licencia;
 using System;
 using System.Collections.Generic;
 using System.Data;

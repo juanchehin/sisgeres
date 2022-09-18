@@ -46,10 +46,13 @@ namespace RestApp.VistaModelo
             {
                 ObtenerIdCajaremota();
 
+                
                 CONEXIONMAESTRA.abrir();
                 SqlCommand cmd = new SqlCommand("Insertar_ventas", CONEXIONMAESTRA.conectar);
+
+                cmd.Parameters.Clear();
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@fecha_venta", DateTime.Now);
+                // cmd.Parameters.AddWithValue("@fecha_venta", DateTime.Now);
                 cmd.Parameters.AddWithValue("@Id_usuario", parametros.Idusuario);
                 cmd.Parameters.AddWithValue("@Nombrellevar", "-");
                 cmd.Parameters.AddWithValue("@Idmovcaja", idmovcajaRemota);
