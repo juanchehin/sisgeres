@@ -24,7 +24,7 @@
                 <Label TextColor="#F8F9FA" Text="from"
                        HorizontalOptions="CenterAndExpand"/>
             <Label TextColor="#F0F0F0" 
-                       Text="Slider Tucuman"
+                       Text="Chehin Ingenieria"
                        HorizontalOptions="CenterAndExpand"
                        FontSize="20"
                        FontAttributes="Bold"/>
