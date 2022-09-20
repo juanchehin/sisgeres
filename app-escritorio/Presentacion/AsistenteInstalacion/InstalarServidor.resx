@@ -5858,7 +5858,7 @@ CREATE proc [dbo].[mostrar_Productos_por_grupo]
 @buscador varchar(50)
 as
 
-select top 1 Producto1.*, Colores.ColorHtml,EMPRESA.SimboloMoneda as Moneda from Producto1 
+select Producto1.*, Colores.ColorHtml,EMPRESA.SimboloMoneda as Moneda from Producto1 
 INNER JOIN Grupo_de_Productos on
 Grupo_de_Productos.Idline=Producto1.Id_grupo
 inner join 
