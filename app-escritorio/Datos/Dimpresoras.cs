@@ -152,10 +152,10 @@ namespace sisgeres.Datos
                 }
 
             }
-            //else
-            //{
-            //    MessageBox.Show("No hay impresoras agregadas");
-            //}
+            else
+            {
+                MessageBox.Show("No hay impresoras agregadas");
+            }
 
 
         }
