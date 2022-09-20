@@ -325,12 +325,20 @@ namespace sisgeres.Presentacion.PRODUCTOS
         }
         private void mostrarCodigoSunatXcod()
         {
-            var funcion = new DcodigosProdsunat();
-            var parametros = new LcodigosSunat();
-            var dt = new DataTable();
-            parametros.codigo = codigoProdsunat;
-            funcion.mostrarCodSunatXCod(ref dt, parametros);
-            txtcodigoSunat.Text = dt.Rows[0][1].ToString();
+            try
+            {
+                var funcion = new DcodigosProdsunat();
+                var parametros = new LcodigosSunat();
+                var dt = new DataTable();
+                parametros.codigo = codigoProdsunat;
+                funcion.mostrarCodSunatXCod(ref dt, parametros);
+                txtcodigoSunat.Text = dt.Rows[0][1].ToString();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+           
         }
 
         private void txtcodigoSunat_TextChanged(object sender, EventArgs e)
