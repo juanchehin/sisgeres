@@ -24,7 +24,7 @@
                 <Label TextColor="#F8F9FA" Text="from"
                        HorizontalOptions="CenterAndExpand"/>
             <Label TextColor="#F0F0F0" 
-                       Text="Chehin Ingenieria"
+                       Text="Chehin Isngeniería"
                        HorizontalOptions="CenterAndExpand"
                        FontSize="20"
                        FontAttributes="Bold"/>
