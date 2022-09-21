@@ -117,19 +117,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="reportViewer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG/SURBVDhPY8AHbIykN4IwlEs0YARiVz1Dk9nhkWFfQFgH
+        yAaJQeXwA5+QqGUL1+/7f+XZHyD+C8V//oPEzKwctgGVCEFUYgJOL//Q41efwzRh4jN3P/138vA9DVIL
+        0YIEJKVlGw5efIpVIzI+eOnpf5BaqDY4YEkvqHh1GYsGGL789M9/kDwIg9SC9EC0MjAw8UkoHFGzcP1v
+        4ByIEwfnNcPZILUgPSC9IAMYOfhFJvNLK20EY3HZa3qGhv/5pZR2gPh8kgrHdfV0/6tqaoHwB5g6kB6Q
+        XpABKEBKTKh9x+z6f0CmPRAzWuoqbWpI8/u/f0HzfyUZ8T6QGEgdTuBoobv86pZJ/4HMWBF+7sLSGLf/
+        U2pS/xcl+L4BiomCFeEBIk15kR8/nln+38FU+56Ngeq/uS05/5d15/9lY2P2harBDTjZ2PIf7pvzH2TA
+        2xNL/r86tuj/sWXt/4HeqoMqwQ2YmZndzEyNXz05OA9sAAjf3jH1u4ai9DSgNOEkbGFlfXDi5Gn/89IT
+        /t/fM+t/c17kZ2UFSX+oNFFAIiQs4urdh8//29jYfAXylSHCpAEJZ3ePy+KSkhVQPgHAwAAA0/YWYLwb
+        jhIAAAAASUVORK5CYII=
+</value>
+  </data>
   <metadata name="Iddetalleventa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="Importe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="rptPedidos.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>146, 17</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="PictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
@@ -423,9 +431,6 @@
         vYe9l72nnn/VtDSnTdOofy8SpruqPXj7TOzFE1KkdHT8f42c4bXhFPCCAAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="rptComunicador.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>257, 17</value>
-  </metadata>
   <data name="PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6

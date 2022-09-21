@@ -30,6 +30,7 @@ namespace sisgeres.Presentacion.Copiasbd
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GenerarAut));
             this.Panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -66,7 +67,7 @@ namespace sisgeres.Presentacion.Copiasbd
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pictureBox1.Image = global::sisgeres.Properties.Resources.Buman;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 401);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(500, 46);
@@ -191,9 +192,6 @@ namespace sisgeres.Presentacion.Copiasbd
             // 
             this.timerContador.Interval = 1000;
             this.timerContador.Tick += new System.EventHandler(this.timerContador_Tick);
-            // 
-            // timer1
-            // 
             // 
             // GenerarAut
             // 

@@ -215,10 +215,10 @@ ALTER DATABASE [sisgeres] SET QUERY_STORE = OFF
 GO
 USE [sisgeres]
 GO
-/****** Object:  User [buman]    Script Date: 15/6/2022 10:47:41 ******/
-CREATE USER [buman] FOR LOGIN [buman] WITH DEFAULT_SCHEMA=[dbo]
+/****** Object:  User [sisgeres]    Script Date: 15/6/2022 10:47:41 ******/
+CREATE USER [sisgeres] FOR LOGIN [sisgeres] WITH DEFAULT_SCHEMA=[dbo]
 GO
-ALTER ROLE [db_owner] ADD MEMBER [buman]
+ALTER ROLE [db_owner] ADD MEMBER [sisgeres]
 GO
 /****** Object:  Table [dbo].[ventas]    Script Date: 15/6/2022 10:47:41 ******/
 SET ANSI_NULLS ON
