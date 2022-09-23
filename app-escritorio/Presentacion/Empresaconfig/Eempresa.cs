@@ -169,14 +169,21 @@ namespace sisgeres.Presentacion.Empresaconfig
         }
         private void ObtenerUbicaionXubigeo()
         {
-            var funcion = new Dcodigosubigeo();
-            var parametros = new Lcodigosubigeos();
-            var dt = new DataTable();
-            parametros.Ubigeo = Codigoubigeo;
-            funcion.ObtenerUbicaionXubigeo(ref dt, parametros);
-            txtdepartamento.Text = dt.Rows[0][0].ToString();
-            txtprovincia.Text = dt.Rows[0][1].ToString();
-            txtdistrito.Text = dt.Rows[0][2].ToString();
+            try
+            {
+                var funcion = new Dcodigosubigeo();
+                var parametros = new Lcodigosubigeos();
+                var dt = new DataTable();
+                parametros.Ubigeo = Codigoubigeo;
+                funcion.ObtenerUbicaionXubigeo(ref dt, parametros);
+                txtdepartamento.Text = dt.Rows[0][0].ToString();
+                txtprovincia.Text = dt.Rows[0][1].ToString();
+                txtdistrito.Text = dt.Rows[0][2].ToString();
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }            
 
         }
         private void validarNotas()
