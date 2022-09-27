@@ -49,7 +49,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btncolor = new System.Windows.Forms.Button();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnguardarcambios = new System.Windows.Forms.Button();
             this.txtum = new System.Windows.Forms.ComboBox();
@@ -63,6 +62,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.PanelIcono.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImagenProducto)).BeginInit();
@@ -117,7 +117,7 @@
             this.txtdescripcion.Location = new System.Drawing.Point(211, 112);
             this.txtdescripcion.Name = "txtdescripcion";
             this.txtdescripcion.Size = new System.Drawing.Size(283, 19);
-            this.txtdescripcion.TabIndex = 636;
+            this.txtdescripcion.TabIndex = 1;
             // 
             // label2
             // 
@@ -153,7 +153,7 @@
             this.txtprecioventa.Location = new System.Drawing.Point(212, 145);
             this.txtprecioventa.Name = "txtprecioventa";
             this.txtprecioventa.Size = new System.Drawing.Size(283, 19);
-            this.txtprecioventa.TabIndex = 636;
+            this.txtprecioventa.TabIndex = 2;
             this.txtprecioventa.TextChanged += new System.EventHandler(this.txtprecioventa_TextChanged);
             this.txtprecioventa.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtprecioventa_KeyPress);
             // 
@@ -173,7 +173,7 @@
             this.btnvolver.Location = new System.Drawing.Point(293, 3);
             this.btnvolver.Name = "btnvolver";
             this.btnvolver.Size = new System.Drawing.Size(139, 49);
-            this.btnvolver.TabIndex = 637;
+            this.btnvolver.TabIndex = 12;
             this.btnvolver.Text = "Volver";
             this.btnvolver.UseVisualStyleBackColor = true;
             this.btnvolver.Click += new System.EventHandler(this.btnvolver_Click);
@@ -188,7 +188,7 @@
             this.btnguardar.Location = new System.Drawing.Point(3, 3);
             this.btnguardar.Name = "btnguardar";
             this.btnguardar.Size = new System.Drawing.Size(139, 50);
-            this.btnguardar.TabIndex = 639;
+            this.btnguardar.TabIndex = 10;
             this.btnguardar.Text = "Guardar";
             this.btnguardar.UseVisualStyleBackColor = false;
             this.btnguardar.Click += new System.EventHandler(this.Button1_Click);
@@ -264,7 +264,7 @@
             this.txtpreciocompra.Location = new System.Drawing.Point(211, 187);
             this.txtpreciocompra.Name = "txtpreciocompra";
             this.txtpreciocompra.Size = new System.Drawing.Size(283, 19);
-            this.txtpreciocompra.TabIndex = 644;
+            this.txtpreciocompra.TabIndex = 3;
             this.txtpreciocompra.TextChanged += new System.EventHandler(this.txtpreciocompra_TextChanged);
             this.txtpreciocompra.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtpreciocompra_KeyPress);
             // 
@@ -300,13 +300,6 @@
             this.btncolor.TabIndex = 646;
             this.btncolor.UseVisualStyleBackColor = true;
             // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(223, 339);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(317, 71);
-            this.flowLayoutPanel1.TabIndex = 647;
-            // 
             // flowLayoutPanel2
             // 
             this.flowLayoutPanel2.Controls.Add(this.btnguardar);
@@ -327,7 +320,7 @@
             this.btnguardarcambios.Location = new System.Drawing.Point(148, 3);
             this.btnguardarcambios.Name = "btnguardarcambios";
             this.btnguardarcambios.Size = new System.Drawing.Size(139, 49);
-            this.btnguardarcambios.TabIndex = 640;
+            this.btnguardarcambios.TabIndex = 11;
             this.btnguardarcambios.Text = "Guardar*";
             this.btnguardarcambios.UseVisualStyleBackColor = false;
             this.btnguardarcambios.Click += new System.EventHandler(this.btnguardarcambios_Click);
@@ -340,7 +333,7 @@
             this.txtum.Location = new System.Drawing.Point(223, 227);
             this.txtum.Name = "txtum";
             this.txtum.Size = new System.Drawing.Size(212, 28);
-            this.txtum.TabIndex = 650;
+            this.txtum.TabIndex = 4;
             // 
             // Label49
             // 
@@ -385,7 +378,7 @@
             this.txtcodigodebarras.Name = "txtcodigodebarras";
             this.txtcodigodebarras.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtcodigodebarras.Size = new System.Drawing.Size(218, 26);
-            this.txtcodigodebarras.TabIndex = 651;
+            this.txtcodigodebarras.TabIndex = 5;
             this.txtcodigodebarras.Text = "0";
             // 
             // btnGenerarCodigo
@@ -394,7 +387,7 @@
             this.btnGenerarCodigo.Location = new System.Drawing.Point(447, 264);
             this.btnGenerarCodigo.Name = "btnGenerarCodigo";
             this.btnGenerarCodigo.Size = new System.Drawing.Size(157, 41);
-            this.btnGenerarCodigo.TabIndex = 655;
+            this.btnGenerarCodigo.TabIndex = 6;
             this.btnGenerarCodigo.Text = "Generar codigo";
             this.btnGenerarCodigo.UseVisualStyleBackColor = true;
             this.btnGenerarCodigo.Click += new System.EventHandler(this.btnGenerarCodigo_Click);
@@ -423,7 +416,7 @@
             this.dgcodigossunat.RowTemplate.Height = 40;
             this.dgcodigossunat.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgcodigossunat.Size = new System.Drawing.Size(371, 121);
-            this.dgcodigossunat.TabIndex = 658;
+            this.dgcodigossunat.TabIndex = 9;
             this.dgcodigossunat.Visible = false;
             this.dgcodigossunat.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgcodigossunat_CellClick);
             // 
@@ -433,7 +426,7 @@
             this.txtcodigoSunat.Location = new System.Drawing.Point(131, 27);
             this.txtcodigoSunat.Name = "txtcodigoSunat";
             this.txtcodigoSunat.Size = new System.Drawing.Size(371, 26);
-            this.txtcodigoSunat.TabIndex = 657;
+            this.txtcodigoSunat.TabIndex = 8;
             this.txtcodigoSunat.TextChanged += new System.EventHandler(this.txtcodigoSunat_TextChanged);
             // 
             // label7
@@ -469,6 +462,13 @@
             this.groupBox1.TabIndex = 660;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos SUNAT";
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(223, 339);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(317, 71);
+            this.flowLayoutPanel1.TabIndex = 7;
             // 
             // Registro_de_productos
             // 
@@ -538,7 +538,6 @@
         internal System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btncolor;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.Button btnguardarcambios;
         private System.Windows.Forms.ComboBox txtum;
@@ -552,5 +551,6 @@
         internal System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }
