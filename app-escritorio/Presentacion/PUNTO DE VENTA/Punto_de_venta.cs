@@ -1381,7 +1381,7 @@ namespace sisgeres.Presentacion.PUNTO_DE_VENTA
             funcion.rptTicketCocina(ref dt, parametros);
             //************
 
-
+            // Configurado al inicial el SW
             if (Tiponotas == "General")
             {
                 var rpt = new Rpedidos();

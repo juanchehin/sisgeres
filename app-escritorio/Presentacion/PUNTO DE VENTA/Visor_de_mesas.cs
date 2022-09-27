@@ -689,5 +689,12 @@ namespace sisgeres.Presentacion.PUNTO_DE_VENTA
             PanelUNIONMesas.Visible = false;
             PanelMesas.Visible = false;
         }
+
+        private void btnIP_Click(object sender, EventArgs e)
+        {
+            ObtenerIP frm = new ObtenerIP();
+
+            frm.Show();
+        }
     }
 }
