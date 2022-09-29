@@ -181,10 +181,17 @@ namespace sisgeres.Datos
         }
         private void Mostrartipocaja()
         {
-            var funcion = new Dcaja();
-            var dt = new DataTable();
-            funcion.mostrarCajaSerialTable(ref dt);
-            tipocaja = dt.Rows[0][1].ToString();
+            try
+            {
+                var funcion = new Dcaja();
+                var dt = new DataTable();
+                funcion.mostrarCajaSerialTable(ref dt);
+                tipocaja = dt.Rows[0][1].ToString();
+            }
+            catch(Exception e)
+            {
+
+            }
            
         }
         public void dibujarUsuarios(ref DataTable dt, ref string resultado, ref Panel panel)
