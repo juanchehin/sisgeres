@@ -13,10 +13,11 @@ namespace RestApp.Vistas
         {
             InitializeComponent();
         }
+
         string ruta;
         string cadena_de_conexion;
         string parte1 = "Data source =";
-        string parte2 = ";Initial Catalog=sisgeres;Integrated Security=false;User Id=chehin;Password=123456";
+        string parte2 = ";Initial Catalog=sisgeres;Integrated Security=false;User Id=sisgeres;Password=0xMQ4bHF6PDn";
         int Idusuario;
 
         private void btnconectar_Clicked(object sender, EventArgs e)
