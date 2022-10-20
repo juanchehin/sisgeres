@@ -420,5 +420,10 @@ namespace sisgeres.Presentacion.Login
             this.Controls.Add(ctl);
             ctl.BringToFront();
         }
+
+        private void pictureBox3_MouseClick(object sender, MouseEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://juanchehin.github.io/chehin-ingenieria/");
+        }
     }
 }
