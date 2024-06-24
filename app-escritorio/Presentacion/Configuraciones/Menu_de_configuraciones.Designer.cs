@@ -51,6 +51,7 @@
             this.btnusuarios = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.dlg = new System.Windows.Forms.OpenFileDialog();
+            this.btn_open_logs = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.PanelContenedor.SuspendLayout();
             this.panel9.SuspendLayout();
@@ -84,6 +85,7 @@
             // 
             this.panel9.BackColor = System.Drawing.Color.Transparent;
             this.panel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel9.Controls.Add(this.btn_open_logs);
             this.panel9.Controls.Add(this.btnlicencia);
             this.panel9.Controls.Add(this.btnrestaurar);
             this.panel9.Controls.Add(this.btncopia);
@@ -420,6 +422,26 @@
             // 
             this.dlg.FileName = "openFileDialog1";
             // 
+            // btn_open_logs
+            // 
+            this.btn_open_logs.BackColor = System.Drawing.Color.Transparent;
+            this.btn_open_logs.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_open_logs.BackgroundImage")));
+            this.btn_open_logs.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_open_logs.FlatAppearance.BorderSize = 0;
+            this.btn_open_logs.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.btn_open_logs.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_open_logs.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_open_logs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_open_logs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_open_logs.ForeColor = System.Drawing.Color.White;
+            this.btn_open_logs.Location = new System.Drawing.Point(51, 495);
+            this.btn_open_logs.Name = "btn_open_logs";
+            this.btn_open_logs.Size = new System.Drawing.Size(192, 54);
+            this.btn_open_logs.TabIndex = 542;
+            this.btn_open_logs.Text = "Logs";
+            this.btn_open_logs.UseVisualStyleBackColor = false;
+            this.btn_open_logs.Click += new System.EventHandler(this.btn_open_logs_Click);
+            // 
             // Menu_de_configuraciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -461,5 +483,6 @@
         internal System.Windows.Forms.Button btnlicencia;
         internal System.Windows.Forms.Button btnClientes;
         private System.Windows.Forms.Button btnsalir;
+        internal System.Windows.Forms.Button btn_open_logs;
     }
 }

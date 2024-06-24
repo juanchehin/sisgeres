@@ -692,9 +692,9 @@ namespace sisgeres.Presentacion.PUNTO_DE_VENTA
 
         private void btnIP_Click(object sender, EventArgs e)
         {
-            ObtenerIP frm = new ObtenerIP();
+            //ObtenerIP frm = new ObtenerIP();
 
-            frm.Show();
+            //frm.Show();
         }
     }
 }

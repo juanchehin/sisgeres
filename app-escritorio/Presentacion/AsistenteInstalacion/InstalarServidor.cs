@@ -14,11 +14,14 @@ using System.Data.SqlClient;
 using System.Xml;
 using System.Diagnostics;
 using sisgeres.Logica;
+using sisgeres.libs;
 
 namespace sisgeres.Presentacion.AsistenteInstalacion
 {
     public partial class InstalarServidor : Form
     {
+        private static LogsCustom _logsCustom = new LogsCustom();
+
         public InstalarServidor()
         {
             InitializeComponent();
@@ -99,6 +102,8 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             }
             catch (Exception ex)
             {
+                _logsCustom.alta_log("Excepcion ejecutar_scryt_crearBase_comprobacion_De_inicio - " + ex.Message); // Acceso permitido porque _logsCustom es estático
+
                 this.Cursor = Cursors.Default;
                 Panel6.Visible = true;
                 btnInstalarServidor.Visible = true;
@@ -129,6 +134,8 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             }
             catch (Exception ex)
             {
+                _logsCustom.alta_log("Excepcion ejecutar_scryt_crearBase - " + ex.Message); // Acceso permitido porque _logsCustom es estático
+
             }
 
             finally
@@ -165,7 +172,7 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             }
             catch (Exception ex)
             {
-
+                _logsCustom.alta_log("Excepcion ejecutar_scryt_crearProcedimientos_almacenados_y_tablas - " + ex.Message);
             }
 
             try
@@ -186,14 +193,21 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
         }
         public void SavetoXML(object dbcnString)
         {
-            XmlDocument doc = new XmlDocument();
-            doc.Load("ConnectionString.xml");
-            XmlElement root = doc.DocumentElement;
-            root.Attributes[0].Value = Convert.ToString(dbcnString);
-            XmlTextWriter writer = new XmlTextWriter("ConnectionString.xml", null);
-            writer.Formatting = Formatting.Indented;
-            doc.Save(writer);
-            writer.Close();
+            try
+            {
+                XmlDocument doc = new XmlDocument();
+                doc.Load("ConnectionString.xml");
+                XmlElement root = doc.DocumentElement;
+                root.Attributes[0].Value = Convert.ToString(dbcnString);
+                XmlTextWriter writer = new XmlTextWriter("ConnectionString.xml", null);
+                writer.Formatting = Formatting.Indented;
+                doc.Save(writer);
+                writer.Close();
+            }
+            catch (Exception ex)
+            {
+                _logsCustom.alta_log("Excepcion InstalarServidor.cs - SavetoXML - " + ex.Message);
+            }
         }
         private void ejecutar_scryt_ELIMINARBase_comprobacion_de_inicio()
         {
@@ -278,6 +292,8 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             }
             catch (Exception ex)
             {
+                _logsCustom.alta_log("Excepcion InstalarServidor.cs - executa - " + ex.Message);
+
                 MessageBox.Show(ex.Message);
             }
         }

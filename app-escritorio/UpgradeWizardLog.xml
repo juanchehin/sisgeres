@@ -2,90 +2,120 @@
 <?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
 <log>
   <event>Get project references.</event>
-  <event action="Analyze" type="Success" name="Assembly References" path="C:\Programacion\sisgeres\app-escritorio\sisgeres.csproj" />
-  <event action="Analyze" type="Success" name="Assembly References" path="C:\Programacion\sisgeres\app-escritorio\app.config" />
-  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Programacion\sisgeres\app-escritorio\app.config" />
-  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Programacion\sisgeres\app-escritorio\app.config" />
-  <event action="Analyze" type="Success" name="Config Sections" path="C:\Programacion\sisgeres\app-escritorio\app.config" />
-  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Programacion\sisgeres\app-escritorio\app.config" />
-  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Programacion\sisgeres\app-escritorio\app.config" />
-  <event action="Analyze" type="Success" name="app.config" path="C:\Programacion\sisgeres\app-escritorio\app.config" />
-  <event action="Analyze" type="Success" name="Assembly References" path="C:\Programacion\sisgeres\app-escritorio\packages.config" />
-  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Programacion\sisgeres\app-escritorio\packages.config" />
-  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Programacion\sisgeres\app-escritorio\packages.config" />
-  <event action="Analyze" type="Success" name="Config Sections" path="C:\Programacion\sisgeres\app-escritorio\packages.config" />
-  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Programacion\sisgeres\app-escritorio\packages.config" />
-  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Programacion\sisgeres\app-escritorio\packages.config" />
-  <event action="Analyze" type="Success" name="packages.config" path="C:\Programacion\sisgeres\app-escritorio\packages.config" />
-  <event action="Analyze" type="Success" name="EleccionServidor.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\AsistenteInstalacion\EleccionServidor.resx" />
-  <event action="Analyze" type="Success" name="Empresaregistro.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\AsistenteInstalacion\Empresaregistro.resx" />
-  <event action="Analyze" type="Success" name="InstalarServidor.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\AsistenteInstalacion\InstalarServidor.resx" />
-  <event action="Analyze" type="Success" name="UsuarioPrincipal.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\AsistenteInstalacion\UsuarioPrincipal.resx" />
-  <event action="Analyze" type="Success" name="AperturaCaja.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Caja\AperturaCaja.resx" />
-  <event action="Analyze" type="Success" name="CierreCaja.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Caja\CierreCaja.resx" />
-  <event action="Analyze" type="Success" name="Listagastosingresos.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Caja\Listagastosingresos.resx" />
-  <event action="Analyze" type="Success" name="PantallaCocina.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Cocina\PantallaCocina.resx" />
-  <event action="Analyze" type="Success" name="CONEXION_MANUAL.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\ConexionManual\CONEXION_MANUAL.resx" />
-  <event action="Analyze" type="Success" name="Asistenteconexion.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Conexionremota\Asistenteconexion.resx" />
-  <event action="Analyze" type="Success" name="Clientesconfig.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Configuraciones\Clientesconfig.resx" />
-  <event action="Analyze" type="Success" name="Menu_de_configuraciones.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Configuraciones\Menu_de_configuraciones.resx" />
-  <event action="Analyze" type="Success" name="GenerarAut.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Copiasbd\GenerarAut.resx" />
-  <event action="Analyze" type="Success" name="Diseño.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Diseñocomp\Diseño.resx" />
-  <event action="Analyze" type="Success" name="Eempresa.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Empresaconfig\Eempresa.resx" />
-  <event action="Analyze" type="Success" name="GenerarQr.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\GeneradorQR\GenerarQr.resx" />
-  <event action="Analyze" type="Success" name="ImpresorasConf.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Impresoras\ImpresorasConf.resx" />
-  <event action="Analyze" type="Success" name="Licencias.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Licencia\Licencias.resx" />
-  <event action="Analyze" type="Success" name="LoginForm.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Login\LoginForm.resx" />
-  <event action="Analyze" type="Success" name="Agregar_mesa_ok.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Mesas_salones\Agregar_mesa_ok.resx" />
-  <event action="Analyze" type="Success" name="Configurar_mesas_ok.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Mesas_salones\Configurar_mesas_ok.resx" />
-  <event action="Analyze" type="Success" name="Salones.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Mesas_salones\Salones.resx" />
-  <event action="Analyze" type="Success" name="Grupos_De_productos.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\PRODUCTOS\Grupos_De_productos.resx" />
-  <event action="Analyze" type="Success" name="Productos_rest.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\PRODUCTOS\Productos_rest.resx" />
-  <event action="Analyze" type="Success" name="Registro_de_productos.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\PRODUCTOS\Registro_de_productos.resx" />
-  <event action="Analyze" type="Success" name="Agregarcliente.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\PUNTO DE VENTA\Agregarcliente.resx" />
-  <event action="Analyze" type="Success" name="Buscadorproductos.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\PUNTO DE VENTA\Buscadorproductos.resx" />
-  <event action="Analyze" type="Success" name="CantPersonas.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\PUNTO DE VENTA\CantPersonas.resx" />
-  <event action="Analyze" type="Success" name="Cobrar.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\PUNTO DE VENTA\Cobrar.resx" />
-  <event action="Analyze" type="Success" name="MostradorProductos.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\PUNTO DE VENTA\MostradorProductos.resx" />
-  <event action="Analyze" type="Success" name="NombreLlevar.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\PUNTO DE VENTA\NombreLlevar.resx" />
-  <event action="Analyze" type="Success" name="Notas.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\PUNTO DE VENTA\Notas.resx" />
-  <event action="Analyze" type="Success" name="Punto_de_venta.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\PUNTO DE VENTA\Punto_de_venta.resx" />
-  <event action="Analyze" type="Success" name="Visor_de_mesas.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\PUNTO DE VENTA\Visor_de_mesas.resx" />
-  <event action="Analyze" type="Success" name="VisorDecuentas.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\PUNTO DE VENTA\VisorDecuentas.resx" />
-  <event action="Analyze" type="Success" name="Menureportes.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Reportes\Menureportes.resx" />
-  <event action="Analyze" type="Success" name="Pruebaimpresora.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Reportes\Pruebaimpresora.resx" />
-  <event action="Analyze" type="Success" name="Rcierrecaja.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Reportes\Rcierrecaja.resx" />
-  <event action="Analyze" type="Success" name="Rcodigosqr.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Reportes\Rcodigosqr.resx" />
-  <event action="Analyze" type="Success" name="RcomprobVenta.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Reportes\RcomprobVenta.resx" />
-  <event action="Analyze" type="Success" name="Rdetalleventas.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Reportes\Rdetalleventas.resx" />
-  <event action="Analyze" type="Success" name="RpedidonotaInd.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Reportes\RpedidonotaInd.resx" />
-  <event action="Analyze" type="Success" name="Rpedidos.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Reportes\Rpedidos.resx" />
-  <event action="Analyze" type="Success" name="Rprecuenta.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Reportes\Rprecuenta.resx" />
-  <event action="Analyze" type="Success" name="Rproductosmasv.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Reportes\Rproductosmasv.resx" />
-  <event action="Analyze" type="Success" name="Rresumenventas.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Reportes\Rresumenventas.resx" />
-  <event action="Analyze" type="Success" name="SerialziacionComp.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Serializacion\SerialziacionComp.resx" />
-  <event action="Analyze" type="Success" name="UsuariosOk.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Usuarios\UsuariosOk.resx" />
-  <event action="Analyze" type="Success" name="Resources.resx" path="C:\Programacion\sisgeres\app-escritorio\Properties\Resources.resx" />
-  <event action="Analyze" type="Success" name="Pruebassunat.resx" path="C:\Programacion\sisgeres\app-escritorio\Sunat\Pruebassunat.resx" />
-  <event action="Analyze" type="Success" name="AgregarComBaja.resx" path="C:\Programacion\sisgeres\app-escritorio\Sunat\SunatForms\AgregarComBaja.resx" />
-  <event action="Analyze" type="Success" name="AgregarNdebito.resx" path="C:\Programacion\sisgeres\app-escritorio\Sunat\SunatForms\AgregarNdebito.resx" />
-  <event action="Analyze" type="Success" name="AgregarNotacredito.resx" path="C:\Programacion\sisgeres\app-escritorio\Sunat\SunatForms\AgregarNotacredito.resx" />
-  <event action="Analyze" type="Success" name="ComBaja.resx" path="C:\Programacion\sisgeres\app-escritorio\Sunat\SunatForms\ComBaja.resx" />
-  <event action="Analyze" type="Success" name="Sboletas.resx" path="C:\Programacion\sisgeres\app-escritorio\Sunat\SunatForms\Sboletas.resx" />
-  <event action="Analyze" type="Success" name="Sfacturas.resx" path="C:\Programacion\sisgeres\app-escritorio\Sunat\SunatForms\Sfacturas.resx" />
-  <event action="Analyze" type="Success" name="Smenusunat.resx" path="C:\Programacion\sisgeres\app-escritorio\Sunat\SunatForms\Smenusunat.resx" />
-  <event action="Analyze" type="Success" name="Snotascredito.resx" path="C:\Programacion\sisgeres\app-escritorio\Sunat\SunatForms\Snotascredito.resx" />
-  <event action="Analyze" type="Success" name="Snotasdebito.resx" path="C:\Programacion\sisgeres\app-escritorio\Sunat\SunatForms\Snotasdebito.resx" />
-  <event action="Analyze" type="Success" name="sisgeres" path="C:\Programacion\sisgeres\app-escritorio\sisgeres.csproj" />
-  <event action="Analyze" type="Success" name="sisgeres" path="C:\Programacion\sisgeres\app-escritorio\sisgeres.sln" />
-  <event action="Backup" type="Success" name="sisgeres" path="C:\Programacion\sisgeres\app-escritorio\sisgeres.csproj" />
-  <event action="Upgrade" type="Success" name="Assembly References" path="C:\Programacion\sisgeres\app-escritorio\sisgeres.csproj" />
-  <event action="Upgrade" type="Success" name="Rcierrecaja.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Reportes\Rcierrecaja.resx" />
-  <event action="Upgrade" type="Success" name="RcomprobVenta.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Reportes\RcomprobVenta.resx" />
-  <event action="Upgrade" type="Success" name="Rdetalleventas.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Reportes\Rdetalleventas.resx" />
-  <event action="Upgrade" type="Success" name="Rprecuenta.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Reportes\Rprecuenta.resx" />
-  <event action="Upgrade" type="Success" name="Rproductosmasv.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Reportes\Rproductosmasv.resx" />
-  <event action="Upgrade" type="Success" name="Rresumenventas.resx" path="C:\Programacion\sisgeres\app-escritorio\Presentacion\Reportes\Rresumenventas.resx" />
-  <event action="Upgrade" type="Success" name="sisgeres" path="C:\Programacion\sisgeres\app-escritorio\sisgeres.csproj" />
-  <event action="Upgrade" type="Success" name="sisgeres" path="C:\Programacion\sisgeres\app-escritorio\sisgeres.sln" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\dev\sisgeres\app-escritorio\sisgeres.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\dev\sisgeres\app-escritorio\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\dev\sisgeres\app-escritorio\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\dev\sisgeres\app-escritorio\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\dev\sisgeres\app-escritorio\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\dev\sisgeres\app-escritorio\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\dev\sisgeres\app-escritorio\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="D:\dev\sisgeres\app-escritorio\app.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\dev\sisgeres\app-escritorio\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\dev\sisgeres\app-escritorio\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\dev\sisgeres\app-escritorio\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\dev\sisgeres\app-escritorio\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\dev\sisgeres\app-escritorio\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\dev\sisgeres\app-escritorio\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="D:\dev\sisgeres\app-escritorio\packages.config" />
+  <event action="Analyze" type="Success" name="EleccionServidor.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\AsistenteInstalacion\EleccionServidor.resx" />
+  <event action="Analyze" type="Success" name="Empresaregistro.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\AsistenteInstalacion\Empresaregistro.resx" />
+  <event action="Analyze" type="Success" name="InstalarServidor.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\AsistenteInstalacion\InstalarServidor.resx" />
+  <event action="Analyze" type="Success" name="UsuarioPrincipal.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\AsistenteInstalacion\UsuarioPrincipal.resx" />
+  <event action="Analyze" type="Success" name="AperturaCaja.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Caja\AperturaCaja.resx" />
+  <event action="Analyze" type="Success" name="CierreCaja.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Caja\CierreCaja.resx" />
+  <event action="Analyze" type="Success" name="Listagastosingresos.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Caja\Listagastosingresos.resx" />
+  <event action="Analyze" type="Success" name="PantallaCocina.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Cocina\PantallaCocina.resx" />
+  <event action="Analyze" type="Success" name="CONEXION_MANUAL.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\ConexionManual\CONEXION_MANUAL.resx" />
+  <event action="Analyze" type="Success" name="Asistenteconexion.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Conexionremota\Asistenteconexion.resx" />
+  <event action="Analyze" type="Success" name="Clientesconfig.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Configuraciones\Clientesconfig.resx" />
+  <event action="Analyze" type="Success" name="Menu_de_configuraciones.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Configuraciones\Menu_de_configuraciones.resx" />
+  <event action="Analyze" type="Success" name="GenerarAut.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Copiasbd\GenerarAut.resx" />
+  <event action="Analyze" type="Success" name="Diseño.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Diseñocomp\Diseño.resx" />
+  <event action="Analyze" type="Success" name="Eempresa.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Empresaconfig\Eempresa.resx" />
+  <event action="Analyze" type="Success" name="GenerarQr.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\GeneradorQR\GenerarQr.resx" />
+  <event action="Analyze" type="Success" name="ImpresorasConf.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Impresoras\ImpresorasConf.resx" />
+  <event action="Analyze" type="Success" name="Licencias.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Licencia\Licencias.resx" />
+  <event action="Analyze" type="Success" name="LoginForm.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Login\LoginForm.resx" />
+  <event action="Analyze" type="Success" name="Agregar_mesa_ok.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Mesas_salones\Agregar_mesa_ok.resx" />
+  <event action="Analyze" type="Success" name="Configurar_mesas_ok.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Mesas_salones\Configurar_mesas_ok.resx" />
+  <event action="Analyze" type="Success" name="Salones.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Mesas_salones\Salones.resx" />
+  <event action="Analyze" type="Success" name="Grupos_De_productos.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\PRODUCTOS\Grupos_De_productos.resx" />
+  <event action="Analyze" type="Success" name="Productos_rest.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\PRODUCTOS\Productos_rest.resx" />
+  <event action="Analyze" type="Success" name="Registro_de_productos.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\PRODUCTOS\Registro_de_productos.resx" />
+  <event action="Analyze" type="Success" name="Agregarcliente.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\PUNTO DE VENTA\Agregarcliente.resx" />
+  <event action="Analyze" type="Success" name="Buscadorproductos.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\PUNTO DE VENTA\Buscadorproductos.resx" />
+  <event action="Analyze" type="Success" name="CantPersonas.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\PUNTO DE VENTA\CantPersonas.resx" />
+  <event action="Analyze" type="Success" name="Cobrar.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\PUNTO DE VENTA\Cobrar.resx" />
+  <event action="Analyze" type="Success" name="MostradorProductos.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\PUNTO DE VENTA\MostradorProductos.resx" />
+  <event action="Analyze" type="Success" name="NombreLlevar.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\PUNTO DE VENTA\NombreLlevar.resx" />
+  <event action="Analyze" type="Success" name="Notas.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\PUNTO DE VENTA\Notas.resx" />
+  <event action="Analyze" type="Success" name="Punto_de_venta.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\PUNTO DE VENTA\Punto_de_venta.resx" />
+  <event action="Analyze" type="Success" name="Visor_de_mesas.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\PUNTO DE VENTA\Visor_de_mesas.resx" />
+  <event action="Analyze" type="Success" name="VisorDecuentas.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\PUNTO DE VENTA\VisorDecuentas.resx" />
+  <event action="Analyze" type="Success" name="Menureportes.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Reportes\Menureportes.resx" />
+  <event action="Analyze" type="Success" name="Pruebaimpresora.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Reportes\Pruebaimpresora.resx" />
+  <event action="Analyze" type="Success" name="Rcierrecaja.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Reportes\Rcierrecaja.resx" />
+  <event action="Analyze" type="Success" name="Rcodigosqr.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Reportes\Rcodigosqr.resx" />
+  <event action="Analyze" type="Success" name="RcomprobVenta.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Reportes\RcomprobVenta.resx" />
+  <event action="Analyze" type="Success" name="Rdetalleventas.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Reportes\Rdetalleventas.resx" />
+  <event action="Analyze" type="Success" name="RpedidonotaInd.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Reportes\RpedidonotaInd.resx" />
+  <event action="Analyze" type="Success" name="Rpedidos.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Reportes\Rpedidos.resx" />
+  <event action="Analyze" type="Success" name="Rprecuenta.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Reportes\Rprecuenta.resx" />
+  <event action="Analyze" type="Success" name="Rproductosmasv.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Reportes\Rproductosmasv.resx" />
+  <event action="Analyze" type="Success" name="Rresumenventas.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Reportes\Rresumenventas.resx" />
+  <event action="Analyze" type="Success" name="SerialziacionComp.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Serializacion\SerialziacionComp.resx" />
+  <event action="Analyze" type="Success" name="UsuariosOk.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Usuarios\UsuariosOk.resx" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="D:\dev\sisgeres\app-escritorio\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="Pruebassunat.resx" path="D:\dev\sisgeres\app-escritorio\Sunat\Pruebassunat.resx" />
+  <event action="Analyze" type="Success" name="AgregarComBaja.resx" path="D:\dev\sisgeres\app-escritorio\Sunat\SunatForms\AgregarComBaja.resx" />
+  <event action="Analyze" type="Success" name="AgregarNdebito.resx" path="D:\dev\sisgeres\app-escritorio\Sunat\SunatForms\AgregarNdebito.resx" />
+  <event action="Analyze" type="Success" name="AgregarNotacredito.resx" path="D:\dev\sisgeres\app-escritorio\Sunat\SunatForms\AgregarNotacredito.resx" />
+  <event action="Analyze" type="Success" name="ComBaja.resx" path="D:\dev\sisgeres\app-escritorio\Sunat\SunatForms\ComBaja.resx" />
+  <event action="Analyze" type="Success" name="Sboletas.resx" path="D:\dev\sisgeres\app-escritorio\Sunat\SunatForms\Sboletas.resx" />
+  <event action="Analyze" type="Success" name="Sfacturas.resx" path="D:\dev\sisgeres\app-escritorio\Sunat\SunatForms\Sfacturas.resx" />
+  <event action="Analyze" type="Success" name="Smenusunat.resx" path="D:\dev\sisgeres\app-escritorio\Sunat\SunatForms\Smenusunat.resx" />
+  <event action="Analyze" type="Success" name="Snotascredito.resx" path="D:\dev\sisgeres\app-escritorio\Sunat\SunatForms\Snotascredito.resx" />
+  <event action="Analyze" type="Success" name="Snotasdebito.resx" path="D:\dev\sisgeres\app-escritorio\Sunat\SunatForms\Snotasdebito.resx" />
+  <event action="Analyze" type="Success" name="sisgeres" path="D:\dev\sisgeres\app-escritorio\sisgeres.csproj" />
+  <event action="Analyze" type="Success" name="sisgeres" path="D:\dev\sisgeres\app-escritorio\sisgeres.sln" />
+  <event action="Backup" type="Error" name="sisgeres" path="D:\dev\sisgeres\app-escritorio\sisgeres.csproj">System.IO.IOException: El proceso no puede obtener acceso al archivo 'D:\dev\sisgeres\app-escritorio\.vs\sisgeres\FileContentIndex\7f2405b5-4cbe-49e7-b0fc-1ade69856eae.vsidx' porque está siendo utilizado en otro proceso.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   en Telerik.Reporting.UpgradeWizard.Engine.Services.BackupService.BackupDirectory(String directoryName)
+   en Telerik.Reporting.UpgradeWizard.Engine.Services.BackupService.BackupDirectory(String directoryName)
+   en Telerik.Reporting.UpgradeWizard.Engine.Services.BackupService.BackupDirectory(String directoryName)
+   en Telerik.Reporting.UpgradeWizard.Engine.Services.BackupService.BackupDirectory(String directoryName)
+   en Telerik.Reporting.UpgradeWizard.Engine.ProjectItem.BackupInternal()
+   en Telerik.Reporting.UpgradeWizard.Engine.UpgradeItem.Backup()</event>
+  <event action="Restore" type="Success" name="sisgeres" path="D:\dev\sisgeres\app-escritorio\sisgeres.csproj" />
+  <event action="Restore" type="Error" name="Rcierrecaja.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Reportes\Rcierrecaja.resx">System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'D:\dev\sisgeres\app-escritorio\Backup1\sisgeres\Presentacion\Reportes\Rcierrecaja.resx'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   en Telerik.Reporting.UpgradeWizard.Engine.ResourceItem.RestoreInternal()
+   en Telerik.Reporting.UpgradeWizard.Engine.UpgradeItem.Restore()</event>
+  <event action="Restore" type="Error" name="RcomprobVenta.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Reportes\RcomprobVenta.resx">System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'D:\dev\sisgeres\app-escritorio\Backup1\sisgeres\Presentacion\Reportes\RcomprobVenta.resx'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   en Telerik.Reporting.UpgradeWizard.Engine.ResourceItem.RestoreInternal()
+   en Telerik.Reporting.UpgradeWizard.Engine.UpgradeItem.Restore()</event>
+  <event action="Restore" type="Error" name="Rdetalleventas.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Reportes\Rdetalleventas.resx">System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'D:\dev\sisgeres\app-escritorio\Backup1\sisgeres\Presentacion\Reportes\Rdetalleventas.resx'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   en Telerik.Reporting.UpgradeWizard.Engine.ResourceItem.RestoreInternal()
+   en Telerik.Reporting.UpgradeWizard.Engine.UpgradeItem.Restore()</event>
+  <event action="Restore" type="Error" name="Rprecuenta.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Reportes\Rprecuenta.resx">System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'D:\dev\sisgeres\app-escritorio\Backup1\sisgeres\Presentacion\Reportes\Rprecuenta.resx'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   en Telerik.Reporting.UpgradeWizard.Engine.ResourceItem.RestoreInternal()
+   en Telerik.Reporting.UpgradeWizard.Engine.UpgradeItem.Restore()</event>
+  <event action="Restore" type="Error" name="Rproductosmasv.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Reportes\Rproductosmasv.resx">System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'D:\dev\sisgeres\app-escritorio\Backup1\sisgeres\Presentacion\Reportes\Rproductosmasv.resx'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   en Telerik.Reporting.UpgradeWizard.Engine.ResourceItem.RestoreInternal()
+   en Telerik.Reporting.UpgradeWizard.Engine.UpgradeItem.Restore()</event>
+  <event action="Restore" type="Error" name="Rresumenventas.resx" path="D:\dev\sisgeres\app-escritorio\Presentacion\Reportes\Rresumenventas.resx">System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'D:\dev\sisgeres\app-escritorio\Backup1\sisgeres\Presentacion\Reportes\Rresumenventas.resx'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   en Telerik.Reporting.UpgradeWizard.Engine.ResourceItem.RestoreInternal()
+   en Telerik.Reporting.UpgradeWizard.Engine.UpgradeItem.Restore()</event>
 </log>

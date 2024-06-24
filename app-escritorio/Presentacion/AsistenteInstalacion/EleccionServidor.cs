@@ -1,4 +1,5 @@
-﻿using sisgeres.Presentacion.Conexionremota;
+﻿using sisgeres.libs;
+using sisgeres.Presentacion.Conexionremota;
 using System;
 using System.Data.SqlClient;
 using System.Drawing;
@@ -9,6 +10,8 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
 {
     public partial class EleccionServidor : Form
     {
+        private static LogsCustom _logsCustom = new LogsCustom();
+
         public EleccionServidor()
         {
             InitializeComponent();
@@ -53,8 +56,10 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
                 MessageBox.Show("!Listo! - vuelve a abrir el sistema");
                 Dispose();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                _logsCustom.alta_log("Excepcion EleccionServidor.cs - probarconexion - " + ex.Message);
+
                 Idusuario = 0;
                 MessageBox.Show("sin conexion");
             }
@@ -62,14 +67,22 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
         }
         public void SavetoXML(object dbcnString)
         {
-            XmlDocument doc = new XmlDocument();
-            doc.Load("ConnectionString.xml");
-            XmlElement root = doc.DocumentElement;
-            root.Attributes[0].Value = Convert.ToString(dbcnString);
-            XmlTextWriter writer = new XmlTextWriter("ConnectionString.xml", null);
-            writer.Formatting = Formatting.Indented;
-            doc.Save(writer);
-            writer.Close();
+            try
+            {
+                XmlDocument doc = new XmlDocument();
+                doc.Load("ConnectionString.xml");
+                XmlElement root = doc.DocumentElement;
+                root.Attributes[0].Value = Convert.ToString(dbcnString);
+                XmlTextWriter writer = new XmlTextWriter("ConnectionString.xml", null);
+                writer.Formatting = Formatting.Indented;
+                doc.Save(writer);
+                writer.Close();
+            }
+            catch (Exception ex)
+            {
+                _logsCustom.alta_log("Excepcion EleccionServidor.cs - SavetoXML - " + ex.Message);
+                MessageBox.Show("Ocurrio un error. Contactese con el administrador");
+            }
         }
         private void checkUsuario_CheckedChanged(object sender, EventArgs e)
         {

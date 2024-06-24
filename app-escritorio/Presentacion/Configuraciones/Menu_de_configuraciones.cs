@@ -18,6 +18,7 @@ using sisgeres.Presentacion.Licencia;
 using sisgeres.Presentacion.Usuarios;
 using sisgeres.Presentacion.Mesas_salones;
 using sisgeres.Presentacion.PRODUCTOS;
+using System.Diagnostics;
 
 namespace sisgeres.Presentacion.Configuraciones
 {
@@ -287,6 +288,23 @@ namespace sisgeres.Presentacion.Configuraciones
         private void btnsalir_Click(object sender, EventArgs e)
         {
             Dispose();
+        }
+
+        private void btn_open_logs_Click(object sender, EventArgs e)
+        {
+            string appDataFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+            string logsFolder = Path.Combine(appDataFolder, "sisgeres");
+
+            // Verifica si el directorio existe
+            if (Directory.Exists(logsFolder))
+            {
+                // Abre el directorio en el Explorador de Windows
+                Process.Start("explorer.exe", logsFolder);
+            }
+            else
+            {
+                MessageBox.Show("La carpeta de logs no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

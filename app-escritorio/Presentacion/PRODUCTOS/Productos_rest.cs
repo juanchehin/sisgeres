@@ -11,11 +11,13 @@ using System.IO;
 using sisgeres.Datos;
 using sisgeres.Logica;
 using Sunat.Logica;
+using sisgeres.libs;
 
 namespace sisgeres.Presentacion.PRODUCTOS
 {
     public partial class Productos_rest : UserControl
     {
+        private static LogsCustom _logsCustom = new LogsCustom();
         public Productos_rest()
         {
             InitializeComponent();
@@ -249,8 +251,6 @@ namespace sisgeres.Presentacion.PRODUCTOS
         }
         private void Seleccionar_Deseleccionar_grupos()
         {
-
-
             //Sin seleccionar
             foreach (Panel panelP1 in Panel_grupos.Controls)
             {
@@ -418,8 +418,9 @@ namespace sisgeres.Presentacion.PRODUCTOS
             }
             catch (Exception ex)
             {
+                _logsCustom.alta_log("Excepcion Productos_rest - dibujarProductos - " + ex.Message);
                 CONEXIONMAESTRA.cerrar();
-                MessageBox.Show(ex.Message);
+                //MessageBox.Show(ex.Message);
             }
         }
 
