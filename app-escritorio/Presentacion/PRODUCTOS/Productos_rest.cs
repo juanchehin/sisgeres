@@ -159,6 +159,7 @@ namespace sisgeres.Presentacion.PRODUCTOS
             }
             catch (Exception ex)
             {
+                _logsCustom.alta_log("Excepcion - " + ex.Message);
                 CONEXIONMAESTRA.cerrar();
                 MessageBox.Show(ex.StackTrace);
             }

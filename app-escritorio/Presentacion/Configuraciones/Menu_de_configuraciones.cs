@@ -1,12 +1,8 @@
 ﻿using sisgeres.Presentacion.Diseñocomp;
 using sisgeres.Presentacion.Impresoras;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 using sisgeres.Presentacion.Serializacion;
 using sisgeres.Presentacion.Reportes;
@@ -19,11 +15,14 @@ using sisgeres.Presentacion.Usuarios;
 using sisgeres.Presentacion.Mesas_salones;
 using sisgeres.Presentacion.PRODUCTOS;
 using System.Diagnostics;
+using sisgeres.libs;
 
 namespace sisgeres.Presentacion.Configuraciones
 {
     public partial class Menu_de_configuraciones : UserControl
     {
+        private static LogsCustom _logsCustom = new LogsCustom();
+
         public Menu_de_configuraciones()
         {
             InitializeComponent();
@@ -54,7 +53,6 @@ namespace sisgeres.Presentacion.Configuraciones
         }
         private void centrar_panel_contenedor()
         {
-
             PanelContenedor.Location = new Point((panel1.Width - PanelContenedor.Width) / 2, (panel1.Height - PanelContenedor.Height) / 2);
         }
 
@@ -163,10 +161,9 @@ namespace sisgeres.Presentacion.Configuraciones
                     System.IO.Directory.CreateDirectory(System.IO.Path.Combine(ruta_completa, SubCarpeta));
 
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-
-
+                    _logsCustom.alta_log("Excepcion - " + ex.Message);
                 }
                 try
                 {
@@ -177,6 +174,7 @@ namespace sisgeres.Presentacion.Configuraciones
                 }
                 catch (Exception ex)
                 {
+                    _logsCustom.alta_log("Excepcion - " + ex.Message);
                     MessageBox.Show(ex.Message);
                 }
             }
@@ -215,8 +213,9 @@ namespace sisgeres.Presentacion.Configuraciones
 
 
                     }
-                    catch (Exception)
+                    catch (Exception ex)
                     {
+                        _logsCustom.alta_log("Excepcion - " + ex.Message);
                         RestaurarNoExpress();
                     }
                     finally
@@ -253,9 +252,9 @@ namespace sisgeres.Presentacion.Configuraciones
 
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
+                _logsCustom.alta_log("Excepcion - " + ex.Message);
             }
             finally
             {
@@ -305,6 +304,12 @@ namespace sisgeres.Presentacion.Configuraciones
             {
                 MessageBox.Show("La carpeta de logs no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void btn_obtenerIP_Click(object sender, EventArgs e)
+        {
+            obtenerIP frm = new obtenerIP();
+            frm.Show();
         }
     }
 }

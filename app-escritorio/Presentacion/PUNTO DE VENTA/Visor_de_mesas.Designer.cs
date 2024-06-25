@@ -34,8 +34,15 @@
             this.panelSunat = new System.Windows.Forms.Panel();
             this.PanelUNIONMesas = new System.Windows.Forms.Panel();
             this.labelPasos = new System.Windows.Forms.Label();
+            this.btnvolver = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.PanelHerramientas = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnadministrar = new System.Windows.Forms.Button();
+            this.btncocina = new System.Windows.Forms.Button();
+            this.btncerrartodo = new System.Windows.Forms.Button();
+            this.btncerrarcaja = new System.Windows.Forms.Button();
+            this.btnIngresoSalida = new System.Windows.Forms.Button();
+            this.btncodigosQR = new System.Windows.Forms.Button();
             this.PanelMesas = new System.Windows.Forms.FlowLayoutPanel();
             this.PanelBienvenida = new System.Windows.Forms.Panel();
             this.Label3 = new System.Windows.Forms.Label();
@@ -43,6 +50,11 @@
             this.FlowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.Panelbotones = new System.Windows.Forms.Panel();
+            this.btnSunat = new System.Windows.Forms.Button();
+            this.btnHerramientas = new System.Windows.Forms.Button();
+            this.btnsalir = new System.Windows.Forms.Button();
+            this.btnCambiomesa = new System.Windows.Forms.Button();
+            this.btnVerCuentas = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.DATALISTADO_PRODUCTOS_OKA_libre = new System.Windows.Forms.DataGridView();
             this.DataGridViewCheckBoxColumn2 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
@@ -54,23 +66,10 @@
             this.DataGridView1 = new System.Windows.Forms.DataGridView();
             this.DataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.TextBox1 = new System.Windows.Forms.TextBox();
+            this.btnParallevar = new System.Windows.Forms.Button();
             this.rptComunicador = new Telerik.ReportViewer.WinForms.ReportViewer();
             this.timerImprimir = new System.Windows.Forms.Timer(this.components);
             this.timerEsc = new System.Windows.Forms.Timer(this.components);
-            this.btnvolver = new System.Windows.Forms.Button();
-            this.btnadministrar = new System.Windows.Forms.Button();
-            this.btncocina = new System.Windows.Forms.Button();
-            this.btncerrartodo = new System.Windows.Forms.Button();
-            this.btncerrarcaja = new System.Windows.Forms.Button();
-            this.btnIngresoSalida = new System.Windows.Forms.Button();
-            this.btnIP = new System.Windows.Forms.Button();
-            this.btnSunat = new System.Windows.Forms.Button();
-            this.btnHerramientas = new System.Windows.Forms.Button();
-            this.btnsalir = new System.Windows.Forms.Button();
-            this.btnCambiomesa = new System.Windows.Forms.Button();
-            this.btnVerCuentas = new System.Windows.Forms.Button();
-            this.btnParallevar = new System.Windows.Forms.Button();
-            this.btncodigosQR = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.PanelUNIONMesas.SuspendLayout();
             this.PanelHerramientas.SuspendLayout();
@@ -129,6 +128,26 @@
             this.labelPasos.Text = "PASO 1 \r\n\r\nSeleccione una mesa de Origen";
             this.labelPasos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnvolver
+            // 
+            this.btnvolver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.btnvolver.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnvolver.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnvolver.FlatAppearance.BorderSize = 0;
+            this.btnvolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnvolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnvolver.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnvolver.Image = ((System.Drawing.Image)(resources.GetObject("btnvolver.Image")));
+            this.btnvolver.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnvolver.Location = new System.Drawing.Point(0, 299);
+            this.btnvolver.Name = "btnvolver";
+            this.btnvolver.Size = new System.Drawing.Size(413, 75);
+            this.btnvolver.TabIndex = 8;
+            this.btnvolver.Text = "Cancelar la UNION";
+            this.btnvolver.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnvolver.UseVisualStyleBackColor = false;
+            this.btnvolver.Click += new System.EventHandler(this.btnvolver_Click);
+            // 
             // panel3
             // 
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -146,13 +165,136 @@
             this.PanelHerramientas.Controls.Add(this.btncerrarcaja);
             this.PanelHerramientas.Controls.Add(this.btnIngresoSalida);
             this.PanelHerramientas.Controls.Add(this.btncodigosQR);
-            this.PanelHerramientas.Controls.Add(this.btnIP);
             this.PanelHerramientas.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.PanelHerramientas.Location = new System.Drawing.Point(288, 507);
             this.PanelHerramientas.Name = "PanelHerramientas";
             this.PanelHerramientas.Size = new System.Drawing.Size(968, 92);
             this.PanelHerramientas.TabIndex = 499;
             this.PanelHerramientas.Visible = false;
+            // 
+            // btnadministrar
+            // 
+            this.btnadministrar.BackColor = System.Drawing.Color.Transparent;
+            this.btnadministrar.BackgroundImage = global::sisgeres.Properties.Resources.azul;
+            this.btnadministrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnadministrar.FlatAppearance.BorderSize = 0;
+            this.btnadministrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnadministrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnadministrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnadministrar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnadministrar.ForeColor = System.Drawing.Color.White;
+            this.btnadministrar.Location = new System.Drawing.Point(3, 3);
+            this.btnadministrar.Name = "btnadministrar";
+            this.btnadministrar.Size = new System.Drawing.Size(125, 84);
+            this.btnadministrar.TabIndex = 505;
+            this.btnadministrar.Text = "Administrar";
+            this.btnadministrar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnadministrar.UseVisualStyleBackColor = false;
+            this.btnadministrar.Visible = false;
+            this.btnadministrar.Click += new System.EventHandler(this.btnadministrar_Click);
+            // 
+            // btncocina
+            // 
+            this.btncocina.BackColor = System.Drawing.Color.Transparent;
+            this.btncocina.BackgroundImage = global::sisgeres.Properties.Resources.azul;
+            this.btncocina.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btncocina.Enabled = false;
+            this.btncocina.FlatAppearance.BorderSize = 0;
+            this.btncocina.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btncocina.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btncocina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncocina.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncocina.ForeColor = System.Drawing.Color.White;
+            this.btncocina.Location = new System.Drawing.Point(134, 3);
+            this.btncocina.Name = "btncocina";
+            this.btncocina.Size = new System.Drawing.Size(125, 84);
+            this.btncocina.TabIndex = 506;
+            this.btncocina.Text = "Cocina";
+            this.btncocina.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btncocina.UseVisualStyleBackColor = false;
+            this.btncocina.Visible = false;
+            this.btncocina.Click += new System.EventHandler(this.btncocina_Click);
+            // 
+            // btncerrartodo
+            // 
+            this.btncerrartodo.BackColor = System.Drawing.Color.Transparent;
+            this.btncerrartodo.BackgroundImage = global::sisgeres.Properties.Resources.Rojo;
+            this.btncerrartodo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btncerrartodo.FlatAppearance.BorderSize = 0;
+            this.btncerrartodo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btncerrartodo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btncerrartodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncerrartodo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncerrartodo.ForeColor = System.Drawing.Color.White;
+            this.btncerrartodo.Location = new System.Drawing.Point(265, 3);
+            this.btncerrartodo.Name = "btncerrartodo";
+            this.btncerrartodo.Size = new System.Drawing.Size(125, 84);
+            this.btncerrartodo.TabIndex = 507;
+            this.btncerrartodo.Text = "Cerrar Todo";
+            this.btncerrartodo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btncerrartodo.UseVisualStyleBackColor = false;
+            this.btncerrartodo.Click += new System.EventHandler(this.btncerrartodo_Click);
+            // 
+            // btncerrarcaja
+            // 
+            this.btncerrarcaja.BackColor = System.Drawing.Color.Transparent;
+            this.btncerrarcaja.BackgroundImage = global::sisgeres.Properties.Resources.azul;
+            this.btncerrarcaja.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btncerrarcaja.FlatAppearance.BorderSize = 0;
+            this.btncerrarcaja.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btncerrarcaja.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btncerrarcaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncerrarcaja.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncerrarcaja.ForeColor = System.Drawing.Color.White;
+            this.btncerrarcaja.Location = new System.Drawing.Point(396, 3);
+            this.btncerrarcaja.Name = "btncerrarcaja";
+            this.btncerrarcaja.Size = new System.Drawing.Size(125, 84);
+            this.btncerrarcaja.TabIndex = 508;
+            this.btncerrarcaja.Text = "Cerrar caja";
+            this.btncerrarcaja.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btncerrarcaja.UseVisualStyleBackColor = false;
+            this.btncerrarcaja.Visible = false;
+            this.btncerrarcaja.Click += new System.EventHandler(this.btncerrarcaja_Click);
+            // 
+            // btnIngresoSalida
+            // 
+            this.btnIngresoSalida.BackColor = System.Drawing.Color.Transparent;
+            this.btnIngresoSalida.BackgroundImage = global::sisgeres.Properties.Resources.azul;
+            this.btnIngresoSalida.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnIngresoSalida.FlatAppearance.BorderSize = 0;
+            this.btnIngresoSalida.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnIngresoSalida.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnIngresoSalida.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIngresoSalida.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIngresoSalida.ForeColor = System.Drawing.Color.White;
+            this.btnIngresoSalida.Location = new System.Drawing.Point(527, 3);
+            this.btnIngresoSalida.Name = "btnIngresoSalida";
+            this.btnIngresoSalida.Size = new System.Drawing.Size(125, 84);
+            this.btnIngresoSalida.TabIndex = 512;
+            this.btnIngresoSalida.Text = "Ingreso / Salida de dinero";
+            this.btnIngresoSalida.UseVisualStyleBackColor = false;
+            this.btnIngresoSalida.Visible = false;
+            this.btnIngresoSalida.Click += new System.EventHandler(this.btnIngresoSalida_Click);
+            // 
+            // btncodigosQR
+            // 
+            this.btncodigosQR.BackColor = System.Drawing.Color.Transparent;
+            this.btncodigosQR.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
+            this.btncodigosQR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btncodigosQR.FlatAppearance.BorderSize = 0;
+            this.btncodigosQR.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btncodigosQR.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btncodigosQR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncodigosQR.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncodigosQR.ForeColor = System.Drawing.Color.White;
+            this.btncodigosQR.Location = new System.Drawing.Point(658, 3);
+            this.btncodigosQR.Name = "btncodigosQR";
+            this.btncodigosQR.Size = new System.Drawing.Size(125, 84);
+            this.btncodigosQR.TabIndex = 513;
+            this.btncodigosQR.Text = "Generar codigos QR";
+            this.btncodigosQR.UseVisualStyleBackColor = false;
+            this.btncodigosQR.Visible = false;
+            this.btncodigosQR.Click += new System.EventHandler(this.btncodigosQR_Click);
             // 
             // PanelMesas
             // 
@@ -233,6 +375,109 @@
             this.Panelbotones.Name = "Panelbotones";
             this.Panelbotones.Size = new System.Drawing.Size(279, 331);
             this.Panelbotones.TabIndex = 2;
+            // 
+            // btnSunat
+            // 
+            this.btnSunat.BackColor = System.Drawing.Color.Transparent;
+            this.btnSunat.BackgroundImage = global::sisgeres.Properties.Resources.azul;
+            this.btnSunat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSunat.FlatAppearance.BorderSize = 0;
+            this.btnSunat.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnSunat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnSunat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSunat.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSunat.ForeColor = System.Drawing.Color.White;
+            this.btnSunat.Location = new System.Drawing.Point(12, 235);
+            this.btnSunat.Name = "btnSunat";
+            this.btnSunat.Size = new System.Drawing.Size(120, 84);
+            this.btnSunat.TabIndex = 509;
+            this.btnSunat.Text = "SUNAT";
+            this.btnSunat.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSunat.UseVisualStyleBackColor = false;
+            this.btnSunat.Visible = false;
+            this.btnSunat.Click += new System.EventHandler(this.btnSunat_Click);
+            // 
+            // btnHerramientas
+            // 
+            this.btnHerramientas.BackColor = System.Drawing.Color.Transparent;
+            this.btnHerramientas.BackgroundImage = global::sisgeres.Properties.Resources.Rojo;
+            this.btnHerramientas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnHerramientas.FlatAppearance.BorderSize = 0;
+            this.btnHerramientas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnHerramientas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnHerramientas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHerramientas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHerramientas.ForeColor = System.Drawing.Color.White;
+            this.btnHerramientas.Location = new System.Drawing.Point(143, 235);
+            this.btnHerramientas.Name = "btnHerramientas";
+            this.btnHerramientas.Size = new System.Drawing.Size(120, 84);
+            this.btnHerramientas.TabIndex = 504;
+            this.btnHerramientas.Text = "Herramientas";
+            this.btnHerramientas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnHerramientas.UseVisualStyleBackColor = false;
+            this.btnHerramientas.Click += new System.EventHandler(this.btnHerramientas_Click);
+            // 
+            // btnsalir
+            // 
+            this.btnsalir.BackColor = System.Drawing.Color.Transparent;
+            this.btnsalir.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
+            this.btnsalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnsalir.FlatAppearance.BorderSize = 0;
+            this.btnsalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnsalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnsalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnsalir.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsalir.ForeColor = System.Drawing.Color.White;
+            this.btnsalir.Location = new System.Drawing.Point(143, 145);
+            this.btnsalir.Name = "btnsalir";
+            this.btnsalir.Size = new System.Drawing.Size(120, 84);
+            this.btnsalir.TabIndex = 503;
+            this.btnsalir.Text = "Salir";
+            this.btnsalir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnsalir.UseVisualStyleBackColor = false;
+            this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
+            // 
+            // btnCambiomesa
+            // 
+            this.btnCambiomesa.BackColor = System.Drawing.Color.Transparent;
+            this.btnCambiomesa.BackgroundImage = global::sisgeres.Properties.Resources.verde;
+            this.btnCambiomesa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCambiomesa.FlatAppearance.BorderSize = 0;
+            this.btnCambiomesa.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnCambiomesa.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnCambiomesa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCambiomesa.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCambiomesa.ForeColor = System.Drawing.Color.White;
+            this.btnCambiomesa.Location = new System.Drawing.Point(143, 55);
+            this.btnCambiomesa.Name = "btnCambiomesa";
+            this.btnCambiomesa.Size = new System.Drawing.Size(122, 84);
+            this.btnCambiomesa.TabIndex = 502;
+            this.btnCambiomesa.Text = "Cambio de mesa";
+            this.btnCambiomesa.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnCambiomesa.UseVisualStyleBackColor = false;
+            this.btnCambiomesa.Visible = false;
+            this.btnCambiomesa.Click += new System.EventHandler(this.btnCambiomesa_Click);
+            // 
+            // btnVerCuentas
+            // 
+            this.btnVerCuentas.BackColor = System.Drawing.Color.Transparent;
+            this.btnVerCuentas.BackgroundImage = global::sisgeres.Properties.Resources.verde;
+            this.btnVerCuentas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnVerCuentas.FlatAppearance.BorderSize = 0;
+            this.btnVerCuentas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnVerCuentas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnVerCuentas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVerCuentas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerCuentas.ForeColor = System.Drawing.Color.White;
+            this.btnVerCuentas.Location = new System.Drawing.Point(12, 145);
+            this.btnVerCuentas.Name = "btnVerCuentas";
+            this.btnVerCuentas.Size = new System.Drawing.Size(120, 84);
+            this.btnVerCuentas.TabIndex = 501;
+            this.btnVerCuentas.Text = "Ver cuentas";
+            this.btnVerCuentas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnVerCuentas.UseVisualStyleBackColor = false;
+            this.btnVerCuentas.Visible = false;
+            this.btnVerCuentas.Click += new System.EventHandler(this.btnVerCuentas_Click);
             // 
             // panel2
             // 
@@ -373,271 +618,6 @@
             this.TextBox1.Size = new System.Drawing.Size(110, 22);
             this.TextBox1.TabIndex = 496;
             // 
-            // rptComunicador
-            // 
-            this.rptComunicador.AccessibilityKeyMap = null;
-            this.rptComunicador.Location = new System.Drawing.Point(181, 169);
-            this.rptComunicador.Name = "rptComunicador";
-            this.rptComunicador.Size = new System.Drawing.Size(33, 30);
-            this.rptComunicador.TabIndex = 0;
-            // 
-            // timerImprimir
-            // 
-            this.timerImprimir.Enabled = true;
-            this.timerImprimir.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // timerEsc
-            // 
-            this.timerEsc.Enabled = true;
-            this.timerEsc.Tick += new System.EventHandler(this.timerEsc_Tick);
-            // 
-            // btnvolver
-            // 
-            this.btnvolver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.btnvolver.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnvolver.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnvolver.FlatAppearance.BorderSize = 0;
-            this.btnvolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnvolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnvolver.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnvolver.Image = ((System.Drawing.Image)(resources.GetObject("btnvolver.Image")));
-            this.btnvolver.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnvolver.Location = new System.Drawing.Point(0, 299);
-            this.btnvolver.Name = "btnvolver";
-            this.btnvolver.Size = new System.Drawing.Size(413, 75);
-            this.btnvolver.TabIndex = 8;
-            this.btnvolver.Text = "Cancelar la UNION";
-            this.btnvolver.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnvolver.UseVisualStyleBackColor = false;
-            this.btnvolver.Click += new System.EventHandler(this.btnvolver_Click);
-            // 
-            // btnadministrar
-            // 
-            this.btnadministrar.BackColor = System.Drawing.Color.Transparent;
-            this.btnadministrar.BackgroundImage = global::sisgeres.Properties.Resources.azul;
-            this.btnadministrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnadministrar.FlatAppearance.BorderSize = 0;
-            this.btnadministrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnadministrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnadministrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnadministrar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnadministrar.ForeColor = System.Drawing.Color.White;
-            this.btnadministrar.Location = new System.Drawing.Point(3, 3);
-            this.btnadministrar.Name = "btnadministrar";
-            this.btnadministrar.Size = new System.Drawing.Size(125, 84);
-            this.btnadministrar.TabIndex = 505;
-            this.btnadministrar.Text = "Administrar";
-            this.btnadministrar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnadministrar.UseVisualStyleBackColor = false;
-            this.btnadministrar.Visible = false;
-            this.btnadministrar.Click += new System.EventHandler(this.btnadministrar_Click);
-            // 
-            // btncocina
-            // 
-            this.btncocina.BackColor = System.Drawing.Color.Transparent;
-            this.btncocina.BackgroundImage = global::sisgeres.Properties.Resources.azul;
-            this.btncocina.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btncocina.Enabled = false;
-            this.btncocina.FlatAppearance.BorderSize = 0;
-            this.btncocina.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btncocina.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btncocina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncocina.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncocina.ForeColor = System.Drawing.Color.White;
-            this.btncocina.Location = new System.Drawing.Point(134, 3);
-            this.btncocina.Name = "btncocina";
-            this.btncocina.Size = new System.Drawing.Size(125, 84);
-            this.btncocina.TabIndex = 506;
-            this.btncocina.Text = "Cocina";
-            this.btncocina.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btncocina.UseVisualStyleBackColor = false;
-            this.btncocina.Visible = false;
-            this.btncocina.Click += new System.EventHandler(this.btncocina_Click);
-            // 
-            // btncerrartodo
-            // 
-            this.btncerrartodo.BackColor = System.Drawing.Color.Transparent;
-            this.btncerrartodo.BackgroundImage = global::sisgeres.Properties.Resources.Rojo;
-            this.btncerrartodo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btncerrartodo.FlatAppearance.BorderSize = 0;
-            this.btncerrartodo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btncerrartodo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btncerrartodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncerrartodo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncerrartodo.ForeColor = System.Drawing.Color.White;
-            this.btncerrartodo.Location = new System.Drawing.Point(265, 3);
-            this.btncerrartodo.Name = "btncerrartodo";
-            this.btncerrartodo.Size = new System.Drawing.Size(125, 84);
-            this.btncerrartodo.TabIndex = 507;
-            this.btncerrartodo.Text = "Cerrar Todo";
-            this.btncerrartodo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btncerrartodo.UseVisualStyleBackColor = false;
-            this.btncerrartodo.Click += new System.EventHandler(this.btncerrartodo_Click);
-            // 
-            // btncerrarcaja
-            // 
-            this.btncerrarcaja.BackColor = System.Drawing.Color.Transparent;
-            this.btncerrarcaja.BackgroundImage = global::sisgeres.Properties.Resources.azul;
-            this.btncerrarcaja.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btncerrarcaja.FlatAppearance.BorderSize = 0;
-            this.btncerrarcaja.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btncerrarcaja.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btncerrarcaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncerrarcaja.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncerrarcaja.ForeColor = System.Drawing.Color.White;
-            this.btncerrarcaja.Location = new System.Drawing.Point(396, 3);
-            this.btncerrarcaja.Name = "btncerrarcaja";
-            this.btncerrarcaja.Size = new System.Drawing.Size(125, 84);
-            this.btncerrarcaja.TabIndex = 508;
-            this.btncerrarcaja.Text = "Cerrar caja";
-            this.btncerrarcaja.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btncerrarcaja.UseVisualStyleBackColor = false;
-            this.btncerrarcaja.Visible = false;
-            this.btncerrarcaja.Click += new System.EventHandler(this.btncerrarcaja_Click);
-            // 
-            // btnIngresoSalida
-            // 
-            this.btnIngresoSalida.BackColor = System.Drawing.Color.Transparent;
-            this.btnIngresoSalida.BackgroundImage = global::sisgeres.Properties.Resources.azul;
-            this.btnIngresoSalida.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnIngresoSalida.FlatAppearance.BorderSize = 0;
-            this.btnIngresoSalida.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnIngresoSalida.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnIngresoSalida.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIngresoSalida.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIngresoSalida.ForeColor = System.Drawing.Color.White;
-            this.btnIngresoSalida.Location = new System.Drawing.Point(527, 3);
-            this.btnIngresoSalida.Name = "btnIngresoSalida";
-            this.btnIngresoSalida.Size = new System.Drawing.Size(125, 84);
-            this.btnIngresoSalida.TabIndex = 512;
-            this.btnIngresoSalida.Text = "Ingreso / Salida de dinero";
-            this.btnIngresoSalida.UseVisualStyleBackColor = false;
-            this.btnIngresoSalida.Visible = false;
-            this.btnIngresoSalida.Click += new System.EventHandler(this.btnIngresoSalida_Click);
-            // 
-            // btnIP
-            // 
-            this.btnIP.BackColor = System.Drawing.Color.Transparent;
-            this.btnIP.BackgroundImage = global::sisgeres.Properties.Resources.verde;
-            this.btnIP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnIP.FlatAppearance.BorderSize = 0;
-            this.btnIP.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnIP.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnIP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIP.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIP.ForeColor = System.Drawing.Color.White;
-            this.btnIP.Location = new System.Drawing.Point(789, 3);
-            this.btnIP.Name = "btnIP";
-            this.btnIP.Size = new System.Drawing.Size(120, 84);
-            this.btnIP.TabIndex = 514;
-            this.btnIP.Text = "Obtener IP";
-            this.btnIP.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnIP.UseVisualStyleBackColor = false;
-            this.btnIP.Click += new System.EventHandler(this.btnIP_Click);
-            // 
-            // btnSunat
-            // 
-            this.btnSunat.BackColor = System.Drawing.Color.Transparent;
-            this.btnSunat.BackgroundImage = global::sisgeres.Properties.Resources.azul;
-            this.btnSunat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSunat.FlatAppearance.BorderSize = 0;
-            this.btnSunat.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnSunat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnSunat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSunat.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSunat.ForeColor = System.Drawing.Color.White;
-            this.btnSunat.Location = new System.Drawing.Point(12, 235);
-            this.btnSunat.Name = "btnSunat";
-            this.btnSunat.Size = new System.Drawing.Size(120, 84);
-            this.btnSunat.TabIndex = 509;
-            this.btnSunat.Text = "SUNAT";
-            this.btnSunat.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSunat.UseVisualStyleBackColor = false;
-            this.btnSunat.Visible = false;
-            this.btnSunat.Click += new System.EventHandler(this.btnSunat_Click);
-            // 
-            // btnHerramientas
-            // 
-            this.btnHerramientas.BackColor = System.Drawing.Color.Transparent;
-            this.btnHerramientas.BackgroundImage = global::sisgeres.Properties.Resources.Rojo;
-            this.btnHerramientas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnHerramientas.FlatAppearance.BorderSize = 0;
-            this.btnHerramientas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnHerramientas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnHerramientas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHerramientas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHerramientas.ForeColor = System.Drawing.Color.White;
-            this.btnHerramientas.Location = new System.Drawing.Point(143, 235);
-            this.btnHerramientas.Name = "btnHerramientas";
-            this.btnHerramientas.Size = new System.Drawing.Size(120, 84);
-            this.btnHerramientas.TabIndex = 504;
-            this.btnHerramientas.Text = "Herramientas";
-            this.btnHerramientas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnHerramientas.UseVisualStyleBackColor = false;
-            this.btnHerramientas.Click += new System.EventHandler(this.btnHerramientas_Click);
-            // 
-            // btnsalir
-            // 
-            this.btnsalir.BackColor = System.Drawing.Color.Transparent;
-            this.btnsalir.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
-            this.btnsalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnsalir.FlatAppearance.BorderSize = 0;
-            this.btnsalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnsalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnsalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnsalir.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsalir.ForeColor = System.Drawing.Color.White;
-            this.btnsalir.Location = new System.Drawing.Point(143, 145);
-            this.btnsalir.Name = "btnsalir";
-            this.btnsalir.Size = new System.Drawing.Size(120, 84);
-            this.btnsalir.TabIndex = 503;
-            this.btnsalir.Text = "Salir";
-            this.btnsalir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnsalir.UseVisualStyleBackColor = false;
-            this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
-            // 
-            // btnCambiomesa
-            // 
-            this.btnCambiomesa.BackColor = System.Drawing.Color.Transparent;
-            this.btnCambiomesa.BackgroundImage = global::sisgeres.Properties.Resources.verde;
-            this.btnCambiomesa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnCambiomesa.FlatAppearance.BorderSize = 0;
-            this.btnCambiomesa.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnCambiomesa.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnCambiomesa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCambiomesa.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCambiomesa.ForeColor = System.Drawing.Color.White;
-            this.btnCambiomesa.Location = new System.Drawing.Point(143, 55);
-            this.btnCambiomesa.Name = "btnCambiomesa";
-            this.btnCambiomesa.Size = new System.Drawing.Size(122, 84);
-            this.btnCambiomesa.TabIndex = 502;
-            this.btnCambiomesa.Text = "Cambio de mesa";
-            this.btnCambiomesa.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnCambiomesa.UseVisualStyleBackColor = false;
-            this.btnCambiomesa.Visible = false;
-            this.btnCambiomesa.Click += new System.EventHandler(this.btnCambiomesa_Click);
-            // 
-            // btnVerCuentas
-            // 
-            this.btnVerCuentas.BackColor = System.Drawing.Color.Transparent;
-            this.btnVerCuentas.BackgroundImage = global::sisgeres.Properties.Resources.verde;
-            this.btnVerCuentas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnVerCuentas.FlatAppearance.BorderSize = 0;
-            this.btnVerCuentas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnVerCuentas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnVerCuentas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVerCuentas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerCuentas.ForeColor = System.Drawing.Color.White;
-            this.btnVerCuentas.Location = new System.Drawing.Point(12, 145);
-            this.btnVerCuentas.Name = "btnVerCuentas";
-            this.btnVerCuentas.Size = new System.Drawing.Size(120, 84);
-            this.btnVerCuentas.TabIndex = 501;
-            this.btnVerCuentas.Text = "Ver cuentas";
-            this.btnVerCuentas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnVerCuentas.UseVisualStyleBackColor = false;
-            this.btnVerCuentas.Visible = false;
-            this.btnVerCuentas.Click += new System.EventHandler(this.btnVerCuentas_Click);
-            // 
             // btnParallevar
             // 
             this.btnParallevar.BackColor = System.Drawing.Color.Transparent;
@@ -659,25 +639,23 @@
             this.btnParallevar.Visible = false;
             this.btnParallevar.Click += new System.EventHandler(this.btnParallevar_Click);
             // 
-            // btncodigosQR
+            // rptComunicador
             // 
-            this.btncodigosQR.BackColor = System.Drawing.Color.Transparent;
-            this.btncodigosQR.BackgroundImage = global::sisgeres.Properties.Resources.naranja;
-            this.btncodigosQR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btncodigosQR.FlatAppearance.BorderSize = 0;
-            this.btncodigosQR.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btncodigosQR.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btncodigosQR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncodigosQR.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncodigosQR.ForeColor = System.Drawing.Color.White;
-            this.btncodigosQR.Location = new System.Drawing.Point(658, 3);
-            this.btncodigosQR.Name = "btncodigosQR";
-            this.btncodigosQR.Size = new System.Drawing.Size(125, 84);
-            this.btncodigosQR.TabIndex = 513;
-            this.btncodigosQR.Text = "Generar codigos QR";
-            this.btncodigosQR.UseVisualStyleBackColor = false;
-            this.btncodigosQR.Visible = false;
-            this.btncodigosQR.Click += new System.EventHandler(this.btncodigosQR_Click);
+            this.rptComunicador.AccessibilityKeyMap = null;
+            this.rptComunicador.Location = new System.Drawing.Point(181, 169);
+            this.rptComunicador.Name = "rptComunicador";
+            this.rptComunicador.Size = new System.Drawing.Size(33, 30);
+            this.rptComunicador.TabIndex = 0;
+            // 
+            // timerImprimir
+            // 
+            this.timerImprimir.Enabled = true;
+            this.timerImprimir.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // timerEsc
+            // 
+            this.timerEsc.Enabled = true;
+            this.timerEsc.Tick += new System.EventHandler(this.timerEsc_Tick);
             // 
             // Visor_de_mesas
             // 
@@ -745,7 +723,6 @@
         private System.Windows.Forms.Timer timerEsc;
         private System.Windows.Forms.Button btnSunat;
         private System.Windows.Forms.Panel panelSunat;
-        private System.Windows.Forms.Button btnIP;
         private System.Windows.Forms.Button btncodigosQR;
     }
 }

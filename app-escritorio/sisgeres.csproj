@@ -254,6 +254,12 @@
     <Compile Include="Presentacion\Configuraciones\Menu_de_configuraciones.Designer.cs">
       <DependentUpon>Menu_de_configuraciones.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\Configuraciones\obtenerIP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Configuraciones\obtenerIP.Designer.cs">
+      <DependentUpon>obtenerIP.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\Copiasbd\GenerarAut.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -590,6 +596,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Configuraciones\Menu_de_configuraciones.resx">
       <DependentUpon>Menu_de_configuraciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Configuraciones\obtenerIP.resx">
+      <DependentUpon>obtenerIP.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Copiasbd\GenerarAut.resx">
       <DependentUpon>GenerarAut.cs</DependentUpon>

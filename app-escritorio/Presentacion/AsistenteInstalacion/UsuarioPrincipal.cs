@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 using sisgeres.Datos;
+using sisgeres.libs;
 using sisgeres.Logica;
 using Sunat.Logica;
 
@@ -15,6 +13,8 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
 {
     public partial class UsuarioPrincipal : Form
     {
+        private static LogsCustom _logsCustom = new LogsCustom();
+
         public UsuarioPrincipal()
         {
             InitializeComponent();

@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 using sisgeres.Datos;
 using sisgeres.Logica;
@@ -14,6 +10,7 @@ namespace sisgeres.Presentacion.Cocina
 {
     public partial class PantallaCocina : UserControl
     {
+
         public PantallaCocina()
         {
             InitializeComponent();

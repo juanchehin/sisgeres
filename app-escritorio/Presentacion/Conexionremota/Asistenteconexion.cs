@@ -1,13 +1,8 @@
-﻿using sisgeres.Datos;
+﻿using sisgeres.libs;
 using sisgeres.Logica;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 using System.Xml;
 
@@ -15,6 +10,8 @@ namespace sisgeres.Presentacion.Conexionremota
 {
     public partial class Asistenteconexion : Form
     {
+        private static LogsCustom _logsCustom = new LogsCustom();
+
         public Asistenteconexion()
         {
             InitializeComponent();
@@ -92,6 +89,8 @@ namespace sisgeres.Presentacion.Conexionremota
             }
             catch (Exception ex)
             {
+                _logsCustom.alta_log("Excepcion - " + ex.Message);
+
                 MessageBox.Show("InsertarCajasecundaria", ex.Message);
             }
 
@@ -118,6 +117,8 @@ namespace sisgeres.Presentacion.Conexionremota
             }
             catch (Exception ex)
             {
+                _logsCustom.alta_log("Excepcion - " + ex.Message);
+
                 idcaja = 0;
                 indicador_de_conexion = "NO HAY CONEXION";
                 MessageBox.Show("mostrar_caja_por_serial", ex.Message);
@@ -140,19 +141,29 @@ namespace sisgeres.Presentacion.Conexionremota
             }
             catch (Exception ex)
             {
+                _logsCustom.alta_log("Excepcion - " + ex.Message);
+
                 indicador_de_conexion = "NO HAY CONEXION";
             }
         }
         public void SavetoXML(object dbcnString)
         {
-            XmlDocument doc = new XmlDocument();
-            doc.Load("ConnectionString.xml");
-            XmlElement root = doc.DocumentElement;
-            root.Attributes.Item(0).Value = Convert.ToString(dbcnString);
-            XmlTextWriter writer = new XmlTextWriter("ConnectionString.xml", null);
-            writer.Formatting = Formatting.Indented;
-            doc.Save(writer);
-            writer.Close();
+            try
+            {
+
+                XmlDocument doc = new XmlDocument();
+                doc.Load("ConnectionString.xml");
+                XmlElement root = doc.DocumentElement;
+                root.Attributes.Item(0).Value = Convert.ToString(dbcnString);
+                XmlTextWriter writer = new XmlTextWriter("ConnectionString.xml", null);
+                writer.Formatting = Formatting.Indented;
+                doc.Save(writer);
+                writer.Close();
+            }
+            catch (Exception ex)
+            {
+                _logsCustom.alta_log("Excepcion - " + ex.Message);
+            }
         }
 
         private void Asistenteconexion_Load(object sender, EventArgs e)
