@@ -2,7 +2,9 @@
 using sisgeres.Presentacion.Conexionremota;
 using System;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 using System.Xml;
 
@@ -116,6 +118,23 @@ namespace sisgeres.Presentacion.AsistenteInstalacion
             Dispose();
             var frm = new Asistenteconexion();
             frm.ShowDialog();
+        }
+
+        private void btnAbrirLogs_Click(object sender, EventArgs e)
+        {
+            string appDataFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+            string logsFolder = Path.Combine(appDataFolder, "sisgeres");
+
+            // Verifica si el directorio existe
+            if (Directory.Exists(logsFolder))
+            {
+                // Abre el directorio en el Explorador de Windows
+                Process.Start("explorer.exe", logsFolder);
+            }
+            else
+            {
+                MessageBox.Show("La carpeta de logs no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
